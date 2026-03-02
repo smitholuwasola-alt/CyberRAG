@@ -7,4 +7,5 @@ implements
 uses
 is_a
 can_harm
+can_detect
 part_of
