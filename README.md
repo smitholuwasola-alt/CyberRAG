@@ -194,4 +194,4 @@ To build the knowledge graph from the dataset files, run the kg_builder.py scrip
 
 ## Future Plans
 
-The team plans to improve entity matching so it understands related words and synonyms, not just exact keyword matches. They also plan to expand the knowledge base by pulling in information from sources like the MITRE ATT&CK framework and NIST security guidelines. Additionally, they aim to integrate a neural reading model on top of the graph retrieval to improve answer accuracy on harder questions.
+I plans to improve entity matching so it understands related words and synonyms, not just exact keyword matches. I also plan to expand the knowledge base by pulling in information from sources like the MITRE ATT&CK framework, CISSP textbook and NIST security guidelines. Additionally, they aim to integrate a neural reading model on top of the graph retrieval to improve answer accuracy on harder questions.
