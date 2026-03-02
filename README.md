@@ -156,18 +156,23 @@ When it finishes, it creates a folder called visualizations and saves several HT
 
 The Saved Graph Files
 These files are created automatically when you run kg_builder.py. You do not create them manually.
-knowledge_graph.json
+
+##knowledge_graph.json
 This is the full knowledge graph saved in JSON format. JSON is a plain text format that is readable by humans and by almost any programming language. Open it in a text editor to inspect its structure, or load it in your own code using the standard json library in Python. This file is useful if you want to use the graph in a language other than Python, or if you want to inspect the raw graph data.
-knowledge_graph.pkl
+
+## knowledge_graph.pkl
 This is the same graph saved in Python's pickle format. Pickle files load much faster than JSON files, so this is what the Python scripts use when they need to reload the graph quickly. You do not open this file directly. It is loaded automatically by kg_builder.py and main_pipeline.py.
 
 The Documentation Files
 These are Markdown files you can read in any text editor or on GitHub.
-IMPLEMENTATION_SUMMARY.md
+
+## IMPLEMENTATION_SUMMARY.md
 This file gives a detailed technical overview of all the components that were built, including how the web scraper works, how the query engine processes questions, what algorithm it uses to match answers to options, and what the output format looks like. Read this file if you want to understand the technical design of the system or extend it.
-KG_BUILDER_EXPLANATION.md
+
+## KG_BUILDER_EXPLANATION.md
 This file walks through exactly what happens inside kg_builder.py step by step. It explains how the CSV files are read, how entities are indexed, how each triple becomes an edge in the graph, and why a directed multi-graph was chosen. Read this file if you want to understand the graph construction process in detail.
-KG_BUILDING_VISUAL.md
+
+## KG_BUILDING_VISUAL.md
 This file contains ASCII diagrams that illustrate how the graph grows as each triple is added. It is a visual companion to the explanation file above. Read it if you learn better from pictures than from prose.
 
 ---
@@ -184,13 +189,6 @@ To build the knowledge graph from the dataset files, run the kg_builder.py scrip
 
 ---
 
-## Limitations
-
-The system only knows what is in the six source lab documents. Questions about cybersecurity topics not covered in those documents may not get a useful answer.
-
-The way the system finds relevant entities is based on matching keywords, so if a question uses different wording than the dataset, the system may miss the connection.
-
-The system does not reason across multiple steps the way a human expert would. It retrieves facts directly connected to the entities in the question, but cannot chain together several reasoning steps to reach a deeper conclusion.
 
 ---
 
