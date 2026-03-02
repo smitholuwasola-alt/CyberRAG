@@ -56,22 +56,27 @@ Security trainers in organizations can deploy the system to provide employees wi
 
 Researchers in AI, natural language processing, or cybersecurity can use the dataset to build better knowledge graphs, train named entity recognition models, or test new question-answering approaches.
 
-The Dataset Files
+## The Dataset Files
 These files live inside the dataset/ folder. They are the core of the entire project. Everything else depends on them.
-dataset/all_entity_info.csv
+
+
+## dataset/all_entity_info.csv
 This file is a list of every cybersecurity concept that was identified across the six lab documents. It has 963 rows, one for each entity. Each row has four columns: a unique ID number, the name of the entity (for example, Snort, Nmap, or SQL Injection), the type of entity (such as tool, attack, feature, or data), and the category (either concept or application).
 You do not run this file. You open it in Excel or Google Sheets to browse the entities, or the Python scripts read it automatically when building the knowledge graph.
-dataset/all_relation_info.csv
+
+## dataset/all_relation_info.csv
 This file lists the nine types of relationships that can exist between entities. The relationships are: has_a, can_analyze, can_expose, can_exploit, implements, uses, is_a, can_harm, and part_of.
 You do not run this file. It is read automatically by the graph-building script. You can open it in Excel to see the full list of relationship types.
-dataset/all_triples.csv
+
+## dataset/all_triples.csv
 This is the most important data file. It contains 728 rows, each representing one fact about the cybersecurity domain. Every row has three columns: the first entity, the relationship, and the second entity. For example, one row says Snort, uses, Intrusion Detection. Another says Snort, can_detect, network attacks. Together these rows form the knowledge graph.
 You do not run this file directly. The graph-building script reads it automatically. You can open it in Excel to browse the facts.
-dataset/triple_doc1.csv
+
+## dataset/triple_doc1.csv
 This is a smaller version of the triples file that contains only the facts extracted from the first lab document, which covers Nmap. It has an extra column called Action that provides a short label describing the nature of each relationship. This file is useful if you want to study just the Nmap portion of the dataset in isolation.
 You can open it in Excel to explore it, or use it as a smaller dataset for testing your own scripts.
 
-The Source Documents
+## The Source Documents
 These files live inside the datasource/ folder. They are the original lab documents that the dataset was built from.
 datasource/textfiles/lab1.txt through lab6.txt
 These are plain text versions of the six cybersecurity lab documents. Each file covers a different topic.
@@ -87,22 +92,26 @@ These are the original Word document versions of the same six labs. They are for
 datasource/csv/lab1.csv through lab6.csv
 These are structured CSV versions of each lab document, where the lab content has been broken into rows. They are useful if you want to process the lab content programmatically rather than reading the full text files.
 
-The Annotated Training Data
+## The Annotated Training Data
 These files live inside the Model/dataprep/ folder. They are used to train machine learning models that can automatically extract cybersecurity entities from text.
-Model/dataprep/annotated_BIO.csv
+
+## Model/dataprep/annotated_BIO.csv
 This file contains the lab document text broken into individual sentences, with each word labeled using BIO tagging. BIO stands for Beginning, Inside, and Outside. Every word in every sentence is given a label. If a word is the first word of a cybersecurity entity, it gets a B label such as B-tool or B-attack. If a word is a continuation of an entity, it gets an I label. If a word is not part of any entity, it gets an O label.
 For example, the sentence "Snort can detect network attacks" would be tagged as: B-tool O O B-attack I-attack, meaning Snort is the beginning of a tool entity, and network attacks spans two words that together form an attack entity.
 This file is used as training data for a named entity recognition model. If you are a researcher who wants to train a model to automatically read new cybersecurity documents and identify the important terms, this is the file you would use. You would load it into a machine learning framework such as Hugging Face Transformers or spaCy and train a sequence labeling model on it.
-Model/dataprep/annotated_data_BI.csv
+
+## Model/dataprep/annotated_data_BI.csv
 This file is similar to the BIO file above but uses a simpler tagging scheme that only marks word spans that are part of an entity, without the O tag for non-entity words. Some NER training frameworks prefer this format. Use this file if the framework you are working with expects BI-format annotations rather than BIO.
-Model/dataprep/splitdata_final.csv
+
+## Model/dataprep/splitdata_final.csv
 This file contains the annotated data already divided into a training set and a test set. Using this split ensures that your model evaluation is consistent and reproducible. Use this file when you are ready to train a model and want to measure how well it performs on data it has not seen before.
-Model/dataprep/data-preprocess.ipynb
+
+## Model/dataprep/data-preprocess.ipynb
 This is a Jupyter notebook that shows the steps used to clean and prepare the raw lab text before annotation. Open it in Jupyter Notebook or JupyterLab by running jupyter notebook in your terminal and navigating to the file. It is useful for understanding how the annotated data was created or for replicating the preprocessing on new documents.
 
-The Python Scripts
+## The Python Scripts
 These are the runnable files that do the actual work.
-kg_builder.py
+## kg_builder.py
 This is the script that reads the three dataset CSV files and builds the knowledge graph. Run it once before using anything else.
 To run it, open your terminal, navigate to the project folder, and type:
 python kg_builder.py
