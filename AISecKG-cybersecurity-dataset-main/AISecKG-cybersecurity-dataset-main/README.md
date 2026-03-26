@@ -1,4 +1,4 @@
-#CyberRAG: Cybersecurity Education with Knowledge Graphs
+###CyberRAG: Cybersecurity Education with Knowledge Graphs
 CyberRAG is a question-answering system designed to help students study cybersecurity. It uses a structured database of cybersecurity knowledge to answer questions in a way that is traceable and grounded in facts, rather than relying on a general-purpose AI that might guess or make things up.
 
 The system was built and tested using the AISecKG dataset, which is a collection of cybersecurity concepts, tools, and relationships extracted from real university lab documents.
