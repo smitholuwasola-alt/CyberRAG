@@ -1,10 +1,12 @@
 relation
-has_a
 can_analyze
-can_expose
+can_detect
 can_exploit
-implements
-uses
-is_a
+can_expose
 can_harm
+has_a
+implements
+is_a
+is_part_of
 part_of
+uses
