@@ -1,0 +1,13 @@
+Practice Exam Snippet (sample for parser / GraphRAG smoke test)
+
+1. What is the PRIMARY purpose of an intrusion detection system (IDS) on a network segment?
+A. To encrypt all traffic between endpoints
+B. To detect malicious or policy-violating activity
+C. To replace firewall access control lists
+D. To perform vulnerability scanning on demand
+
+2. Which protocol is commonly used to provide encrypted transport for HTTPS?
+A. FTP
+B. TLS
+C. ARP
+D. NTP

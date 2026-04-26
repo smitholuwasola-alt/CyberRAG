@@ -1,0 +1,742 @@
+--- PAGE 1 ---
+1
+6
+2
+1 What is a passive measure that can be used t0 detect hacker attacks? a. Event logging Ta b Firewall reconfiguration 1 KLTi ' C Connection termination KL d Process termination
+2 What is another term for technical controls? a Logical controls b Access controls C Detective controls d; Preventative controls
+1
+3 Which tool is an intrusion detection system (IDS)? a; Snort b Nessus C Tripwire d Ethereal
+3
+3
+4 Which authentication method checks the identity of both ends of the connection? a. Biometric authentication b Mutual authentication G CHAP authentication d RADIUS authentication
+5 Which methodology s used t0 analyze operating system exploitable weaknesses in a penetration testing project? a. Flaw hypothesis methodology b Operating system fingerprint methodology C. Open Web application security Project methodology d Vulnerability assessment and recovery methodology 6 Which protocol grants TGTs? 3 a. ARP b Kerberos C LZTP d Telnet
+1
+3
+7 You have implemented a biometric system that analyzes signature dynamics. This biometric system is an example of which biometric category? a. Physiological  b Psychological C Behavioral d. Biological
+3
+3
+3
+3
+238
+Copyright 2016 InfoSec Institule; Inc:
+
+--- PAGE 2 ---
+[
+1
+8 You have been given several suggestions for implementing the principle of least privilege. What is the best implementation of this principle? a Complete administrative tasks at a computer that functions only as & server b. Issue the Run As command to execute administrative lasks during a regular user session C Ensure that all services use the main administrative account execute their processes d Issue a single account t0 each user; regardless of his job function
+9 Users access your network using smart cards. Recently; hackers have uncovered the encryption key of smartcard using reverse engineering-Which smart card attack was used? a Microprobing b Software attack G Fault generation d. Side-channel atlack
+10 What is an example of a brute force attack? a: Sending multiple ICMP messages t0 & Web server b Searching through & company s trash C. Using a program t0 guess passwords from a SAM file d Gathering packets from a network connection
+14 You have been asked t0 deploy a biometric system t0 protect your companys data center. Management is concerned that errors in the system will prevent users from accepting the system. Management stipulates that you must deploy the system with the lowest crossover error rate (CER): Identify one of the terms used in biometrics t0 determine CER? a ACL b EAR C. ERR d. FAR 5 12.Which password type is usually the easiest t0 remember? a; Pass phrase b Static password C Dynamic password d. Software generated password
+13.Management of your company has recently become increasingly concerned with security. You have been asked t0 provide examples of controls that will help to prevent security breaches. Which control is an example of this? a. Backups b Audit logs G Job rotation d. Security policy 3
+Copyright 2016 InfoSec Insiitute, Inc;
+239
+
+--- PAGE 3 ---
+1
+1
+14.Which type of IPS monitoring requires that updates be regularly installed to ensure effectiveness? a: Network-based b:   Anomaly-based 3 C Behavior-based de Signature-based
+15.Who is responsible for ensuring data integrity and security for an organization? a Data owner b Data custodian C. Security analyst 1 d. Security administrator
+2 7
+16 Which security principle identifies sensitive data and ensures that unauthorized entities cannot access it? a Availability b Confidentiality; C Integrity 1 d Authentication
+3
+17.As a system administrator; you decide to implement audit trails t0 ensure that users are not violating policy during operation. What are you trying t0 determine? a; Identification b Authorization G. Accountabilityz 1 d Authentication
+;
+18.You are designing the access control for your organization's network. You need t0 ensure that access t0 network resources is restricted. Which criteria can be used to do this? a Roles 6. Gooution 3 3 d Time of day 6 Transaction type f all of the above choices g none of the choices
+3
+19.Which type of intrusion prevention system (IPS) watches forintrusions that match a known identity?  a Network-based b Anomaly-based C. Behavior-based d.  Signature based
+;
+3
+3
+3
+240
+Copyright 2016 InfoSec Institute; Inc:
+
+--- PAGE 4 ---
+6
+3
+20.Management has requested that active directory be implemented on your network: What is the function 0f this service? a It is the directory service used on a Unix network b It is the authentication service used on a Unix network C It is the directory service used on & Windows server network d It is the authentication service used on & Windows server network
+21 Under MAC, which entity would exist as an object? a A file b A user Ca A group d permission
+22.What is the most important entity in a mandatory access control (MAC) environment? a: Security label b Role-based controls C. Access control lists (ACLs) d: Owner determined controls
+23.Because of the value of your company's data, your company has asked you t0 ensure data availability: You want to implement the techniques ihat can help to ensure data availability. Which mechanism should you implement? a. Auditing techniques b Data recovery techniques C. Authentication techniques d. Access control techniques
+24.Your organization uses a relational database t0 store customer contact information: You need t0 modify the schema of the relational database. Which component identifies this information? 9. Query language (QL) 6 b: Data control language (DCL) G Data definition language (DDL) d. Data manipulation language (DML)
+25. You need t0 ensure that data types and rules are enforced in the database. Which type of integrity should be enforced? a Entity integrity b Referential integrity 6 Ca Semantic integrity d. Cell suppression
+1
+;
+Copyright 2016 InfoSec Institute; Inc:
+241
+
+--- PAGE 5 ---
+5
+3
+26.Which type of malicious code is wrapped inside an otherwise benign program when the program is written? a- A Trojan horse 1 b A virus C A worm d. A logic bomb
+3
+27.Which pair of processes should be separated from each other t0 manage the stability of the test environment? Testing and validity b Validity and security 1 C Testing and development d. Validity and production
+28.Which statement correctly defines the capability maturity model in the context of software development? 9. It is a formal model based on the capacity of an organization t0 cater to projects b It is a model based on conducting reviews and documenting the reviews in each phase of the software development cycle C. It is model that describes the principles; procedures; and practices that should be followed by a developer in the software development cycle d. It is a model based on analyzing the risk and building prototypes and simulations during the various phases of the software development cycle
+3
+29.An organization's web site includes several Java applets. The Java applets include 0 security feature that limits the applef' s access t0 certain areas of the web user's system: How does it do this? a By using sandboxes b By using object codes C. By using macro languages da By using digital and trusted cerlificates 3 30.Which malicious software relies upon other applications to execute and infect the system? a A virus b A worm G A logic bomb d. A Trojan horse 3 31 Which program translates one line of a code at a time instead of an entire section of a code? a A compiler b An interpreter C. An assembler d. An abstractor ^ 5 3
+3
+;
+3
+242
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 6 ---
+1
+[
+32.You need to view windows events that are generated based on your auditing settings: Which log in event viewer should you view? a: Application b Security 3 3 G System d DNS
+33.Which function is provided by remote procedure call (RPC)? 9 It identifies components within a distributed computing environment (DCE) b It provides code that can be transmitted across & network and executed remotely G. It provides an integrated file system that all users in the distributed environment can share d. It allows the execution of individual routines on remote computers across a network
+34.Your company has an online transaction processing (OLTP) environment for customers. Management is concerned with the atomicity of the OLTP environment in its 24/7 environment: Which statement correctly defines managements concern? a Transactions occur in isolation and do not interact with other transactions until the transaction i8 over b Only complete transactions take place. If any part of the transaction fails, the changes made t0 a database are rolled back The changes are committed only if the transaction is verified on all systems; and the database cannot be rolled back after committing the changes d Transactions are consistent throughout the different databases
+35.Which statement correctly defines assurance procedures? a Assurance procedures determine the modularity of the product b Assurance procedures focus on the throughput and the performance of the system Ga Assurance procedures focus on the applicability of the standard operating procedures d. Assurance procedures ensure that the control mechanisms implement the security policy of an information system
+3
+3
+3
+;
+Copyright 2016 InfoSec Institute, Inc:
+243
+
+--- PAGE 7 ---
+6
+1
+3
+36.As a security administrator; you have recently learned of an issue with the web- based administrative interface on your Web server: You want t0 provide & countermeasure t0 prevent attacks via the administrative iriterface. All of the following are countermeasures t0 use in this scenario, EXCEPT: a: Remove the administrative interfaces from the Web server b Use & stronger authentication technique on the Web server G. Control which systems are allowed to connect to and administer the Web server d. Hardcode the authentication credentials into the administrative interface links ; 37 Which statement is true of network address hijacking? a: It is used for identifying the topology of the target network b It uses ICMP messages to identify the systems and services that are up and running It allows the attacker to reroute data {raffic from & network device t0 & personal computer d It involves flooding the target system with malformed fragmented packets t0 disrupt operations
+1
+3
+38.Which statement correctly describes Bind variables in structured query language (SQL)? Bind variables implement database security b Bind variables are used to normalize a database G Bind variables are used t0 replace values in SQL commands d. Bind variables are used t0 enhance the performance of the database
+;
+39.What is the BEST method t0 avoid buffer overflows? a Run an audit trail b Perform a check digit C. Perform a reasonable check d. Develop a well-written program
+3
+3
+40.Management is concerned {hat attackers will attempt t0 access information in the database. They have asked you to implement database protection using bogus data in hopes that the bogus data will mislead attackers. Which technique is being requested? 0. Partitioning 6 Celstempronitseod 1 d Noise and perturbation
+1
+3
+3
+3
+244
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 8 ---
+1
+2
+41.Which spyware technique inserts a dynamic link library into & running process's memory? a SMTP open relay 3 b: DLL injection Buffer overflow A C. d Cookies
+42.Which statement correcily defines spamming attacks? a Repeatedly sending @-mails b Using ICMP oversized echo messages to flood the target computer C. Sending spoofed packets with the same source and destination address  d. Sending multiple spoofed packets with the SYN flag set to the target host of an open port
+43.Which option is NOT a reason t0 update the business continuity plan? a Budget changes b Personnel changes C Infrastructure changes d Organizational changes
+44 Which entity is an example of a corrective control? a: Audit trails b. RAID C. Separation of duties d Business continuity planning
+45.Which business continuity plan (BCP) element exists t0 alleviate the risk of certain threats by providing monetary compensation in the event those threats occur? a. Insurance b Business impact analysis (BIA) G Reciprocal agreement d. Continuity of operations plan (COOP)
+46.Which site is usually maintained within the company and requires no contract with an offsite vendor? a. Redundant site b Hot site C Warm site d Cold site 3 ;
+3
+3
+Copyright 2016 InfoSec Institute, Inc:
+245
+
+--- PAGE 9 ---
+1
+3
+3
+47.The business continuity committee has developed the business impact analysis (BIA); identified the preventative controls that can be implemented, and develop the recovery strategies: Next; the committee should develop a contingency plan: Al of the following teams should be included in this plan's development to aid in the execution of the final plan except? a; Restoration team b Damage assessment team C Salvage team d. Risk management team
+3
+48.Which alternate disaster recovery facility is the easiest t0 test? a. Hot site b Warm site C. Cold site d Reciprocal agreement site
+49.What is covered by the last step of a business continuity plan? a. Testing the plan 3 b Analyzing risks 6 Updating the plan d Training personnel
+2 2
+50.What occurs during the reconstitution phases of a recovery? a. An organization transitions t0 a temporary alternate site b An organization implements the recovery strategy Gr An organization ensures that its facility is fully restored at the alternate site d An organization transitions back to its original site
+3
+51.Which plan ensures that a vital corporate posilion is filled in the event it is vacated during a disaster? a Occupant emergency plan (OEP) b Continuity of operations plan (COOP) 3 6 Succession plan d. Reciprocal agreement
+3
+52.What is the primary consideration when choosing an alternate computing facility? a Cost b Location C. Amount of time facility needed 1 d Resources available
+;
+3
+3
+3
+246
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 10 ---
+[
+[
+53.While completing the business impact analysis, the committee discovers that a human resources application relies on the following two servers: 1) a human resources server managed by the human resources Department, and 2) & database server managed by the IT department What is this an example of? a A preventative control b reciprocal agreement C An interdependency d A backup strategy
+54 Your organization has just expanded its network to include another floor of the building where your offices are located. You have been asked t0 ensure that the new floor is included in the business continuity plan. What should you do? a. Complete a structured walk-through test b Complete & simulation tests C Complete parallel test d Update the business continuity plan to include the new floor and its functions
+55.While developing the business continuity plan; your team must create & plan that ensures that normal operation can be resumed in a timely manner after an outage. Which element is your team creating? a. Vulnerability analysis b. Disaster recovery plan C Business continuity plan d Business impact analysis (BIA)
+56.Which recovery site usually takes the longest to configure when needed? a Hot site b Warm site C Cold site d Redundant site
+57. You administer a small corporate network: On Friday evening; after close of business, you performed a full backup of the hard disk of one of the company servers. On Monday evening; you performed a differential backup of the same servers hard disk, and on Tuesday; Wednesday, and Thursday evenings you performed incremental backups of the servers hard disk: Which files are recorded in the backup that you performed on Thursday? a All the files on the hard disk b. AIl the files on the hard disk that were changed or created since the differential backup on Monday C All the illes on the hard disk that were changed or created since the incremental backup on Tuesday d. All the files on the hard disk that were changed or created since the incremental backup on Wednesday 3 5
+Copyright 2016 Infosec Institule, Inc:
+247
+
+--- PAGE 11 ---
+1
+3
+5
+58.What protects data on computer networks from power spikes? a Aheating system b A key card C. A sprinkler 3 d A surge suppressor
+3
+59. The business continuity team is interviewing users t0 gather information about business units and their functions. Which part of the business continuity plan includes this analysis? a Disaster recovery plan b Contingency plan 1 C Business impact analysis (BIA) d. Occupant emergency plan (QEP) 60.During business continuity planning; you need t0 obtain the single loss expectancy (SLE) of the company's file server: Which formula should you use t0 determine this? a. Asset value times exposure factor (EF) b: Asset value times annualized rate of occurrence (ARO) C Exposure factor (EF) times annualized rate of occurrence (ARO) d. Annualized loss expectancy (ALE) times annualized rate of occurrence (ARO)
+2
+;
+61 Your company has a backup solution that performs & full backup each Saturday evening and an incremental backup all other evenings. A vital system crashes on Tuesday morning: Haw many backups will be needed t0 restore? a: One b. Two G. Three d. Four
+;
+62. Which term refers to how long & company can tolerate the Qutage of & certain asset; entity; or service? a Business impact analysis b Maximum tolerable downtime C. Maximum recovery time da Mean time between failure Mean time t0 repair 3 3
+3
+3
+3
+3
+3
+248
+Copyright 2016 InfoSec Instilute, Inc:
+
+--- PAGE 12 ---
+E
+E
+63.During a recent natural disaster; the primary location for your organization was destroyed: To bring the alternate site online, you restored the most critical systems first: Now a new primary site is complete; and you need t0 ensure the site is brought online in an orderly fashion. What should you do first? a Restore the most critical functions t0 the new prirary site b Restore the least critical functions t0 the new primary site C Restore all independent functions t0 the new primary site d Restore all interdependent functions t0 the new primary site
+64.When is a disaster recovery plan implemented? a After all systems are back online b After the critical systems are back online C After & disaster is declared d. When the company is in normal operation mode
+3
+65. Your organization has decided to implement the Diffie-Hellman asymmetric algorithm: Which statement is true of this algorithm'8 key exchange? a Authorized users need not exchange secret kkeys b Authorized users exchange public keys over a secure medium C Authorized users exchange symmetric session keys over a nonsecure medium d. Unauthorized users exchange public keys over a nonsecure medium
+66. What is a list of serial numbers of digital certificates that have not expired, but should be considered invalid? a CA b CRL C. KDC d. UDP
+67. Which statement is NOT true of an RSA algorithm? a RSA can prevent man in the middle attacks b An RSA algorithm is an example of symmetric cryptography G. RSA encryption algorithms do not deal with discrete logarithms d: RSA is a public key algorithm that performs both encryption and authenticalion 8 RSA uses public and private key signatures for integrity verification
+68. Your organization signed a contract with the United States military: As part of this contract, all e-mail communication between your organization and the US military must be protected. Which e-mail standard must you use for this communication? a Multipurpose Internet Mail extension (MIME) b SMIME C. Message security protocol (MSP) d. Pretty good privacy (PGP) 5
+Copyright 2016 InfoSec Institute; Inc;
+249
+
+--- PAGE 13 ---
+5
+3
+69.Which service is fulfilled by cryptography by ensuring that a sender cannot deny sending a message once it is transmitted? 9; Confidentiality Authenticity 1 b G. Integrity d:   Non-repudiation
+70.Which service provided by a cryptosystem turns information into unintelligible data? a: Non-repudiation b Authorization 1 Cipher text d Encryption
+71 What identifies entries within an X.50g CRL? a Digital certificates b Private keys C. Public keys d Serial numbers
+3
+72. You want t0 send a file to a coworker named Maria. You do not want t0 protect the file contents from being viewed; however; when Maria receives a file, you want her to be able t0 determine whether the contents of the file were altered during transit Which protective measures should you use? a. A digital certificate ; b A digital signature G Symmetric message receipt d Asymmetric encryption 73.Your organization uses the Kerberos protocol to authenticate users of the network: Which statement is true of the key distribution center (KDC) when this protocol is used? a The KDC is only used to store secret keys b The KDC is used t0 capture secret keys over the network C. The KDC is used t0 maintain and distribute public keys for each session d The KDC is used t0 store, distribute, and maintain cryptographic session keys
+3
+3
+74.Your organization is working with an international partner on a new and innovative product: All communication regarding this must be encrypted using a very strong symmetric algorithm. Which algorithm should you use? a. AES b 3DES C. IDEA d, Blowfish 3 3
+1
+3
+250
+Copyright 2016 InioSec Institute, Inc:
+
+--- PAGE 14 ---
+5
+5
+75,Which statement is true of the rijndael algorithm used in AES? a Rijndael uses variable block lengths and variable key lengths FIFzb, Rijndael uses fixed block lengths and fixed key [engths AaAA C Rijndael uses variable block lengths and fixed E key lengths d Rijndael uses fixed block lengths and variable key lengths
+76.Your manager has asked you t0 ensure that the password files that are stored on the servers are not vulnerable t0 attacks. To which type of attack would these files be vulnerable? a: A dictionary attack b A SYN flood attack C. A side channel attack d. A denial of service (DoS) attack
+77.Your company hosts several public web sites on its Web Server: Some of the sites implement the secure sockets layer (SSL) protocol. Which statement is NOT {rue of this protocol? a SSL is used t0 protect Internet transactions b SSL version 2 provides client-side authentication C. SSL operates at the network layer of the OSI model d. SSL with TLS supports both server and client authentication 8 TLS has two possible session key lengths: 128 bit and 256 bit
+78.Your organization implements hybrid encryption to provide a high level of protection of your data; Which statement is true of this type of encryption? 3. The secret key protects the encryption keys b Public keys decrypt the secret key_ for distribution C Asymmetric cryptography is used for secure key distribution d. The symmetric algorithm generates public and private keys 79.Recently; your organization has become increasingly concerned about hackers. You have been specifically tasked with preventing man in the middle attacks: Which protocol is NOT capable of preventing this type of attack? a. CHAP b Secure shell (SSH) C. HTTP secure (HTTPS) d: Internet protocol security (IPSec) 80.Which hashing algorithm generates a 160 bit hashing value? a Tiger 3 b HAVAL C SHA d MDS
+3
+3
+Copyright 2016 InfoSec Instikute, Inc.
+251
+
+--- PAGE 15 ---
+;
+7
+3
+81. You have implemented public key infrastructure (PKI) t0 issue certificates t0 the computers on your organization's network You must ensure that the certificates that have been validated are protected. What must be secured in a PKI to do this? a The public key of the root CA b The private key of the root CA C- The public key of a user's certificate d The private key of a users certificate
+Fad 3
+82.Which statement is NOT true of cross certification? a Cross certification builds an overall PKI hierarchy b Cross certification is primarily used t0 establish trust between different PKIs C. Cross certification checks the authenticity of the certificates in the certification path d Cross certification allows users t0 validate each other's certificate when they are certified under different certification hierarchies
+83. You have been specifically asks t0 implement & stream cipher for Wi-Fi: Which cryptographic algorithm could you use? 3 a RC4 b RCS G. TKIP d: MD5
+;
+84 The IT department manager informs you that your organization's network has been the victim of a ciphertext only attack: Which statement is true regarding this type of attack? a; birthday attack is an example of a ciphertext only attack b A ciphertext only attack is focused on discovering the encryption key Ca It is very difficult for an attacker t0 gather the ciphertext in & network d A ciphertext only attack is considered by hackers to be the easiest attack
+5
+85. You are engaged in risk assessment for your organization s notwork You have identified several risks When you calculate the risks by using the quantitative method, you multiply the assets value by the exposure factor (EF) What is the result? a Risk elimination b Actual cost evaluation (ACV) C Single loss expectancy (SLE) da Annualized loss expectancy (ALE) ; 86.What is a potential opening in network security that a hacker can exploit to attack & network? a An agent b An event C A target d A vulnerabilitya 5 3
+3
+;
+3
+252
+Copyright 2016 InfoSec Institule; Inc:
+
+--- PAGE 16 ---
+1
+5
+87.As part of a new security initiative, your organization has decided that all employees must undergo security awareness training. What is the aim of this training? a. AII employees must understand their security responsibilities b AlI employees in the IT department should be able to handle security incidents All employees excluding top management should understand the legal implications of loss of information d. All employees in the IT department should be able to handle social engineering attacks
+88. Which statement is true of risk? a Risk is the probability of the exploitation of vulnerabilities by a threat agent b Implementation of preventive controls is sufficient for risk mitigation G. A qualitative risk analysis should be preferred for assigning monetary values d The risk of an internal security breach by employees is less than that posed by external threats
+89.For which security objective(s) should system owners and data owrers be accountable? a Integrity b Availability G. Confidentiality d- Integrity and availability Confidentiality and integrity 2 Confidentiality and availability Availability, integrity; and confidentiality
+90.The new security plan for your organization states {hat all data on your servers must be classified t0 ensure appropriate access controls are implemented. All of the following statements are true of information classification EXCEPT? a: A data owner must determine the information classification of an asset b Data classification refers t0 assigning security labels of information assets C A data custodian must determine the classification of an information asset d. The two primary classes of data classification deal with military institutions and commercial organizations 91.Of which control is WPA TKIP an example? 1 a Physical controls b Technical controls C Detective controls d. Administrative controls
+3
+3
+Copyright 2016 InfoSec Institute; Inc:
+253
+
+--- PAGE 17 ---
+3
+3
+92. You are designing the security awareness training plan for your organization: Several groups have been identified t0 receive customized training: Which group requires security training to ensure the programs produced by the company do not contain security problems? a Adrinistrators b Developers C Employees d. Executives
+1
+93.All of the following are controls which are integral parts of information security administration excepi? a Information controls b Physical controls C Technical controls d. Administrative controls
+3
+94.You are the security manager for your organization: You are identifying potential security risks for your organization: Which technique would you NOT use? a Interviewing b Benchmarking G Brainstorming d Delphi technique 95.Your organization has decided that the organization needs (0 implement password policies for better security. Which password policy will NOT-strengthen password security? a: Requiring users t0 use & minimum of eight characters in & password b Requiring users to use symbols and numbers in their passwords C Requiring users t0 use only alphabetic words &s passwords d Requiring users to periodically change their passwords 96.What is typically partof an information policy? 3 a Classification b Authentication C Acceptable use d. Employee termination procedure
+3
+3
+3
+97.What is & risk trigger? d A risk response strategy ; b A metric used t0 measure the impact of a risk Ga An event that indicates that a risk has occurred or is about t0 occur d. An individual who is responsible for alerting the team when & given risk OCCuTS
+;
+3
+3
+3
+254
+Copyright 2016 InfoSec Institute; Inc.
+
+--- PAGE 18 ---
+3
+7
+98.Your organization has decided that the organization needs t0 implement password policies for better security. Which password policy will likely REDUCE network security? a Requiring users t0 increase the length of their passwords from six characters t0 eight characters b Requiring users to use symbols such as the character and the % character in their passwords C. Requiring users to use easily remembered passwords d. Requiring users to change passwords in 60 days rather than 90 days
+99.What is employed when user accounts are created by one employee and user permissions are configured by another employee? a. A collusion b two-man control C. Separation of duties d: Rotation of duties
+100. Which security management approach is recommended for an information security program? a Top-down b Bottom-up C. Integrated d. Differential
+101= You identify a security risk that you do not have in-house skills t0 address. You decide to procure contract resources to mitigate this security risk: Which type of risk response strategy are you demonstrating? a. Avoidance b Acceptance C. Mitigation d Transference
+102. What is the purpose of quantitative risk analysis? 7 a: To generate an action plan in response to each identified risk b To generate a prioritized list of risks that might adversely affect the project C To determine the overall impact that specific risks posed t0 successful project completion d To analyze the already prioritized risks in such & way as t0 give each & numerical rating: 3
+3
+3
+Copyright 2016 InfoSec Institute; Inc.
+255
+
+--- PAGE 19 ---
+3
+3
+103. You are the security administrator for your company. You identify a security risk You decide to continue with the current security plan: However; you develop a contingency plan for If the security risk occurs. Which type of risk response strategy are you demonstrating? 2 a Avoidance b Acceptance G. Mitigation d Transference
+3
+104 As you are designing your security awareness training; you list the different groups that require different training: Which group should receive security training that is part education and part marketing? a Administrators b Developers C Employees d Executives
+3 7
+105. Which role is & strategic role that helps to develop policies, standards, &nd guidelines and ensures the security elements are implemented properly? a User b Data owner C. Security administrator d Security analyst
+;
+106. What does sending data across an insecure network, such &s the Internet; primarily affect? a Confidentiality and availability b Integrity and availability C Confidentiality and integrity d Integrity and authenticity
+;
+107. What should be the role of management in developing an information security program? a It should be minimal b It is mandatory C It is not required at all d It is limited t0 the providing of funds
+3
+108. What would be a correct statement regarding ethics and laws? 8. Ethics are always drawn from laws b If something isnt illegal; then it is probably ethical C. Most laws are drawn irom ethics d. Laws apply to everything in society that is right and wrong
+;
+3
+3
+3
+256
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 20 ---
+F
+E
+109. Monitoring employee e-mail messages may be & useful tool for uncovering malicious activity. Which of the following is not something a company should do if they are going t0 carry out this type of monitoring? a Inform users that this type of monitoring may take place b Explain the ramifications of misuse of this resource t0 users C, Guarantee employee privacy d Monitor all users consistently and fairly 110. Which of the following is an attack that uses tools to intercept electronic communications signals usually passively instead of actively? a Masquerading b Social engineering C. Sniffing d Salami
+111. What is the first step when investigating a computer crime? 3. Photograph the area, computer; and contents on the screen b Advise individuals in the area of {heir rights before evidence is collected C Quickly look for planted logic bombs and Trojan horses t0 ensure damage cannot be done d Power off the computer system
+112 If senior executives are found liable for not properly protecting their companys assets and information systems; what type of law likely would apply in this situation? a Criminal b International C Civil d. Common
+113 During a trial; a company introduces documents that were created during {he course of the investigation t0 show new evidence of wrongdoing: These documents would be classified as what type of evidence? a Direct b Conclusive G Hearsay d. Corroborative
+144 The investigation process of a computer crime is very similar t0 investigating many other types of crime. What is the "who" and "why" of a crime? a Motivations b Opportunities C Means d. Capabilities
+3
+3
+Copyright 2016 InfoSec Institute; Inc;
+257
+
+--- PAGE 21 ---
+3
+3
+7
+115. Typically; computer files are considered hearsay evidence: In which of the following scenarios would computer files be admissible? a. When the file clearly proves guilt b When a forensic expert testifies that {he evidence is frustworthy C. When the computer output is produced during the course of regular business d. It is never admissible
+7 A
+116. Which of the following is & true statement regarding warrants and seizure on an individual's property?" d. Police do not have t0 have a warrant for most cases of property seizure b A manager falls under the same restrictions as law enforcement agents if she follows the instruction of a law enforcement agent G. A manager without & warrant can seize the information on & computer at a company that contains suspected child pornography information If the manager was directed by a police officer t0 obtain this information d If Iaw enforcement has a warrant for a home computer in & case of suspected child pornography; they can also confiscate the computers at the homeowner"s office
+3
+117 What is administrative law? a. Deals with violations of regulatory standards b Deals with violent violation of individuals C Deals with laws develop t0 protect the public d, Deals with commerce laws across borders
+;
+;
+1182 In many cases traditional laws do not adequately approach computer crimes and their ramifications. Which of the following is one way legal systems have changed to better allow these established rules to be used? a The definition of property has been expanded t0 include intangible property as in hard drives b The definition of property has been expanded to include intangible property; as in electronic information C. The definition of property has been expanded to include tangible property; as in electronic information d. The definition of property has been expanded t0 include tangible property; as in secondary storage devices
+3
+119. Three main categories fall under common law: Which of the following is NOT one of them? a. Administrative law b Civil Iaw G. Criminal law da Union law
+;
+3
+;
+;
+258
+Copyright 2018 InfoSec Institute; Inc.
+
+--- PAGE 22 ---
+2
+[
+120 Who usually blows the whistle on illegal software usage within companies? a. IT administrators b CISSPs 1 G. Disgruntled employees d Managers
+4121- What type of attack is done with a protocol analyzer? a: Active b: Aggressive C. Masguerading d. Passive
+122. Which of the following statements regarding trade secrets, copyright; patents; and trademark law is accurate? a All countries follow & uniform standard for these areas b A vendor with in a country should follow their own country's standards in  these areas as the appropriate method to conduct their business G. Any vendor thal is interested in doing business in & country outside of theirs should be aware of the differences in these specific areas; and take the necessary steps t0 properly protect their product d A vendor can choose between his country's laws and practices or the foreign country in which they do business
+123. Which of the Following Items Is Addressed in the (ISC)? Code of Ethics? a: Avoid conflicts of interest b: Avoid conducting the penetration tests G. Protect national security da Protect individual rights
+124. Which of the following acts was created t0 protect the privacy of medical information? a. US federal privacy act of 1974 7 b Computer fraud and abuse act C HIPAA d. Gramm Leach Bliley act of 1999
+125. A cashier who enters incorrect values in the cash register and keeps the remaining money has committed what kind of crime? &. Sniffing b Social Engineering 3 C Masquerading d Data diddling
+;
+1
+Copyright 2016 InfoSec Institute, Inc:
+259
+
+--- PAGE 23 ---
+1
+1
+3
+126 An edict stating that all evidence be labeled with information about who secured it and who validated it is called 6. Chn of custody 1 0 Direct evidence d Incident response policy 127 Which of the following is addressed in the federal sentencing guidelines? a Senior executives are not responsible for the computer and information security decisions they make and what actually takes place within their organizations b. Senior executives are responsible for the computer and information security decisions they make and what actually takes place within their organizations C This act provides the necessary structure when dealing with espionage and further defines trade secrets t0 be technical; business; engineering; scientific, or financial d This act requires federal agencies to identify computer systems that will contain sensitive information
+1
+5
+3
+128 Tricking an intruder into accessing the digital information in order to prosecute him is an example of what? a Enticement b Interrogation C Entrapment 1 d Salami attack 
+3
+129. There are different categories for evidence depending upon what form it is in and possibly how it was collected. Which of the following is considered supporting evidence? a Best evidence: b Corroborative evidence 3 C. Conclusive evidence d; Direct evidence
+3
+130- Which term refers t0 a hidden set of software instructions created by the developer as a matter of convenience? a. Covert channel b Soinitaranaechook 3 C d. GUI
+;
+5
+3
+8
+260
+Copyright 2016 InfoSec Instilule, Inc.
+
+--- PAGE 24 ---
+1
+1
+131 Don is a senior manager of & software development firm: He has just found out that a key contract was renewed, allowing the company to continue developing an 34A application Ihai Was idle for several months Excited to get started; Don begins work in the application privately, but cannol tell his staff until the news is announced publicly in & few days: However; as Don begins making changes in {he software, various staff members notice changes in their connected systems; even though they work in & lower security level. What kind of model could be used to ensure this does not happen? a Biba b Bell-LaPadula Non-interference 5 G. d. Clark Wilson
+132- The concept that dictates that once an object is used it must be stripped of all of its data remnants is called a. Layering b Object reuse G Multiuse 7 d: Polymorphism
+133 A computer's hard drive, floppy disks; or CD-ROM is called a Primary storage b Virtual memory G. Real storage d.  Secondary storage 7 134 The ability for a computer t0 perform IIO functions is the key - factor in its effectiveness. When proper IO levels cannot be maintained; & system may malfunction and operations freeze. Which one of the core security principles does this affect most? a. Integrity b Availability 5 G Confidentiality ds Consistency
+135. What is the main reason why an application would be developed using the Brewer-Nash model? a. To provide varying degrees confidentiality and integrity; b To ensure that unauthorized subjects cannot make modifications C To ensure conflicts of interest are minimized through dynamic access contro] d To ensure that the integrity on an object at a higher level is not compromised
+;
+3
+Copyright 2018 InfoSec Institute; Inc:
+261
+
+--- PAGE 25 ---
+1
+1
+3
+136. What is the result of combining RAM and secondary storage? a: Virtual storage b Real storage 3 C. Primary storage d: Combo storage
+1
+137. Which of the following computer components dictates when data is processed by the system's processor? a. Control unit b Registers G. ALU 5 1 d. Ring 0
+3
+138. Computers have many methods for protecting themselves. One security measure is an abstract machine that ensures all subjects have adequate permission to access objects. This concept ensures objects will not be harmed by untrusted subjects. What is this security control called? a Security kernel ; b Trusted computer base C Reference monitor d. Security domain
+7
+139. Which security model specifies that commands and activities performed at one security level should not be seen or affect subjects or objects at a different security level? 3 a Biba model b_ Information flow model G. Security separation model d. Noninterference model
+;
+140 Which of the following provides the highest security when it comes t0 memory? a Memory mapping 3 b Hardware segmentation C. Virtual machines d. Protection rings
+;
+141 Companies should follow certain steps in selecting and implementing a new computer product. Which of the following sequences is ordered correctly? a Evaluation; accreditation; certification b Evaluation; certification; accreditation ; C. Certification; evaluation; accreditation d Certification; accreditation; evaluation
+;
+3
+3
+3
+262
+Copyright 2016 InfoSec Insiitute; Inc:
+
+--- PAGE 26 ---
+F
+1
+142. Operating systems that provide multilevel security and mandatory access control are based on which model? a Brewer-Nash 1 b Biba C Clark-Wilson d Bell-LaPadula
+143. Data is stored in a variety of ways. Sometimes it is stored based on convenience and sometimes on necessity. Sequential storage means that data saved on a medium must be accessed in the same order in which it was saved_ Which of the media types below is & sequential storage device? a. CD-ROM b WSB drive Ca Magnetic tape d. Hard drive
+1442 There are several types of components that fall within the-trusted computing base (TCB): Which of the following would not be within the security perimeter? a: Firmware on motherboard b Applications G Protective hardware components d: Reference monitor and security kernel
+145 company has performed the following steps when buying a new operating system: 1) analyzed common criteria evaluation report on the product; 2) purchased the product after comparing other alternatives; and 3) properly certified the product within the internal network: What is the next step that needs to happen before the process is complete? a Software debugging b Contingency planning G Accreditation d. Establish access control policies
+146 Many of the security architecture models (Bell-LaPadula; Biba; Clark Wilson) are very high level constructs and provide abstracts for software designers to use as a map to meet specific security goals. Which of the following models address more granular activities; as in all subjects and objects should be created securely? a: Harrison-Ruzzo-Ullman model b; Brewer Nash C. Information flow 3 d. Graham Denning model
+3
+3
+Copyright 2016 InfoSec Institute; Inc:
+263
+
+--- PAGE 27 ---
+;
+;
+3
+147 Which of the following best describes TCSEC? a A criteria to validate the security and assurance provided in products b The red booka 3 0 European assurance evaluation criteria d; A penetration testing method
+A
+148. Tim is an entry-level customer service representative working with a client on a service escalation. After working through several issues, the customer asks him if he can verify the annual service charge and opt-out provisions of his contract. Tim unhappily responds Re only has access to technical and operations data and cannot access contract information: He says he must transfer the customer (0 customer service. What type of control is described in this example? a Clipping level b Least privilege G. Operations security d. ACL
+149. Pretending to be another person in order t0 gain privileges is an example of what kind of attack? a: Scavenging b Spoofing C Keystroke logging d. Man in the middle
+;
+150. The three main types of operational controls are technical, administrative, and physical: There or several mechanisms for each of these types {hat provide different services. What service does passwords; ACL's; and ID badges all provide? a Deterrent b_ Correction C Prevention d: Compersation 3 151 In many states sending spam is illegal. Thus; the spammers have techniques to try and ensure that no one knows they sent the spam out to thousands of users ata time. Which of the following best describes what spammers use t0 hide the origin of these types of 8-mails? a: A blacklist of companies that have their mail server relays configured to allow traffic only to their specified domain name b A blacklist of companies that have their mail server relays configured t0 be wide open C Mail relay; which is a technique of bouncing e-mail from internal t0 external mail servers continuously d. Tools that will reconfigure a mail server's relay component t0 send the €- mail back t0 the spammers occasionally 5 3
+3
+3
+;
+3
+264
+Copyright 2018 InfoSec Institute; Inc.
+
+--- PAGE 28 ---
+5
+F
+152 What is configuration management used for in many different environments? 0 Controlling changes in testing procedures p Controlling testing environments and documentation of testing C. Ensuring changes in design and its verification process, testing; and implementation d Controlling changes in design and its verification of process, testing; and implementation
+153_ Which of the following ensures that security is not compromised when & system crashes Or & component failure occurs? 7 a Trusted recovery b Hot swappable G. Redundancy d= Secure boot
+154 Which of the following controls are used t0 amend & situation after an attack has occurred or a vulnerability has been identified? a, Deterrent b: Gorrective G. Preventive d. Recovery
+165. Max has just finished developing a new software feature that {he network provisioners have been requesting for some lime: Anxious t0 get this t0 the group; Max installs the patch on a production system: The next day he is summoned to his boss's office who is very angry- His boss says, "You didn"t submit a request; get approval, document anything; or do proper testing:" What procedure is Maxs boss referring t0? a Sanitization b Due care C. Change control d: Operational assurance
+156. device used t0 ensure facsimile security s0 that transmissions are NOT sent in cleartext is called a a. Firewall b Fax encryptor G Security policy d TCB 7 3
+3
+3
+Copyright 2016 InfoSec Institute; Inc:
+285
+
+--- PAGE 29 ---
+3
+3
+2
+157. Which is NOT true regarding "authorization creep?" a Typically occurs when employees transfer t0 new departments or change b: Pooiatoans leastprivlege" 1 0. Enforces the need t0 know concept d Tendency of users t0 request additional privileges but seldom ask for it t0 be taken away
+3
+158. What role should accountability play in the access t0 media and auditing portion of a company s operations security strategy policies? a: None. Accountabillity is managed by corporate security policies; not at the operator level - b:  Accountability is the other side of the coin of auditing: If a user is properly authorized, any violations or errors he makes can be traced back to him M audiling is in place C. Accountability means that the creator of the company s access policy bears final accountability for any improper access d_ Accountability means that the entire [T department; as creator of the company's access policy; bears final accountability for any improper accesses
+3
+159. Which of the following is NOT a correct way in which an operating system responds to a failure? System reboot b Emergency system restart 1 C. System cold start d. Not starting
+;
+160_ Which of the following works as a transfer agent? a: SET b IP C. SMTP 3 d ASCII
+3
+3
+161_ There should be one role or committee that is responsible for enforcing and maintaining the change control process within a company. Which of the following functions is NOT the responsibility of this group? a To properly modify the change control process depending upon the logic of the change that was requested b To provide formal approval or rejection of the change to the requester Ca To enforce strict, consistent companywide procedures d. To provide clear instructions t0 all employees on how to initiate a change request
+3
+;
+3
+5
+288
+Copyright 2016 InfoSec Institute. Inc:
+
+--- PAGE 30 ---
+[
+6
+162 Which of the following is NOT considered a countermeasure to port scanning and operating system fingerprinting? a. Allow access at the perimeter network to all internal ports b Remove as many banners as possible within operating systems and applications G. Use TCP wrappers on vulnerable services that have to be available d. Disable unnecessary ports and services
+163. Similar activities are carried out by hackers and security professionals performing an assessment: Identifying assets in a victims network is called a Port scanning b. TCP wrapping C Fingerprinting d Man in the middle 164 What is Nessus used for? 5 a To identify vulnerabilities within a network b To open network security holes G. To re-amplify a signal d: To track network connections
+165 A reservationist at travel agency is allowed t0 commit two mistakes per month without consequence. An automated system tracks these errors and alerts appropriate personnel when this limit is exceeded: What is the limit referred t0 8s? a Clipping level b Maximum fault tolerance G. Proximate causation d. Due care
+166 Operations departments should back up data in all of the following situations EXCEPT which of the following? a Once per year b. Before a reorganization C. Aiter a system upgrade d. For authorized on-demand requests
+407 Generating strong magnetie fields-t0 erase the content on & type of media is  called a Sniffing b Degaussing G Wiretapping d Magnetizing
+3
+;
+Copyright 2016 InfoSec Institute; Inc:
+287
+
+--- PAGE 31 ---
+6
+3
+2
+168 Which of the following refers to the data left on the media after the media has been erased? a: Semi-hidden A 1 b Dregs A C. Sticky bits d. Remanence
+1
+169. The estimated lifetime of a device or the estimated timeframe until a component within a device gives out is called a UPS ^ b MTTB 1 n C MTTR d MTBF
+4170. company with highly combustible materials is trying t0 determine which sprinkler system type to purchase: They are not concerned with false alarms; but instead are insistent that the system be effective at extinguishing [arge and rapidly growing fires extremely fast: Which would be the best sprinkler system for this company? a: Wet pipe b Deluge C- Dry pipe da Pre-action
+174 What does a company need to investigate io ensure that the availability of production systems are not negatively affected for & long period of time if a new system goes down? a. NDA and MTTR b SLAs and MTTR 0 MTBF and NDA d. MTTR and TCSEC
+;
+172. Companies that offer mission-critical services t0 their customers have t0 make contingencies for potential power failures. An uninterruptible power supply (UPS) is a common alternative that companies select in situations where even one second of power interruption is unacceptable, the UPS can take over the load as soon as power is lost: These UPS types have primary power continually running through them and are activated immediately if the primary source fails. What are these s8tedby Jpec? 3 b Inline UPS C Ghost UPS d. Generator
+3
+1
+3
+3
+3
+268
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 32 ---
+6
+2
+173. What is the last Iine of defense in & physical security sense? a:  People M An b Interior barriers  3 Cant Exterior barriers d: Walls
+174, Several types of fire detectors are available on the market: Which of the following detect a fire by identifying changes in & stream of light waves? Optical detector b Thermometer detector 7 C. Heat activated detector_ d. Flame activated detector
+175. Physical security components combat all of the following main risks except
+a SYN flood b Physical damage 6 Theft d. Fire
+7 7
+176. Which of the following items is NOT considered a preventive physical control? a. Fencing b Access logs G. Security guards d Security dogs
+177. Internal partitions should NOT be used in which of the following instances? a To provide protection of & sensitive area b To create storage rooms for nonsensitive material C To create different work areas d. To create barriers between areas
+178= Which of the following should be used to suppress the fuel supply of a fire of common combustibles? a; Soda Acid b C02 G Halon d= Freon
+179. The classes of fire are determined by their level of combustibility Of the materials below; which does NOT have a Class A rating? a Wood b Rubber C Oil-based paint d. Paper 3 3
+Copyright 2016 InfoSec Institute; Inc:
+269
+
+--- PAGE 33 ---
+1
+3
+7
+180 A physical security mechanisr consisting of & small area with two doors used to "hold" an individual until his identity can be verified is called & Turnstile 3 3 b Holding area C. Mantrap d Man in the middle
+3
+181- How does an acoustical seismic device detect an intruder? a Change in vibration b Change in magnetic field 1 C. Change in microwaves Within room d. Breakage of foil strip in window 182. A secured computing room should have all of the following characteristics except a No more thantwo doorways b Walls that extend from the true flooring to the true ceiling G. Comfortable sitting areas around workstations d Strict physical access controls
+7
+3 7
+183. Which one of the following characteristics is NOT true of an ideal data processing room? a Humidity levekof 50% b Carpeting ; C. Room temperature around 72'F d Independent HVAC and ventilation systems
+;
+184 What is Plenum space? a Open space above drop ceilings and below raised floors b The screened subnet area within the DMZ C. The unprotected area around the security perimeter fence d. a VPN tunnel ^
+3
+185_ Due to some recent after-hours altercations in a nearby parking lot; Jim"s company is installing new lights at the location to improve security. Jim is in charge of physical security and has done the research on lighting requirements in critical areas: One of the requirements Jim found was something called "two foot-candles at eight feel:' What does this mean? a. Lights must be placed 2 feet apart b The area being lit must be illuminated 2 feet high and 2 feet out C This is an illumination metric used for lighting d; Each Iit area must be within 2 feet 0f the next lit area
+1
+3
+;
+3
+270
+Copyright 2016 InfoSec Institute, InG:
+
+--- PAGE 34 ---
+F
+F
+186. Jonathan's workstation is overloaded with electrical connections into small number of outlets. He is daisy chaining power strips in order to service all of his equipment: One problem that always remains is excessive line noise and power fluctuation: He needs t0 address the problem but does not have & great deal of money budgeted for it. Which of the solutions below would be LEAST favorable for this specific issue? a Surge protector b Line conditioners Ca Redistribute cords t0 other oullets d. UPS
+187 Low levels f humidity result in static electricity. High levels of humidity create & host of problems as well: Which of the following issues pertaining to high levels of humidity is the most concerning t0 a security professional? a. Excessive moisture in the air is not an optimum condition for employees who spend their days in a computer room b High humidity levels put strain on HVAC systems; which can cause security concerns Ca High humidity levels can damage or destroy computer parts d: High humidity levels make the possibility of fire more likely
+188. Sometimes basic fencing does not provide the level of protection & company requires. Which of the following combines the functions of intrusion deteclion systems and fencing? a. PIDAS 7 b PERIMETER 7 C. Closed-circuit TV d. Acoustical seismic detection system
+189- Different organizations have different physical security protection requirements; thus they need different types of controls and countermeasures. Which af the following is NOT a legitimate justification for using security guards at & facility? a They are one of the best deterrence for potential intruders b They are flexible and can be positioned randomly C They provide judgment and understanding of different situations d: They are cheaper than most automated detection systems 4190. Which of the following water sprinkler systems sounds an alarm and delays water release? a Wet pipe system 7 b Pre-action system G Deluge system d. Dry pipe system
+3
+3
+Copyright 2016 InfoSec Institute; Inc.
+271
+
+--- PAGE 35 ---
+3
+3
+3
+191_ Any of the following actions can be taken to prevent static electricity except which one? 9 Install carpet b Use antistatic bands when working in computer systems C. Install antistatic flooring d. Ensure proper grounding
+1
+192. Which protocol is described as a "best effort delivery" protocol? a. TCP b SMTP UDP ; C. 1 d. ARP
+193. Which of the following can provide up to 45 Mbps of bandwidth? BRI b T3 G. T1 d. M1 3 3 194. Which of the following is & LAN transmission technology that is susceptible to collisions and provides a mechanism for retransmission? a. Ethernet b Token Ring 6 ATM d. FDDI 1 3 195_ Why are network sniffers dangerous t0 an environment? They can be used t0 launch active attacks b Their presence can cause many false positives Ca Their presence and activities are not detectable da They can access sensitive data within applications
+3
+;
+196 Which firewall makes access decisions based only on addresses and port numbers in the header? a Circuit based proxy b Application based proxy C. Stateful d. Dual homed 1 197 ARP broadcasts messages on the LAN to find what? a. IP address b. MAC address G. Router d Hostname
+3
+1
+3
+3
+3
+272
+Copyright 2016 InfoSec Institute, Inc.
+
+--- PAGE 36 ---
+F
+F
+198. Which of the following TCP protocols typically works on ports 20 and 21? 3. Telnet b Hypertext transier protocol (HTTP) 7 C File transfer prolocol (F TP) d Simple network management protocol (SNMP)
+199 WAN technology that uses 53 bytes cells and has low delay levels is called what? a ATM b: Frame relay C X25 d: SMDS
+200. Which of the following devices typically works at the application layer and acts a8 protocol translator for different environments? a Switch b Gateway C. Bridge d Router
+201. What device works at the physical [ayer t0 boost electrical signals between network segments? a Switch b Router C. Repeater 5 d. Gateway
+202 Which statement is not true of a dedicated line? a More secure than using public networks b Connects two locations C Inflexible and expensive d. Uses packet switching technology
+7
+203 All computers are connected to a central device in which of the following topologies? a Star b Bus G. Mesh d Tree 3 204 When a router modifies a private IP address of a computer into & registered IP address t0 send out through an external Iink; it is performing a. Network address translation b Polling G. Address resolution protocol d. Multiplexing 3 J
+Copyright 201G InfoSec Institute, Inc
+273
+
+--- PAGE 37 ---
+3
+3
+3
+205_ Which of the following is & real threat in wireless communication? a Encryption is not available in wireless technologies b Users cannot be authenticated as they move from one AP t0 another C. No data integrity can be performed &s users move from one AP to another d_ Wardriving can uncover traffic; AP and station location
+3
+206, breach is, generally; an impermissible use or disclosure that compromises the security or privacy of the protected information. What must you do t0 determine if a data breach must be reported? a. Verify the breach in log history b Examine existing laws and regulations 3 C. Check with law enforcement such as the FBI d: Follow procedures in your DRP
+;
+207- A DDoS attack occurs when a hacker has deposited remote-controlled agents; zombies, or bots onto numerous secondary victims and then uses the deployed bots as & single entity to attack a primary target: What class of computer crime would this be reported &s? a: Computer incidental crime b Computer-resisted crime C. Computer-targeted crime d Computer due care crime
+3
+208. Intellectual property is an intangible (you can't touch it) asset that is the result of creativity (the use of intellect). Which of the following U.S; laws or regulations protects intellectual proper for up t0 70 years? a. Patent Iaw b Digital Rights Management C Trademark Iaw d. Copyright law
+3
+209. ISC2 code of ethics is important for a CISSP and strict adherence to this Code is a condition of certification: Which of the following would you consider t0o be least important? a. Provide diligent and competent service t0 principals (employers b Advance and protect the profession C Act honorably; honestly; justly, responsibly; and legally d Protect society; the commonwealth (nation); and the infrastructure 5 3
+;
+1
+3
+;
+3
+274
+Copyright 2016 InfoSec Institute; Inc.
+
+--- PAGE 38 ---
+1
+5
+210. Compliance is ensuring that your organization's policies follow guidelines; specifications; legislation; or regulations, including local; state, federal; and industry-accepted regulations. In which area is compliance most important? a Legislative and Tegulatory b Payment Card Industry C Privacy of your employee's information d. Guidelines for due care and due diligence:
+211 There have been some recent changes in best practices and standards. Which of the following could be considered a new stress for the CISSP exam? a. Asset valuation jor risk management b Plan Do Check Act G- Continuous improvement d. Employment candidate screening
+212 Threat modeling is a systematic approach used to understand how different threats could be realized and how a successiul compromise could take place. After determining and diagramming potential attacks what would typically be done next: a. Perform a reduction analysis b Develop new policies C. Prepare & Gantt chart d Identifying threats and threat agents
+213 A data owner is an important role in the enterprise: The owner controls the process of defining IT service levels, supporting the review of controls; and authorizing the enforcement of security controls to protect the specified information assets of the organization: Data Owners are also responsible for determining the data's sensitivity or classification levels: To whom is the data owner typically accountable? a Auditors b Board of Directors C Data Custodian d CISO
+214, A policy is high level documents which directs how things should be done. Policies are developed by management t0 clearly transmit the rules, guiding strategy and philosophy of management t0 all employees An early step in -developing any good policy is a Defining procedures 3 b Polyinstantiation C. Evaluation of lessons learned d Scoping
+3
+3
+Copyright 2016 InfoSec Institute; Inc:
+275
+
+--- PAGE 39 ---
+3
+3
+3
+215. multi-level security model allows a computer system t0 process information with different sensitivities (i.e , at different security levels). It may permit simultaneous access by users with different security-clearances and need-to- know. The formal model which provides for No Write Down Is a: Brewer Nash b Biba C Bell LaPadula d Clark Wilson
+216. Hashing is often Used in forensic analysis. It is used t0 verify that an exact copy of the original media has been made for examination: Hashes can also help in finding or eliminating some specific files. During forensic analysis which algorithm would you recommend be used for determining accurate copies? a, SHAI b MDS C Quantum d. SHA2 2 217 Chain of custody is & document that indicates various details about evidence across its life cycle. It begins with the time and place of discovery and identifies who discovered the evidence; who secured it, who collected it, who transported it, who protected it while in storage, and who analyzed it Where would be the typical place a hard drive being store for evidence be placed? a BitLocker b Vault ; 1 C Safe d Faraday Cage
+2
+;
+218 NIST developed the Risk Management Framework (RMF) t0 provide more flexible; dynamic, approach for effective management of information system- related security risk in highly diverse environments and throughout the system development life cycle: The RMF identifies six steps that provide & disciplined and structured process for managing missionlbusiness risk associated with the operation and use. What is the second step of the RMF? a Perform a Business Impact Analysis b Categorize the information system C. Assess the security controls d. Select an initial set of baseline security controls
+;
+219. Mary is developing an application for use in her company domain  She intends to use an RSA key exchange then switch to faster AES algorithm t0 transfer large amounts of data securely. What will be needed t0 secure the session key? a Sender s Private Key b= Recipient s X509 Digital Certificate C. Senders Public Key d. Pseudo Randdm Number Generator 3
+3
+3
+276
+Copyright 2016 InfoSec Institute; Inc.
+7
+
+--- PAGE 40 ---
+8
+6
+220_ Physical security controls are your first Iine of defense and should be designed S0 that the breach of any one will not compromise {he physical security of the organization; CCTV cameras, mantraps; lighting; guards, dogs; and locks are but a few of the layers of physical security. Which area would it be most appropriate to install physical detective and deterrent controls to protect Ethernet appliances? a Faraday Barrier b Wiring Closet G Plenum Space d; HVAC
+221 Many networking protocols operate at & single level of the OSl model. A few such as ATM and DNP3 are said t0 operate at multiple [evels. Where would yOu expect to find DNP3 used? a. To tie together APIs on an authentication system b In core routers on the Internet G. In conjunction with routers running OSPF d In a SCADA or ICS systems
+222 IEEE 802.11i is & security amendment for the IEEE 802.11 wireless standard: It defines two new security protocols, Temporal Key Integrity Protocol (TKIP) for symmetric key generation and the use of a: AES for strong encryption b. A mandatory RADIUS server for strong authentication C RC4 as a strong replacement for WEP d. Digital signatures for non-repudiation
+223. Which type of law deals with grievances or wrongs against individuals or companies that result in damages or loss- a Intellectual property b Criminal G Tort 7 d Regulatory
+224 A distributed network is & type of computer network that is spread over different networks typically in different locations: If you were using this type of system a good way t0 speed access to large files would be to implement which of the following? a. Proxy for web caching 3 b Reverse proxy for load balancing C Content Distribution Network d Private cloud for laaS
+3
+6
+Copyright 2016 IntoSec Institute, Inc:
+277
+
+--- PAGE 41 ---
+3
+3
+225, Virtual machine is software enabling several operating systems to run simultaneously run on & single PC without interfering with each other: A hypervisor in virtualized systems can be thought of as an operating system for operating systems: You are thinking of trying virtualization for some hosts in your DMZ. What would be a best practice? a Setup Bastion Host as a decoy b Install an IDPS t0 monitor for incidents G. Use & type 2 hypervisor with Linux to host guest OSs d Use & type 1 hypervisor to host guest OSs
+3
+226 Physical separation (decoupling) of the network control plane of packets from the data plane (hardware) is typically accomplished by a Software Defined Networking b Platform as a Service (PaaS) C Software Defined Storage d Implementing PVLANs
+3
+227 Federated Identity Managerent (FIM) is a model that enables companies to allow registered users of their domain t0 access information from other domains in smooth way: A federation can be best defined as a, Security Assertion Markup b An alliance G Single Sign On (SSO) d. An authentication system
+228, Everyone should understand their responsibilities for achieving adequate information security and for managing information system-related security risks. Step three of the RMF stresses the need {0 assess the security controls using appropriate assessment procedures t0 determine the extent to which the controls are implemented correctly: A common assessment of the network by your administrators is called a a Business Impact Analysis 1 b Pen Test C. Vulnerability Scan d. Port Scan
+;
+3 3
+229 An IDSIIPS can implement signature-based andlor anomaly based intrusion detection: Anomaly detection in the IDSIIPS can identify unusual and abnormal patterns of activity against an established baseline: To verify this system is working properly it is desirable t0 check the response to a Fuzzing b XML injection C Code review d.  Synthetic Transactions
+1
+3
+3
+3
+278
+Copyright 2016 InfoSec Institute, Inc:
+
+--- PAGE 42 ---
+;
+3
+230, A CISSP is expected to be capable of establishing and maintaining security awareness and training to help in the prevention of ~a Social Engineering Attacks 1 M hLackof Due Care and Diligence: 6 Privilege Escalation d. Escalation from an Incident t0 & Disaster
+231 Computer forensics techniques are used to search; preserve and analyze information on computer systems to find potential evidence for & trial. If you are defending against & tort what would your forensics be focused on if encrypted credit card informationchas been stolen and used even though you had eifective controls in place? a E Discovery b Criminal Investigation C Operational Investigation d Steganography
+232- Which of the following involves people with the requisite experience and education evaluating threat scenarios and rating the; potential loss and severity of each threat based on their experience a Data Mining b Qualitative risk analysis C Risk assessment d Risk management
+233 What are the assessment results produced by the application of an assessment procedure to & system called? a Plan of Action and Milestones b Assessment Findings C. Risk Assessment d. Vulnerability Assessment
+234. Thresholds of acceptable user errors and suspicious activities which can trigger and alert are called: a. Critical path analysis b Remote journaling G Clipping levels d. TOCITOU
+235, Java security employs a(n) a Activex b Sandbox C. Artificial neural network d: Deadlock situation
+So an applet is restricted and fairly safe.
+3
+1
+Copyright 2016 InfoSec Instilute, Inc:
+279
+
+--- PAGE 43 ---
+5
+3
+3
+238. The crossover error rate (CER) a May be hidden by a stealth virus b Is hidden for Qut-of-band communication G Is concealed Trojan horse program d: Is the point at which FRR and FAR are equal
+1
+1
+237 This IP address A address of 2002.00O0.0000.3210.0800.200C OOCF:1234 could be shortened t0 a. 2002..321.8.200C.CF:1234 b 2002:3210.0800.200C.OOCF:1234 C 2002.3210.800.200C CF:1234 1 d 2002.3210.8.200C.CF:1234
+5
+238. firewall can either be software configured on a computer system or & network appliance: Both are designed t0 block unauthorized access while permitting authorized communications. The firewall which dynamically open ports is called a a Proxy 3 1 b Stateful C Stateless d Packet Filter
+239 An IPSec derfines how two entities have negotiated and agreed to utilize security seryices t0 communicate securely. a: Oakley negotiation 1 b Tunnel negotiation C. Security Association (SA) d. SAML (Security Association Markup Language)
+3
+240. Unauthorized access points created by programmers as & rescue option or malicious programs inserted by an attacker that allows an unauthorized entity t0 gain access into a system or program are called. 3 a Remote Access Tool b Back Door C Cracked Door d. Trojan Horse
+3
+241. Sending messages to Bluetooth-capable devices without the permission of the ownerluser is a prank called a. Blue Boffing 3 ; b Blue Snarfing C. Blue Fishing d Blue Jacking
+1
+3
+3
+3
+280
+Copyright 2016 InfoSec Institute, Inc
+
+--- PAGE 44 ---
+1
+6
+242. Which of the following is a proactive, long term; plan regarding {he ability of critical business functions t0 continue in operation even in the face of serious threats. HAEL 9 Incident Response Plan 3 b  Disaster Recovery Plan C. Business Continuity Plan d: Business Resumption Plan
+243, What is the process of storing copies of private keys by a certificate authority called? Key Continuity E b Key Journaling C. Key Escrow d Software Escrow
+244- trusted authority in a network that generates asymmetric key pairs, issues and manages-security-credentials; publishes a CRL and more is & a; Online Certificate Status Authority b:   Registration Authority Certification Authority d Certificate Authority
+245. Cloud computing can be defined as virtual servers; resources; applications services or anything you consume over the Internet Which system offers & capability to the consumer t0 provision processing; storage, networks, and other fundamental computing resources? a: Maas b Paas Ca laas d Saas
+246. Common Criteria (CC) was developed as an international IT evaluation criterion: Common Criteria is designed around Trusted Computing Base (TCB) EALs provide a specific level of confidence in the security functions of the system being analyzed. Which level would be most appropriate for a high security environment? a: EAL Level 1 b EAL Level 2 C. EAL Level 4 1 d: EAL Level 5 7
+;
+3
+Copyright 2016 InfoSec Institute; Inc:
+281
+
+--- PAGE 45 ---
+2 7
+5
+247 One way t0 exfiltrate data is using secret communication path that allows data transfer in a way that violates the security policy. Such a path is called & Tunnel 3 a b Overt Channel C. Secure Channel d Covert Channel
+1
+248. Server side atlacks an issue when users go t0 the Internet: One common issue is & form of malicious code injection attack where an attacker is able t0 compromise a web server and inject their own malicious code into the content sent to other visitors. This is commonly called a XML Injection b Cross Site Scripting G Buffer Overllow d Cross-site Request Forgery
+5
+249 Data remanence is data (remaining magnetism) that persists beyond means such &s formatting used t0 delete it: This residual information may cause inadvertent disclosure of sensitive information. The best way t0 insure data remanence is not an issue is t0 a Destroy the circuit board of the drives b Smash the old hard drives Ce Degauss old hard drives d Overwrite old drives three times ; 250- Lots of testing is needed during software development: Separation of duties is followed s0 one programmer can serve &s & check on others. Which test is commonly carried out after changes t0 validate and verify the code? a; Acceptance testing b Regression testing C. Integration testing 3 d Unit testing n
+3
+;
+3
+1
+;
+;
+3
+3
+3
+282
+Copyright 2016 Infosec Institute, Inc.
+
+--- PAGE 46 ---
+F Final Practice Exam Answer Key
+A 43 A 85 C 127 B 169 D 211 C A 44 D 86 128 C 4170 B 212 A 45 87 129 B 171 B 213 46 7 88 130 C 172' B 214 47 89 131 173 A 218 L 48 90 132 B 174 A 216 69 92 134 B 176 B 218 51 93 135 C 177 A 219 52 F 94 136 A 178 220 53 95 137 C 179 221 12 54 96 138 180 1 222 13 55 97 139 B 181 223 15 66 98  140 B 182 225 16 58 100 142 D 184 A 226 17 59 101 143 C 185, 227 18 60 102 144 B 186 228 5 6 28 83 408 145 8 163 28 5  B B 2 68 106 158 8 192 3 8 25 67 109 151 B 193 235 26 68 110 152 D 194 G 236 27 69 111 A 153 A 195 237 28 70 112 C 154 B 196, A 238 29 71 113 C 155 C 1973 8 239 30 72 114 4 156 198 240 31 73 115 157 199 241 32 74 116 B 158 1 200 8 242 33 75 117 159 201 243 34 76 118 160 202 244 35 78 119 161 203 A 245 36 120 162 204 246 38 80 122 1 164 4 206 248 39 81 1 123 165 A 207 ; 249 40 82 124 166 A 208 250 B 41 83 8 125 167 B 209 42 A 84 B 126 B 168 D 210' A
+Copyright 2016 InfoSec Institute; Inc
+283

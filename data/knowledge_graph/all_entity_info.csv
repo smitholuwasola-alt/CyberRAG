@@ -1,1088 +1,1514 @@
 entityID,entityName,entityType,entityCategory,entityDescription
-1683,/etc/rsyslogd/,concept,cybok_concept,Extracted from CyBOK knowledge base
-895,/var/log,feature,concept,
-916,/var/log/,feature,concept,
-1744,/var/log/messages ,concept,cybok_concept,Extracted from CyBOK knowledge base
-204,3-way handshake,technique,concept,
-1084,3DES,algorithm,cryptographic,CyBOK: 3DES (mentioned 2 times)
-392,3rd party services,app,application,
-1037,ABAC,concept,security_mechanism,CyBOK: ABAC (mentioned 6 times)
-1251,ABE,concept,cybok_concept,CyBOK: ABE = Based Encryption
-541,access,feature,concept,
-1013,access control,concept,security_mechanism,CyBOK: access control (mentioned 266 times)
-1209,Access Control List,concept,cybok_concept,CyBOK: Access Control List (ACL)
-1381,Access Point,concept,cybok_concept,CyBOK: Access Point (AP)
-938,access privilege,feature,concept,
-307,accidental,attack,concept,
-1011,accountability,concept,security_mechanism,CyBOK: accountability (mentioned 99 times)
-662,accuracy,feature,concept,
-213,ACK,feature,concept,
-1625,ACK packets,concept,cybok_concept,Extracted from CyBOK knowledge base
-313,ACK scan,technique,concept,
-1210,ACL,concept,cybok_concept,CyBOK: ACL = Access Control List
-1463,ACSAC,concept,cybok_concept,CyBOK: ACSAC = Annual Computer Security Applications Conference
-1746,actions,concept,cybok_concept,Extracted from CyBOK knowledge base
-280,active,feature,concept,
-86,Address,feature,concept,
-1128,Address Resolution Protocol,concept,cybok_concept,CyBOK: Address Resolution Protocol (ARP)
-1702,addresses,concept,cybok_concept,Extracted from CyBOK knowledge base
-175,administrators,securityTeam,role,
-764,adobe_flash_shader_drawing_fill exploit,vulnerability,concept,
-769,advanced,feature,concept,
-1499,Advanced Encryption Standard,concept,cybok_concept,CyBOK: Advanced Encryption Standard (AES)
-768,advanced options,feature,concept,
-998,advanced persistent threat,attack,technique,CyBOK: advanced persistent threat (mentioned 6 times)
-1596,adversarial behavior,concept,cybok_concept,CyBOK: adversarial behavior
-1552,Adversarial Behaviours,knowledge_area,attacks_defences,CyBOK Knowledge Area: Adversarial Behaviours
-992,adware,attack,malware,CyBOK: adware (mentioned 5 times)
-1293,AEAD,concept,cybok_concept,CyBOK: AEAD = Authenticated Encryption with Associated Data
-1078,AES,algorithm,cryptographic,CyBOK: AES (mentioned 65 times)
-1426,AGC,concept,cybok_concept,CyBOK: AGC = Automatic Gain Control
-405,aggressive,feature,concept,
-1586,Aircrack-ng,concept,cybok_concept,CyBOK: Aircrack-ng
-1424,AKA,concept,cybok_concept,CyBOK: AKA = Authentication and Key Agreement
-1300,AKE,concept,cybok_concept,"CyBOK: AKE = This leads to the notion of
-Authenticated Key Exchange"
-661,alarms,function,concept,
+1,Private key,feature,concept,
+4,Protocol,feature,concept,
+5,Digital Signature,feature,concept,
+6,Http,feature,concept,
+7,Service,app,application,
+10,Password,feature,concept,
+12,Security Policy,technique,concept,
+14,Traffic,data,concept,
+16,Network Behavior,feature,concept,
+17,Packet,data,concept,
+18,packet data,data,concept,
 21,Alert,feature,concept,
-1679,alerts,concept,cybok_concept,Extracted from CyBOK knowledge base
-1053,anonymity,concept,security_property,CyBOK: anonymity (mentioned 60 times)
-693,anti-forensic,technique,concept,
-540,application,app,application,
-1662,applications,concept,cybok_concept,Extracted from CyBOK knowledge base
-1557,Applied Cryptography,knowledge_area,systems_security,CyBOK Knowledge Area: Applied Cryptography
-1715,apps,concept,cybok_concept,Extracted from CyBOK knowledge base
-999,APT,attack,technique,CyBOK: APT (mentioned 447 times)
-850,architecture,system,application,
-718,Armitage,app,application,
-1129,ARP,concept,cybok_concept,CyBOK: ARP = Address Resolution Protocol
-833,ARP Ping Scan,technique,concept,
-1590,ARP spoofing,concept,cybok_concept,CyBOK: ARP spoofing
-1273,ASC,concept,cybok_concept,"CyBOK: ASC = Application Security
-Controls"
-1461,ASONAM,concept,cybok_concept,CyBOK: ASONAM = International Conference on Advances in Social Networks Analysis and Mining
-1727,assess,concept,cybok_concept,Extracted from CyBOK knowledge base
-1738,assessing,concept,cybok_concept,Extracted from CyBOK knowledge base
-1056,asymmetric encryption,concept,security_mechanism,CyBOK: asymmetric encryption (mentioned 3 times)
-1422,ATC,concept,cybok_concept,CyBOK: ATC = Control
-183,attack,attack,concept,
-1599,attack lifecycle,concept,cybok_concept,CyBOK: attack lifecycle
-504,attack scenarios,attack,concept,
+23,Payload,data,concept,
+27,Tcpdump,tool,application,
+28,Encryption,function,concept,
+29,Decryption,function,concept,
+33,Commands,function,concept,
+34,Sniff Mode,feature,concept,
+36,System Variables,data,concept,
+37,Snort Rules,function,concept,
+43,Sql Injection,attack,concept,
+49,Spyware,attack,concept,
+50,Trojan,attack,concept,
+56,Network Attacks,attack,concept,
+57,Intrusion,attack,concept,
+59,Risk Assessment,technique,concept,
+62,Protocol Analysis,technique,concept,
+65,Spoofed,vulnerability,concept,
+67,Wireshark,tool,application,
+68,Nmap,tool,application,
+69,Snort,tool,application,
+72,Hping3,tool,application,
+76,Detection Engine,tool,application,
+77,Log Alert System,tool,application,
+78,Output Module,tool,application,
+79,Preprocessor,tool,application,
+80,Linux,system,application,
+83,Port,feature,concept,
+85,Host,system,application,
+86,Address,feature,concept,
+93,Client,system,application,
+94,Server,system,application,
+96,Public Domain,system,application,
+97,Ingress,feature,concept,
+102,Data,data,concept,
+103,Files,data,concept,
+104,Folder,data,concept,
 106,Attacker,attacker,role,
-465,attackers,attacker,role,
-283,attacking,attack,concept,
-152,attacks,attack,concept,
-1551,Attacks Defences,category,cybok_category,CyBOK Category: Attacks Defences
-867,auth,feature,concept,
-1121,Authenticated Encryption,concept,cybok_concept,CyBOK: Authenticated Encryption (AE)
-1292,Authenticated Encryption with Associated Data,concept,cybok_concept,CyBOK: Authenticated Encryption with Associated Data (AEAD)
-374,authentication,technique,concept,
-1423,Authentication and Key Agreement,concept,cybok_concept,CyBOK: Authentication and Key Agreement (AKA)
-1345,Authentication Header,concept,cybok_concept,CyBOK: Authentication Header (AH)
-1560,"Authentication, Authorisation and Accountability",knowledge_area,infrastructure_security,"CyBOK Knowledge Area: Authentication, Authorisation and Accountability"
-1714,authlog,concept,cybok_concept,Extracted from CyBOK knowledge base
-738,author,user,role,
-1010,authorization,concept,security_mechanism,CyBOK: authorization (mentioned 16 times)
-1709,automate ,concept,cybok_concept,Extracted from CyBOK knowledge base
-1425,Automatic Gain Control,concept,cybok_concept,CyBOK: Automatic Gain Control (AGC)
-1579,Autopsy,concept,cybok_concept,CyBOK: Autopsy
-705,auxiliary modules,tool,application,
-1009,availability,concept,security_property,CyBOK: availability (mentioned 81 times)
-732,back command,function,concept,
-993,backdoor,attack,malware,CyBOK: backdoor (mentioned 6 times)
+111,User,user,role,
+114,Packet Decoder,tool,application,
+115,packet logger,tool,application,
+116,Data Flow,feature,concept,
+118,Intrusion Detection System,tool,application,
+119,language,feature,concept,
+120,previous attack pattern,feature,concept,
 122,bad packet,data,concept,
-1354,BGP,concept,cybok_concept,CyBOK: BGP = Border Gateway Protocol
+129,tcpdump pcap,data,concept,
+130,unified2,tool,application,
+131,Detection alert,tool,application,
+133,Firewall,tool,application,
+135,forwarding,feature,concept,
+137,Network,system,application,
+138,Packet forwarding,feature,concept,
+139,process,technique,concept,
+140,testing,function,concept,
 141,Blacklist,feature,concept,
-322,block,feature,concept,
-1058,blockchain,concept,infrastructure,CyBOK: blockchain (mentioned 38 times)
-457,blocked,feature,concept,
+144,network discovery,technique,concept,
+145,security auditing,technique,concept,
+146,stateful,feature,concept,
+147,target machine,system,application,
+148,version detection,technique,concept,
+152,attacks,attack,concept,
+153,security,technique,concept,
+154,network administrators,securityTeam,role,
+155,map,function,concept,
+156,networks,system,application,
+157,program,function,concept,
+158,live hosts,system,application,
+159,port scanning,technique, concept,
+161,devices,system,application,
+162,network scanning,technique,concept,
+163, services,app,application,
+164,operating systems,system,application,
+167,tool,tool,application,
+170,enterprise-scale networks,system,application,
+171,scan,technique,concept,
+172,connected devices,system,application,
+173,IoT security,technique,concept,
+174,information,data,concept,
+175,administrators,securityTeam,role,
+176,legitimate,feature,concept,
+178,open ports,feature,concept,
+180,Vulnerabilities,vulnerability,concept,
+181,hacker,attacker,role,
+182,site,system,application,
+183,attack,attack,concept,
+184,processes,technique,concept,
+185,scanned,technique,concept,
+186,system monitoring,technique,concept,
+188,Metasploit framework,tool,application,
+189,probe,technique,concept,
+191,network vulnerabilities,vulnerability,concept,
+192,web server,system,application,
+193,hosting,feature,concept,
+194,website,app,application,
+195,security vulnerabilities,vulnerability,concept,
+196,system admins,securityTeam,role,
+197,connection,feature,concept,
+198,scripts,function,concept,
+200,network monitoring,technique,concept,
+202,IP address,feature,concept,
+204,3-way handshake,technique,concept,
+206,three-way handshake,technique,concept,
+208,DOS,attack,concept,
+209,logs,data,concept,
+212,SYN,feature,concept,
+213,ACK,feature,concept,
+214,FIN packets,data,concept,
+215,target port,feature,concept,
+216,sender,system,application,
+217,RESET packet,data,concept,
+218,response,feature,concept,
+222,logged,function,concept,
+225,listening,feature,concept,
+226,UDP packet,data,concept,
+228,open port,feature,concept,
+230,Trojan horses,attack,concept,
+231,hidden RPC services,vulnerability,concept,
+232,high UDP ports,feature,concept,
+233,machines,system,application,
+234,slow down responses,feature,concept,
+235,Windows OS,system,application,
+236,slowdown feature,feature,concept,
+238,Windows,system,application,
+240,target system,system,application,
+241,ICMP Port Unreachable message,data,concept,
+242,closed,feature,concept,
+243,open,feature,concept,
+245,filtered ports,feature,concept,
+248,time out,feature,concept,
+249,ICMP port unreachable error,feature,concept,
+259,host-timeout,feature,concept,
+260,slow hosts,system,application,
+262,chill out,feature,concept,
+263,scanner,tool,application,
+267,port scanner,tool,application,
+268,raw IP packets,data,concept,
+270,responses,feature,concept,
+275,SYN packet,data,concept,
+277,sniff,technique,concept,
+279,gateway,system,application,
+280,active,feature,concept,
+283,attacking,attack,concept,
+285,incoming,feature,concept,
+286,reveal,feature,concept,
+288,slow,feature,concept,
+290,SYN-ACK packet,data,concept,
+292,unfiltered,feature,concept,
+293,intrusive,attack,concept,
+294,receive,function,concept,
+295,detect,technique,concept,
+299,RESET,feature,concept,
+305,destination,system,application,
+306,SYN Flood,attack,concept,
+307,accidental,attack,concept,
+309,denial-of-service attacks,attack,concept,
+311,TCP FIN packet,data,concept,
+313,ACK scan,technique,concept,
+315,packet filtering,technique,concept,
+316,established connections,feature,concept,
+319,router,system,application,
 321,blocking,feature,concept,
-1353,Border Gateway Protocol,concept,cybok_concept,CyBOK: Border Gateway Protocol (BGP)
-990,botnet,attack,malware,CyBOK: botnet (mentioned 129 times)
-1707,broadcast ,concept,cybok_concept,Extracted from CyBOK knowledge base
-617,broken,feature,concept,
-810,brute force,technique,concept,
+322,block,feature,concept,
+328,non-Windows servers,system,application,
+331,Windows machines,system,application,
+332,TCP stack,feature,concept,
+338,Remote Procedure Call,function,concept,
+339,remote commands,function, concept,
+340,RPC services,app,application,
+341,name,feature,concept,
+342,version,feature,concept,
+344,TCP/UDP ports,feature,concept,
+346,IDLE scan,technique,concept,
+350,zombie host,system,application,
+351,zombie,system,application,
+352,port number,feature,concept,
+353,malicious attacks,attack,concept,
+354,IP ID,feature,concept,
+356,Forge,vulnerability,concept,
+357,port state,feature,concept,
+358,NSE,tool,application,
+359,Nmap Scripting Engine,tool,application,
+360,Nmap scripts,function,concept,
+365,remote host,system,application,
+374,authentication,technique,concept,
+378,intel,system,application,
 380,brute force attacks,attack,concept,
-1282,BSIMM,concept,cybok_concept,"CyBOK: BSIMM = Building Security In
-Maturity Model"
-1589,buffer overflow,concept,cybok_concept,CyBOK: buffer overflow
+384,Denial of service attack,attack,concept,
+385,perform,function,concept,
+386,floods,attack,concept,
+387,exploit,technique,concept,
+389,service exploitation,technique,concept,
+390,CVE,vulnerability,concept,
+392,3rd party services,app,application,
+393,locally,feature,concept,
+394,remote,feature,concept,
+399,dos script,function,concept,
+403,fuzzing attacks,attack,concept,
+404,intrusive script,function,concept,
+405,aggressive,feature,concept,
+406,network noise,feature,concept,
+409,safe script,function,concept,
+410,Safe,feature,concept,
+414,vuln,vulnerability,concept,
+419,FTP,feature,concept,
+426,IPS,tool,application,
+427,Intrusion Prevention Systems,tool,application,
+429,configure,function,concept,
+433,Penetration Testing,technique,concept,
+436,IDS,tool,application,
+437,IPS security,technique,concept,
+438,network security,technique,concept,
+446,cybercriminals,attacker,role,
+448,hack,attack,concept,
+449,weakness,vulnerability,concept,
+451,pentest,technique,concept,
+457,blocked,feature,concept,
+459,portmapper,tool,application,
+464,security holes,vulnerability,concept,
+465,attackers,attacker,role,
+466,evading,technique,concept,
+467,Product evaluation,technique,concept,
+468,protection,feature,concept,
+469,Pentesting tools,tool,application,
+470,Syslog,tool,application,
+471,firewall rules,function,concept,
+472,sneaking past,technique,concept,
+476,pen tester,securityTeam,role,
+477,security performance,technique,concept,
+478,setup,system,application,
+479,systems,system,application,
+480,IDS system,tool,application,
+485,iptables,app,application,
+488,networking system setup,system,application,
+490,networking,system,application,
+491,output,feature,concept,
+492,explore,technique,concept,
+493,System configurations,feature,concept,
+498,nodes,system,application,
+499,node,system,application,
+500,performance measurements,technique,concept,
+501,detection,technique,concept,
+502,detection threshold setup,feature,concept,
+504,attack scenarios,attack,concept,
+506,configuration vulnerabilities,vulnerability,concept,
+507,deploy,function,concept,
+509,template,feature,concept,
+512,resolve,technique,concept,
+514,client VM,system,application,
+518,ping,function,concept,
+519,traceroute,tool,application,
+520,msfconsole,tool,application,
+521,client node,system,application,
+526,protect,feature,concept,
+527,server node,system,application,
+528,configuration files,data,concept,
+535,Intrusion Detection,technique,concept,
+537,security services,app,application,
+538,Snort IDS,tool,application,
+540,application,app,application,
+541,access,feature,concept,
+542,command shell,tool,application,
+543,parameters,feature,concept,
+544,critical,feature,concept,
+545,identify,technique,concept,
+550,Subverting,technique,concept,
+552,defend,technique,concept,
+554,TCP protocol,feature,concept,
+555,TCP,feature,concept,
+556,RFC 793,feature,concept,
+560,RST packet,data,concept,
+563,dropped packets,data,concept,
+568,TCP packets,data,concept,
+569,ICMP destination unreachable error,data,concept,
+570,Stateless,feature,concept,
+571,secure,feature,concept,
+572,reboot,function,concept,
+573,state,feature,concept,
+574,deny-by-default,feature,concept,
+575,policy,feature,concept,
+576,network traffic,data,concept,
+578,Windows XP,system,application,
+579,Nping,tool,application,
+581,flooding,attack,concept,
+584,source,system,application,
+585,netblocks,technique,concept,
+586,UDP,feature,concept,
+590,transmitted packets,data,concept,
+591,triggered packet responses,feature,concept,
+593,IPS systems,tool,application,
+594,packet flow,feature,concept,
+595,suspicious activity,vulnerability,concept,
 596,buffer overflow exploit,attack,concept,
-1575,Burp Suite,concept,cybok_concept,CyBOK: Burp Suite
-1050,business continuity,concept,governance,CyBOK: business continuity (mentioned 8 times)
-1150,BYOD,concept,cybok_concept,CyBOK: BYOD = The risks arising from Bring Your Own Device
-1713,byte,concept,cybok_concept,Extracted from CyBOK knowledge base
+597,Suspicious,vulnerability,concept,
+600,Packet Forgery,attack,concept,
+601,monitoring,technique,concept,
+607,icmp-host-prohibited,feature,concept,
+616,mail hosts,system,application,
+617,broken,feature,concept,
+618,Forging,attack,concept,
+619,port 113,feature,concept,
+620,timeout,feature,concept,
+623,rules,function,concept,
+626,inline,feature,concept,
+631,slow down,feature,concept,
+633,testing environment,system,application,
+634,timing modes,feature,concept,
+635,paranoid option,feature,concept,
+637,IP fragments,feature,concept,
+645,fragmentation assembly timeouts,feature,concept,
+646,remote system,system,application,
 649,bytes,data,concept,
+650,fragment,feature,concept,
+655,Fragmentation,technique,concept,
+656,raw packet,data,concept,
+661,alarms,function,concept,
+662,accuracy,feature,concept,
+663,spoofing,vulnerability,concept,
+665,IP identification field,feature,concept,
+672,reverse-DNS resolution,function,concept,
+678,risk,feature,concept,
+681,DNS queries,function,concept,
+685,Metasploit,tool,application,
+686,discover,technique,concept,
+689,network operators,securityTeam,role,
+690,remote target machine,system,application,
+691,computer security,technique,concept,
+693,anti-forensic,technique,concept,
+694,evasion,technique,concept,
+697,Kali Linux operating system,system,application,
+698,command-line,tool,application,
+699,Ubuntu Linux,system,application,
+700,module,function,concept,
+704,user interface,app,application,
+705,auxiliary modules,tool,application,
+717,graphical user interface,app,application,
+718,Armitage,app,application,
+719,rolling edition,feature,concept,
+720,syslog.conf,data,concept,
+721,dock,app,application,
+727,exploit code,function,concept,
+728,use command,function,concept,
+729,command line,tool,application,
+730,realvnc_client,vulnerability,concept,
+731,exploit parameters,feature,concept,
+732,back command,function,concept,
+734,Linux terminal,system,application,
+737,platform,app,application,
+738,author,user,role,
+740,ie_execcommand_ua,vulnerability,concept,
+744,Flash player,tool,application,
+754,OSVDB ID,feature,concept,
+755,set command,function,concept,
+758,SRVHOST,feature,concept,
+763,show targets command,function,concept,
+764,adobe_flash_shader_drawing_fill exploit,vulnerability,concept,
+765,command set,function,concept,
+766,target ID,feature,concept,
+767,show advanced command,feature,concept,
+768,advanced options,feature,concept,
+769,advanced,feature,concept,
+771,NOP generators,function,concept,
+778,CPU architecture,system,concept,
+785,Metasploitable 2,system,application,
+786,Linux machine,system,application,
+794,username/password,feature,concept,
+796,ifconfig command,function,concept,
+797,msfadmin/msfadmin,feature,concept,
+798,netdiscover,tool,application,
+799,Kali Linux machine,system,application,
+801,SSH service,app,application,
+802,OpenSSH,tool,application,
+803,telnet service,app,application,
+810,brute force,technique,concept,
+811,enumerate,function,concept,
+812,user accounts,feature,concept,
+813,Rpcclient,tool,application,
+817,samba,system,application,
+820,legacy systems,system,application,
+825,Enum4linux,tool,application,
+826,Perl,tool,application,
+827,wrapper,function,application,
+828,smbclient,system,application,
+829,nmblookup,tool,application,
+830,console,tool,application,
+833,ARP Ping Scan,technique,concept,
+835,post scan scripts,function,concept,
+843,System Log,data,concept,
+847,issues,vulnerability,concept,
+850,architecture,system,application,
+851,severity,feature,concept,
+852,error,data,concept,
+854,warning,data,concept,
+855,Severity Levels,feature,concept,
+856,syslogd,data,concept,
+857,system messages,data,concept,
+858,logging system,tool,application,
+859,rsyslog,tool,application,
+862,selector field,feature,concept,
+864,fields,feature,concept,
+865,facility,system,application,
+866,priority,feature,concept,
+867,auth,feature,concept,
+869,cron,feature,concept,
+870,daemon,tool,application,
+871,kern,app,application,
+879,logging,function,concept,
+880,subsystem,system,application,
+881,message,data,concept,
+886,print,function,concept,
+888,err,feature,concept,
+889,crit,feature,concept,
+892,log file,data,concept,
+894,kernel,app,application,
+895,/var/log,feature,concept,
+898,disk file,data,concept,
+899,Unix/Linux,system,application,
+900,standard C library,app,application,
+901,error message,data,concept,
+903,Restart,function,concept,
+906,domain socket,feature,concept,
+908,log data,data,concept,
+909,ubuntu distribution,system,application,
+910,rsyslogd,data,concept,
+912,Ubuntu system,system,application,
+914,setup configurations,feature,concept,
+916,/var/log/,feature,concept,
+918,location,system,application,
+919,vendors,user,role,
+920,log server,system,application,
+924,client-server,system,application,
+926,instances,system,application,
+928,forward,feature,concept,
+932,TLS,technique,concept,
+935,down,feature,concept,
+938,access privilege,feature,concept,
+944,remote server,system,application,
+945,centralized system,system,application,
+946,single-point failure,feature,concept,
+948,rsyslog server,system,application,
+957,path,feature,concept,
+958,hostname,feature,concept,
+961,server side,system,application,
+963,log-level,feature,concept,
+964,Suricata,tool,application,CyBOK: Suricata (mentioned 8 times)
+965,Splunk,tool,application,CyBOK: Splunk (mentioned 2 times)
+966,YARA,tool,application,CyBOK: YARA (mentioned 8 times)
+967,OpenSSL,tool,application,CyBOK: OpenSSL (mentioned 15 times)
+968,Tor,tool,application,CyBOK: Tor (mentioned 2447 times)
+969,cross-site scripting,attack,technique,CyBOK: cross-site scripting (mentioned 19 times)
+970,XSS,attack,technique,CyBOK: XSS (mentioned 23 times)
+971,CSRF,attack,technique,CyBOK: CSRF (mentioned 10 times)
+972,cross-site request forgery,attack,technique,CyBOK: cross-site request forgery (mentioned 6 times)
+973,phishing,attack,technique,CyBOK: phishing (mentioned 67 times)
+974,spear phishing,attack,technique,CyBOK: spear phishing (mentioned 2 times)
+975,denial of service,attack,technique,CyBOK: denial of service (mentioned 41 times)
+976,DDoS,attack,technique,CyBOK: DDoS (mentioned 70 times)
+977,man-in-the-middle,attack,technique,CyBOK: man-in-the-middle (mentioned 12 times)
+978,MITM,attack,technique,CyBOK: MITM (mentioned 19 times)
+979,privilege escalation,attack,technique,CyBOK: privilege escalation (mentioned 2 times)
+980,dictionary attack,attack,technique,CyBOK: dictionary attack (mentioned 2 times)
+981,replay attack,attack,technique,CyBOK: replay attack (mentioned 11 times)
+982,side-channel attack,attack,technique,CyBOK: side-channel attack (mentioned 33 times)
+983,timing attack,attack,technique,CyBOK: timing attack (mentioned 14 times)
+984,session hijacking,attack,technique,CyBOK: session hijacking (mentioned 2 times)
+985,clickjacking,attack,technique,CyBOK: clickjacking (mentioned 24 times)
+986,rootkit,attack,malware,CyBOK: rootkit (mentioned 3 times)
+987,ransomware,attack,malware,CyBOK: ransomware (mentioned 33 times)
+988,worm,attack,malware,CyBOK: worm (mentioned 27 times)
+989,virus,attack,malware,CyBOK: virus (mentioned 43 times)
+990,botnet,attack,malware,CyBOK: botnet (mentioned 129 times)
+991,keylogger,attack,malware,CyBOK: keylogger (mentioned 2 times)
+992,adware,attack,malware,CyBOK: adware (mentioned 5 times)
+993,backdoor,attack,malware,CyBOK: backdoor (mentioned 6 times)
+994,zero-day,attack,vulnerability,CyBOK: zero-day (mentioned 2 times)
+995,social engineering,attack,technique,CyBOK: social engineering (mentioned 7 times)
+997,supply chain attack,attack,technique,CyBOK: supply chain attack (mentioned 2 times)
+998,advanced persistent threat,attack,technique,CyBOK: advanced persistent threat (mentioned 6 times)
+999,APT,attack,technique,CyBOK: APT (mentioned 447 times)
+1000,insider threat,attack,technique,CyBOK: insider threat (mentioned 6 times)
+1001,code injection,attack,technique,CyBOK: code injection (mentioned 11 times)
+1002,command injection,attack,technique,CyBOK: command injection (mentioned 12 times)
+1003,race condition,attack,technique,CyBOK: race condition (mentioned 18 times)
+1004,return-oriented programming,attack,technique,CyBOK: return-oriented programming (mentioned 5 times)
 1005,cache poisoning,attack,technique,CyBOK: cache poisoning (mentioned 3 times)
-1373,CAM,concept,cybok_concept,"CyBOK: CAM = Attacks On Ethernet Switches
-
-Ethernet switches maintain forwarding table entries in a Content Addressable Memory"
-1238,CBAC,concept,cybok_concept,CyBOK: CBAC = Based Access Control
-1390,CCMP,concept,cybok_concept,CyBOK: CCMP = Counter Mode with the Cipher Block Chaining Message Authentication Code Protocol
-1430,CCS,concept,cybok_concept,CyBOK: CCS = Conference on Computer and Communications Security
+1006,fault injection,attack,technique,CyBOK: fault injection (mentioned 3 times)
+1007,confidentiality,concept,security_property,CyBOK: confidentiality (mentioned 2 times)
+1008,integrity,concept,security_property,CyBOK: integrity (mentioned 250 times)
+1009,availability,concept,security_property,CyBOK: availability (mentioned 81 times)
+1010,authorization,concept,security_mechanism,CyBOK: authorization (mentioned 16 times)
+1011,accountability,concept,security_mechanism,CyBOK: accountability (mentioned 99 times)
+1012,non-repudiation,concept,security_property,CyBOK: non-repudiation (mentioned 16 times)
+1013,access control,concept,security_mechanism,CyBOK: access control (mentioned 266 times)
+1014,hashing,concept,security_mechanism,CyBOK: hashing (mentioned 24 times)
+1015,PKI,concept,infrastructure,CyBOK: PKI (mentioned 49 times)
+1016,SSL,concept,protocol,CyBOK: SSL (mentioned 76 times)
+1017,HTTPS,concept,protocol,CyBOK: HTTPS (mentioned 697 times)
+1018,IPsec,concept,protocol,CyBOK: IPsec (mentioned 36 times)
+1019,VPN,concept,infrastructure,CyBOK: VPN (mentioned 16 times)
+1020,SIEM,concept,security_mechanism,CyBOK: SIEM (mentioned 60 times)
+1021,SOC,concept,infrastructure,CyBOK: SOC (mentioned 525 times)
+1022,threat modeling,concept,methodology,CyBOK: threat modeling (mentioned 9 times)
+1023,incident response,concept,methodology,CyBOK: incident response (mentioned 33 times)
+1024,digital forensics,concept,methodology,CyBOK: digital forensics (mentioned 23 times)
+1025,malware analysis,concept,methodology,CyBOK: malware analysis (mentioned 38 times)
+1026,reverse engineering,concept,methodology,CyBOK: reverse engineering (mentioned 22 times)
+1027,secure coding,concept,methodology,CyBOK: secure coding (mentioned 19 times)
+1028,code review,concept,methodology,CyBOK: code review (mentioned 12 times)
+1029,least privilege,concept,principle,CyBOK: least privilege (mentioned 11 times)
+1030,separation of duties,concept,principle,CyBOK: separation of duties (mentioned 5 times)
+1031,zero trust,concept,principle,CyBOK: zero trust (mentioned 12 times)
+1032,fail-safe defaults,concept,principle,CyBOK: fail-safe defaults (mentioned 7 times)
+1033,complete mediation,concept,principle,CyBOK: complete mediation (mentioned 5 times)
+1034,open design,concept,principle,CyBOK: open design (mentioned 8 times)
+1035,economy of mechanism,concept,principle,CyBOK: economy of mechanism (mentioned 6 times)
+1036,RBAC,concept,security_mechanism,CyBOK: RBAC (mentioned 33 times)
+1037,ABAC,concept,security_mechanism,CyBOK: ABAC (mentioned 6 times)
+1038,MAC,concept,security_mechanism,CyBOK: MAC (mentioned 461 times)
+1039,DAC,concept,security_mechanism,CyBOK: DAC (mentioned 20 times)
+1040,multi-factor authentication,concept,security_mechanism,CyBOK: multi-factor authentication (mentioned 9 times)
+1041,single sign-on,concept,security_mechanism,CyBOK: single sign-on (mentioned 11 times)
+1042,OAuth,concept,protocol,CyBOK: OAuth (mentioned 31 times)
+1043,SAML,concept,protocol,CyBOK: SAML (mentioned 26 times)
+1044,sandboxing,concept,security_mechanism,CyBOK: sandboxing (mentioned 16 times)
+1045,virtualization,concept,infrastructure,CyBOK: virtualization (mentioned 9 times)
+1046,network segmentation,concept,security_mechanism,CyBOK: network segmentation (mentioned 8 times)
+1047,intrusion prevention,concept,security_mechanism,CyBOK: intrusion prevention (mentioned 11 times)
+1048,security awareness,concept,methodology,CyBOK: security awareness (mentioned 21 times)
+1049,security governance,concept,governance,CyBOK: security governance (mentioned 3 times)
+1050,business continuity,concept,governance,CyBOK: business continuity (mentioned 8 times)
+1051,disaster recovery,concept,governance,CyBOK: disaster recovery (mentioned 2 times)
+1052,privacy,concept,security_property,CyBOK: privacy (mentioned 747 times)
+1053,anonymity,concept,security_property,CyBOK: anonymity (mentioned 60 times)
+1054,key management,concept,security_mechanism,CyBOK: key management (mentioned 32 times)
+1055,symmetric encryption,concept,security_mechanism,CyBOK: symmetric encryption (mentioned 23 times)
+1056,asymmetric encryption,concept,security_mechanism,CyBOK: asymmetric encryption (mentioned 3 times)
+1057,hash function,concept,security_mechanism,CyBOK: hash function (mentioned 77 times)
+1058,blockchain,concept,infrastructure,CyBOK: blockchain (mentioned 38 times)
+1059,secure boot,concept,security_mechanism,CyBOK: secure boot (mentioned 6 times)
+1060,TPM,concept,security_mechanism,CyBOK: TPM (mentioned 49 times)
+1061,HSM,concept,security_mechanism,CyBOK: HSM (mentioned 38 times)
+1062,SCADA,concept,infrastructure,CyBOK: SCADA (mentioned 46 times)
+1063,IoT,concept,infrastructure,CyBOK: IoT (mentioned 146 times)
+1064,cloud security,concept,security_mechanism,CyBOK: cloud security (mentioned 6 times)
+1065,NIST,standard,framework,CyBOK: NIST (mentioned 333 times)
+1066,GDPR,standard,regulation,CyBOK: GDPR (mentioned 77 times)
+1067,OWASP Top 10,standard,framework,CyBOK: OWASP Top 10 (mentioned 2 times)
+1068,CVSS,standard,framework,CyBOK: CVSS (mentioned 6 times)
+1069,PCI DSS,standard,regulation,CyBOK: PCI DSS (mentioned 9 times)
+1070,HIPAA,standard,regulation,CyBOK: HIPAA (mentioned 3 times)
+1071,Common Criteria,standard,framework,CyBOK: Common Criteria (mentioned 25 times)
+1072,FIPS,standard,framework,CyBOK: FIPS (mentioned 25 times)
+1073,Cyber Kill Chain,standard,framework,CyBOK: Cyber Kill Chain (mentioned 9 times)
+1074,STRIDE,standard,framework,CyBOK: STRIDE (mentioned 12 times)
+1075,DREAD,standard,framework,CyBOK: DREAD (mentioned 4 times)
+1076,OCTAVE,standard,framework,CyBOK: OCTAVE (mentioned 4 times)
+1077,FAIR,standard,framework,CyBOK: FAIR (mentioned 51 times)
+1078,AES,algorithm,cryptographic,CyBOK: AES (mentioned 65 times)
+1079,RSA,algorithm,cryptographic,CyBOK: RSA (mentioned 594 times)
+1080,SHA-256,algorithm,cryptographic,CyBOK: SHA-256 (mentioned 5 times)
+1081,SHA-1,algorithm,cryptographic,CyBOK: SHA-1 (mentioned 18 times)
+1082,MD5,algorithm,cryptographic,CyBOK: MD5 (mentioned 7 times)
+1083,DES,algorithm,cryptographic,CyBOK: DES (mentioned 1865 times)
+1084,3DES,algorithm,cryptographic,CyBOK: 3DES (mentioned 2 times)
+1085,elliptic curve,algorithm,cryptographic,CyBOK: elliptic curve (mentioned 34 times)
+1086,HMAC,algorithm,cryptographic,CyBOK: HMAC (mentioned 15 times)
+1087,Kerberos,algorithm,protocol,CyBOK: Kerberos (mentioned 23 times)
+1088,RADIUS,algorithm,protocol,CyBOK: RADIUS (mentioned 4 times)
+1089,Public Key Encryption,concept,cybok_concept,CyBOK concept (mentioned 7 times)
+1090,Distributed Systems Security,concept,cybok_concept,CyBOK concept (mentioned 32 times)
+1091,Hypertext Transfer Protocol,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1092,Hellman Key Exchange,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1093,Public Key Infrastructure,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1094,Transport Layer Security,concept,cybok_concept,CyBOK concept (mentioned 12 times)
+1095,Physical Systems Security,concept,cybok_concept,CyBOK concept (mentioned 38 times)
+1096,Industrial Control Systems,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1098,Hardware Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 10 times)
+1099,Software Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 12 times)
+1100,Network Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 8 times)
+1101,National Cyber Security Centre,concept,cybok_concept,CyBOK concept (mentioned 7 times)
+1102,Chosen Message Attack,concept,cybok_concept,CyBOK concept (mentioned 5 times)
+1103,Key Derivation Function,concept,cybok_concept,CyBOK concept (mentioned 5 times)
+1105,Mobile Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 5 times)
+1107,Public Key Cryptography,concept,cybok_concept,CyBOK concept (mentioned 9 times)
+1108,Distributed System Security Symposium,concept,cybok_concept,CyBOK concept (mentioned 12 times)
+1109,Privacy Enhancing Technologies,concept,cybok_concept,CyBOK concept (mentioned 9 times)
+1112,Information Systems Security Professional,concept,cybok_concept,CyBOK: Information Systems Security Professional (CISSP)
+1113,CISSP,concept,cybok_concept,CyBOK: CISSP = Information Systems Security Professional
+1114,Institute of Information Security Professionals,concept,cybok_concept,CyBOK: Institute of Information Security Professionals (IISP)
+1115,IISP,concept,cybok_concept,CyBOK: IISP = Institute of Information Security Professionals
+1117,NCSC,concept,cybok_concept,"CyBOK: NCSC = An instantiation of the framework for the National
+Cyber Security Centre"
+1118,Microsoft Security Development Lifecycle,concept,cybok_concept,CyBOK: Microsoft Security Development Lifecycle (SDL)
+1120,Message Authentication Code,concept,cybok_concept,CyBOK: Message Authentication Code (MAC)
+1121,Authenticated Encryption,concept,cybok_concept,CyBOK: Authenticated Encryption (AE)
+1123,Hyper Text Transfer Protocol Secure,concept,cybok_concept,CyBOK: Hyper Text Transfer Protocol Secure (HTTPS)
+1124,Network Time Protocol,concept,cybok_concept,CyBOK: Network Time Protocol (NTP)
+1125,NTP,concept,cybok_concept,CyBOK: NTP = Network Time Protocol
+1126,Distributed Hash Table,concept,cybok_concept,CyBOK: Distributed Hash Table (DHT)
+1127,DHT,concept,cybok_concept,CyBOK: DHT = Distributed Hash Table
+1128,Address Resolution Protocol,concept,cybok_concept,CyBOK: Address Resolution Protocol (ARP)
+1129,ARP,concept,cybok_concept,CyBOK: ARP = Address Resolution Protocol
+1130,Neighbor Discovery Protocol,concept,cybok_concept,CyBOK: Neighbor Discovery Protocol (NDP)
+1131,NDP,concept,cybok_concept,CyBOK: NDP = Neighbor Discovery Protocol
+1134,Global Cybersecurity Index,concept,cybok_concept,CyBOK: Global Cybersecurity Index (GCI)
+1135,GCI,concept,cybok_concept,CyBOK: GCI = Global Cybersecurity Index
+1138,IRGC,concept,cybok_concept,CyBOK: IRGC = This model from the International Risk Governance Council
+1141,ISF,concept,cybok_concept,CyBOK: ISF = The Information Security Forum
+1143,OWASP,concept,cybok_concept,"CyBOK: OWASP = Open Web
+Application Security Project"
 1147,CDA,concept,cybok_concept,"CyBOK: CDA = Large public consortia such
 as Cyber Defence Alliance Limited"
-945,centralized system,system,application,
-1571,certificate,concept,cybok_concept,CyBOK: certificate
-1157,CFG,concept,cybok_concept,CyBOK: CFG = Control Flow Graph
-1307,CFRG,concept,cybok_concept,"CyBOK: CFRG = Crypto Forum Research
-Group"
-1193,CFTT,concept,cybok_concept,CyBOK: CFTT = Computer Forensic Tool Testing
-1378,CGA,concept,cybok_concept,CyBOK: CGA = Cryptographically Generated Address
-1370,Challenge Handshake Authentication Protocol,concept,cybok_concept,CyBOK: Challenge Handshake Authentication Protocol (CHAP)
-1371,CHAP,concept,cybok_concept,CyBOK: CHAP = Challenge Handshake Authentication Protocol
-262,chill out,feature,concept,
-1102,Chosen Message Attack,concept,cybok_concept,CyBOK concept (mentioned 5 times)
-1569,CIA triad,concept,cybok_concept,CyBOK: CIA triad
-1113,CISSP,concept,cybok_concept,CyBOK: CISSP = Information Systems Security Professional
-1285,CLASP,concept,cybok_concept,CyBOK: CLASP = Lightweight Application Security Process
-1674,classes,concept,cybok_concept,Extracted from CyBOK knowledge base
-985,clickjacking,attack,technique,CyBOK: clickjacking (mentioned 24 times)
-93,Client,system,application,
-521,client node,system,application,
-514,client VM,system,application,
-924,client-server,system,application,
-1691,clients,concept,cybok_concept,Extracted from CyBOK knowledge base
-242,closed,feature,concept,
-1639,Closed ports,concept,cybok_concept,Extracted from CyBOK knowledge base
-1064,cloud security,concept,security_mechanism,CyBOK: cloud security (mentioned 6 times)
-1194,CMA,concept,cybok_concept,CyBOK: CMA = Chosen Message Attack
-1510,CNS,concept,cybok_concept,"CyBOK: CNS = Conference on Communications and
-Network Security"
-1001,code injection,attack,technique,CyBOK: code injection (mentioned 11 times)
-1028,code review,concept,methodology,CyBOK: code review (mentioned 12 times)
-1698,command,concept,cybok_concept,Extracted from CyBOK knowledge base
-1002,command injection,attack,technique,CyBOK: command injection (mentioned 12 times)
-729,command line,tool,application,
-765,command set,function,concept,
-542,command shell,tool,application,
-698,command-line,tool,application,
-1640,command-line CLI,concept,cybok_concept,Extracted from CyBOK knowledge base
-1652,command-line interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
-33,Commands,function,concept,
-1071,Common Criteria,standard,framework,CyBOK: Common Criteria (mentioned 25 times)
-1181,Common Vulnerability Scoring System,concept,cybok_concept,CyBOK: Common Vulnerability Scoring System (CVSS)
-1033,complete mediation,concept,principle,CyBOK: complete mediation (mentioned 5 times)
-1192,Computer Forensic Tool Testing,concept,cybok_concept,CyBOK: Computer Forensic Tool Testing (CFTT)
-691,computer security,technique,concept,
-1007,confidentiality,concept,security_property,CyBOK: confidentiality (mentioned 2 times)
-1613,configuration file,concept,cybok_concept,Extracted from CyBOK knowledge base
-528,configuration files,data,concept,
-506,configuration vulnerabilities,vulnerability,concept,
-1685,configurations,concept,cybok_concept,Extracted from CyBOK knowledge base
-429,configure,function,concept,
-1650,configured,concept,cybok_concept,Extracted from CyBOK knowledge base
-1682,configures,concept,cybok_concept,Extracted from CyBOK knowledge base
-172,connected devices,system,application,
-197,connection,feature,concept,
-1719,connection requests,concept,cybok_concept,Extracted from CyBOK knowledge base
-830,console,tool,application,
-1248,Content Security Policy,concept,cybok_concept,CyBOK: Content Security Policy (CSP)
-1421,Control,concept,cybok_concept,CyBOK: Control (ATC)
-1156,Control Flow Graph,concept,cybok_concept,CyBOK: Control Flow Graph (CFG)
-1321,Controller Area Network,concept,cybok_concept,CyBOK: Controller Area Network (CAN)
-778,CPU architecture,system,concept,
-889,crit,feature,concept,
-544,critical,feature,concept,
-1657,criticallog,concept,cybok_concept,Extracted from CyBOK knowledge base
-869,cron,feature,concept,
-972,cross-site request forgery,attack,technique,CyBOK: cross-site request forgery (mentioned 6 times)
-969,cross-site scripting,attack,technique,CyBOK: cross-site scripting (mentioned 19 times)
-1377,Cryptographically Generated Address,concept,cybok_concept,CyBOK: Cryptographically Generated Address (CGA)
-1555,Cryptography,knowledge_area,systems_security,CyBOK Knowledge Area: Cryptography
-1279,CSA,concept,cybok_concept,"CyBOK: CSA = In conjunction
-with the Cloud Security Alliance"
-1428,CSCG,concept,cybok_concept,CyBOK: CSCG = Cybersecurity Coordination Group
-1249,CSP,concept,cybok_concept,CyBOK: CSP = Content Security Policy
-971,CSRF,attack,technique,CyBOK: CSRF (mentioned 10 times)
-1154,CTF,concept,cybok_concept,CyBOK: CTF = Security awareness games Capture The Flag
-1604,Cuckoo Sandbox,concept,cybok_concept,CyBOK: Cuckoo Sandbox
-390,CVE,vulnerability,concept,
-1718,CVEs,concept,cybok_concept,Extracted from CyBOK knowledge base
-1068,CVSS,standard,framework,CyBOK: CVSS (mentioned 6 times)
-1073,Cyber Kill Chain,standard,framework,CyBOK: Cyber Kill Chain (mentioned 9 times)
-1566,Cyber-Physical Systems Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Cyber-Physical Systems Security
-446,cybercriminals,attacker,role,
-1427,Cybersecurity Coordination Group,concept,cybok_concept,CyBOK: Cybersecurity Coordination Group (CSCG)
-1039,DAC,concept,security_mechanism,CyBOK: DAC (mentioned 20 times)
-870,daemon,tool,application,
-1269,DAST,concept,cybok_concept,CyBOK: DAST = Perform Dynamic Analysis Security Testing
-102,Data,data,concept,
-1265,Data Encryption Standard,concept,cybok_concept,CyBOK: Data Encryption Standard (DES)
-116,Data Flow,feature,concept,
-1544,DCS,concept,cybok_concept,"CyBOK: DCS = Distributed
-Control Systems"
-976,DDoS,attack,technique,CyBOK: DDoS (mentioned 70 times)
-29,Decryption,function,concept,
-1646,default ,concept,cybok_concept,Extracted from CyBOK knowledge base
-552,defend,technique,concept,
-1568,defense in depth,concept,cybok_concept,CyBOK: defense in depth
-975,denial of service,attack,technique,CyBOK: denial of service (mentioned 41 times)
-384,Denial of service attack,attack,concept,
-309,denial-of-service attacks,attack,concept,
-574,deny-by-default,feature,concept,
-507,deploy,function,concept,
-1750,deployed,concept,cybok_concept,Extracted from CyBOK knowledge base
-1083,DES,algorithm,cryptographic,CyBOK: DES (mentioned 1865 times)
-305,destination,system,application,
-295,detect,technique,concept,
-1743,detected,concept,cybok_concept,Extracted from CyBOK knowledge base
-501,detection,technique,concept,
-131,Detection alert,tool,application,
-76,Detection Engine,tool,application,
-1630,detection technique,concept,cybok_concept,Extracted from CyBOK knowledge base
-502,detection threshold setup,feature,concept,
-1681,device,concept,cybok_concept,Extracted from CyBOK knowledge base
-161,devices,system,application,
-1605,DevSecOps,concept,cybok_concept,CyBOK: DevSecOps
-1191,DFRWS,concept,cybok_concept,CyBOK: DFRWS = Digital Forensics Research Workshop
-1302,DHIES,concept,cybok_concept,CyBOK: DHIES = Hellman Integrated Encryption Scheme
-1298,DHKE,concept,cybok_concept,CyBOK: DHKE = Hellman Key Exchange
-1127,DHT,concept,cybok_concept,CyBOK: DHT = Distributed Hash Table
-980,dictionary attack,attack,technique,CyBOK: dictionary attack (mentioned 2 times)
-1570,Diffie-Hellman,concept,cybok_concept,CyBOK: Diffie-Hellman
-1024,digital forensics,concept,methodology,CyBOK: digital forensics (mentioned 23 times)
-1190,Digital Forensics Research Workshop,concept,cybok_concept,CyBOK: Digital Forensics Research Workshop (DFRWS)
-1419,Digital Serial Interface,concept,cybok_concept,CyBOK: Digital Serial Interface (DVI)
-5,Digital Signature,feature,concept,
-1500,Digital Signature Standard,concept,cybok_concept,CyBOK: Digital Signature Standard (DSS)
-1459,DIMVA,concept,cybok_concept,CyBOK: DIMVA = Vulnerability Assessment
-1215,Direct Memory Access,concept,cybok_concept,CyBOK: Direct Memory Access (DMA)
-1051,disaster recovery,concept,governance,CyBOK: disaster recovery (mentioned 2 times)
-686,discover,technique,concept,
-1208,Discretionary Access Control,concept,cybok_concept,CyBOK: Discretionary Access Control (DAC)
-898,disk file,data,concept,
-1602,disk forensics,concept,cybok_concept,CyBOK: disk forensics
-1126,Distributed Hash Table,concept,cybok_concept,CyBOK: Distributed Hash Table (DHT)
-1108,Distributed System Security Symposium,concept,cybok_concept,CyBOK concept (mentioned 12 times)
-1090,Distributed Systems Security,concept,cybok_concept,CyBOK concept (mentioned 32 times)
-1216,DMA,concept,cybok_concept,CyBOK: DMA = Direct Memory Access
+1148,Open Web Application Security Project,concept,cybok_concept,CyBOK: Open Web Application Security Project (OWASP)
+1150,BYOD,concept,cybok_concept,CyBOK: BYOD = The risks arising from Bring Your Own Device
+1151,Message Authentication Reporting and Conformance,concept,cybok_concept,CyBOK: Message Authentication Reporting and Conformance (DMARC)
 1152,DMARC,concept,cybok_concept,CyBOK: DMARC = Message Authentication Reporting and Conformance
-1708,DNS proxying,concept,cybok_concept,Extracted from CyBOK knowledge base
-681,DNS queries,function,concept,
-1695,dns servers,concept,cybok_concept,Extracted from CyBOK knowledge base
-1591,DNS spoofing,concept,cybok_concept,CyBOK: DNS spoofing
-1334,DNSSEC,concept,cybok_concept,CyBOK: DNSSEC = Security Extensions
-721,dock,app,application,
-906,domain socket,feature,concept,
-208,DOS,attack,concept,
-399,dos script,function,concept,
-935,down,feature,concept,
-1075,DREAD,standard,framework,CyBOK: DREAD (mentioned 4 times)
+1154,CTF,concept,cybok_concept,CyBOK: CTF = Security awareness games Capture The Flag
+1156,Control Flow Graph,concept,cybok_concept,CyBOK: Control Flow Graph (CFG)
+1157,CFG,concept,cybok_concept,CyBOK: CFG = Control Flow Graph
+1159,NCA,concept,cybok_concept,"CyBOK: NCA = Sextortion is becoming such a relevant threat that crime prevention agencies such as the
+National Crime Agency"
+1160,Remote Access Trojan,concept,cybok_concept,CyBOK: Remote Access Trojan (RAT)
+1163,SOIM,concept,cybok_concept,CyBOK: SOIM = The roots of Security Operations and Incident Management
+1164,Intrusion Detection Systems,concept,cybok_concept,CyBOK: Intrusion Detection Systems (IDS)
+1166,IDPS,concept,cybok_concept,CyBOK: IDPS = Intrusion Prevention Systems
+1167,Security Operating Center,concept,cybok_concept,CyBOK: Security Operating Center (SOC)
+1168,Threat Intelligence,concept,cybok_concept,CyBOK: Threat Intelligence (CTI)
+1171,Intrusion Detection and Prevention Systems,concept,cybok_concept,CyBOK: Intrusion Detection and Prevention Systems (IDPS)
+1173,IDMEF,concept,cybok_concept,"CyBOK: IDMEF = Intrusion Detection
+Message Exchange Format"
+1174,IDXP,concept,cybok_concept,CyBOK: IDXP = Protocol
+1176,ISI,concept,cybok_concept,CyBOK: ISI = The Information Security Indicators
+1178,WAF,concept,cybok_concept,"CyBOK: WAF = Web
+Application Firewalls"
+1179,SDN,concept,cybok_concept,CyBOK: SDN = Networking
+1181,Common Vulnerability Scoring System,concept,cybok_concept,CyBOK: Common Vulnerability Scoring System (CVSS)
+1184,MISP,concept,cybok_concept,"CyBOK: MISP = Malware Information Sharing
+Platform"
+1187,FIRST,concept,cybok_concept,CyBOK: FIRST = Forum of Incident Response and Security Teams
+1189,ENISA,concept,cybok_concept,"CyBOK: ENISA = European Union Agency
+for Cybersecurity"
+1190,Digital Forensics Research Workshop,concept,cybok_concept,CyBOK: Digital Forensics Research Workshop (DFRWS)
+1191,DFRWS,concept,cybok_concept,CyBOK: DFRWS = Digital Forensics Research Workshop
+1192,Computer Forensic Tool Testing,concept,cybok_concept,CyBOK: Computer Forensic Tool Testing (CFTT)
+1193,CFTT,concept,cybok_concept,CyBOK: CFTT = Computer Forensic Tool Testing
+1194,CMA,concept,cybok_concept,CyBOK: CMA = Chosen Message Attack
+1196,PQC,concept,cybok_concept,"CyBOK: PQC = Quantum
+Cryptography"
+1197,Key Infrastructure,concept,cybok_concept,CyBOK: Key Infrastructure (PKI)
+1201,PKCS,concept,cybok_concept,CyBOK: PKCS = This forms the basic idea behind the Public Key Cryptography Standards
+1203,ORAM,concept,cybok_concept,CyBOK: ORAM = An Oblivious Random Access Memory
+1204,Identity Based Encryption,concept,cybok_concept,CyBOK: Identity Based Encryption (IBE)
+1205,IBE,concept,cybok_concept,CyBOK: IBE = Identity Based Encryption
+1206,Mandatory Access Control,concept,cybok_concept,CyBOK: Mandatory Access Control (MAC)
+1208,Discretionary Access Control,concept,cybok_concept,CyBOK: Discretionary Access Control (DAC)
+1209,Access Control List,concept,cybok_concept,CyBOK: Access Control List (ACL)
+1210,ACL,concept,cybok_concept,CyBOK: ACL = Access Control List
+1212,NSA,concept,cybok_concept,CyBOK: NSA = Linux patches for security originally developed by the National Security Agency
+1213,Flux Advanced Security Kernel,concept,cybok_concept,CyBOK: Flux Advanced Security Kernel (FLASK)
+1214,FLASK,concept,cybok_concept,CyBOK: FLASK = Flux Advanced Security Kernel
+1215,Direct Memory Access,concept,cybok_concept,CyBOK: Direct Memory Access (DMA)
+1216,DMA,concept,cybok_concept,CyBOK: DMA = Direct Memory Access
+1217,Pointer Authentication Code,concept,cybok_concept,CyBOK: Pointer Authentication Code (PAC)
+1218,PAC,concept,cybok_concept,CyBOK: PAC = Pointer Authentication Code
+1219,Supervisor Mode Access Protection,concept,cybok_concept,CyBOK: Supervisor Mode Access Protection (SMAP)
+1220,SMAP,concept,cybok_concept,CyBOK: SMAP = Supervisor Mode Access Protection
+1221,Privileged Access Never,concept,cybok_concept,CyBOK: Privileged Access Never (PAN)
+1223,Key Value Store,concept,cybok_concept,CyBOK: Key Value Store (KVS)
+1224,KVS,concept,cybok_concept,CyBOK: KVS = Key Value Store
+1225,Supervisory Control and Data Acquisition,concept,cybok_concept,CyBOK: Supervisory Control and Data Acquisition (SCADA)
+1227,RTP,concept,cybok_concept,"CyBOK: RTP = Another
+routing attack variant is Routing Table Poisoning"
+1229,LEA,concept,cybok_concept,CyBOK: LEA = Variants of Eclipse attacks include Localised Eclipse Attacks
+1230,Outgoing Eclipse Attacks,concept,cybok_concept,CyBOK: Outgoing Eclipse Attacks (OEA)
+1231,OEA,concept,cybok_concept,CyBOK: OEA = Outgoing Eclipse Attacks
+1233,Security Assertion Markup Language,concept,cybok_concept,CyBOK: Security Assertion Markup Language (SAML)
+1234,Network Address Translation,concept,cybok_concept,CyBOK: Network Address Translation (NAT)
+1237,IBAC,concept,cybok_concept,"CyBOK: IBAC = Based Access
+Control"
+1238,CBAC,concept,cybok_concept,CyBOK: CBAC = Based Access Control
 1240,DRM,concept,cybok_concept,"CyBOK: DRM = Digital Rights Management
 
 Digital Rights Management"
-563,dropped packets,data,concept,
-1304,DSKS,concept,cybok_concept,CyBOK: DSKS = This gap leads to Duplicate Signature Key Selection
-1501,DSS,concept,cybok_concept,CyBOK: DSS = Digital Signature Standard
-1420,DVI,concept,cybok_concept,CyBOK: DVI = Digital Serial Interface
-1360,EAP,concept,cybok_concept,"CyBOK: EAP = Extensible Authentication
-Protocol"
-1592,eavesdropping,concept,cybok_concept,CyBOK: eavesdropping
-1297,ECC,concept,cybok_concept,"CyBOK: ECC = Elliptic
-Curve Cryptography"
-1505,ECDSA,concept,cybok_concept,"CyBOK: ECDSA = Elliptic
-Curve Digital Signature Algorithm"
-1035,economy of mechanism,concept,principle,CyBOK: economy of mechanism (mentioned 6 times)
-1352,EIGRP,concept,cybok_concept,CyBOK: EIGRP = Enhanced Interior Gateway Routing Protocol
-1085,elliptic curve,algorithm,cryptographic,CyBOK: elliptic curve (mentioned 34 times)
-1343,Encapsulation Security Payload,concept,cybok_concept,CyBOK: Encapsulation Security Payload (ESP)
-28,Encryption,function,concept,
-1351,Enhanced Interior Gateway Routing Protocol,concept,cybok_concept,CyBOK: Enhanced Interior Gateway Routing Protocol (EIGRP)
-1189,ENISA,concept,cybok_concept,"CyBOK: ENISA = European Union Agency
-for Cybersecurity"
-170,enterprise-scale networks,system,application,
-825,Enum4linux,tool,application,
-811,enumerate,function,concept,
-888,err,feature,concept,
-852,error,data,concept,
-901,error message,data,concept,
-1666,errors,concept,cybok_concept,Extracted from CyBOK knowledge base
-1721,established,concept,cybok_concept,Extracted from CyBOK knowledge base
-1676,established connection,concept,cybok_concept,Extracted from CyBOK knowledge base
-316,established connections,feature,concept,
-466,evading,technique,concept,
-694,evasion,technique,concept,
-1600,evidence,concept,cybok_concept,CyBOK: evidence
-387,exploit,technique,concept,
-727,exploit code,function,concept,
-731,exploit parameters,feature,concept,
-1631,exploits,concept,cybok_concept,Extracted from CyBOK knowledge base
-492,explore,technique,concept,
-1667,exposed,concept,cybok_concept,Extracted from CyBOK knowledge base
-1361,Extensible Authentication Protocol,concept,cybok_concept,CyBOK: Extensible Authentication Protocol (EAP)
-1745,facilities,concept,cybok_concept,Extracted from CyBOK knowledge base
-865,facility,system,application,
-1032,fail-safe defaults,concept,principle,CyBOK: fail-safe defaults (mentioned 7 times)
-1077,FAIR,standard,framework,CyBOK: FAIR (mentioned 51 times)
-1006,fault injection,attack,technique,CyBOK: fault injection (mentioned 3 times)
-1661,features,concept,cybok_concept,Extracted from CyBOK knowledge base
-1287,FHE,concept,cybok_concept,CyBOK: FHE = Fully Homomorphic Encryption
-1383,Fi Protected Access,concept,cybok_concept,CyBOK: Fi Protected Access (WPA)
-864,fields,feature,concept,
-1615,file,concept,cybok_concept,Extracted from CyBOK knowledge base
-103,Files,data,concept,
-245,filtered ports,feature,concept,
-1608,Filtering,concept,cybok_concept,Extracted from CyBOK knowledge base
-214,FIN packets,data,concept,
-1072,FIPS,standard,framework,CyBOK: FIPS (mentioned 25 times)
-133,Firewall,tool,application,
-1649,firewall rule,concept,cybok_concept,Extracted from CyBOK knowledge base
-471,firewall rules,function,concept,
-1606,firewalls,concept,cybok_concept,Extracted from CyBOK knowledge base
-1187,FIRST,concept,cybok_concept,CyBOK: FIRST = Forum of Incident Response and Security Teams
-1690,flagged ,concept,cybok_concept,Extracted from CyBOK knowledge base
-1737,flags,concept,cybok_concept,Extracted from CyBOK knowledge base
-744,Flash player,tool,application,
-1214,FLASK,concept,cybok_concept,CyBOK: FLASK = Flux Advanced Security Kernel
-581,flooding,attack,concept,
-386,floods,attack,concept,
-1213,Flux Advanced Security Kernel,concept,cybok_concept,CyBOK: Flux Advanced Security Kernel (FLASK)
-104,Folder,data,concept,
-1554,Forensics,knowledge_area,attacks_defences,CyBOK Knowledge Area: Forensics
-356,Forge,vulnerability,concept,
-1756,forged,concept,cybok_concept,Extracted from CyBOK knowledge base
-618,Forging,attack,concept,
-1559,Formal Methods for Security,knowledge_area,systems_security,CyBOK Knowledge Area: Formal Methods for Security
-928,forward,feature,concept,
-135,forwarding,feature,concept,
-650,fragment,feature,concept,
-655,Fragmentation,technique,concept,
-645,fragmentation assembly timeouts,feature,concept,
-419,FTP,feature,concept,
-1712,FTP anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
-1286,Fully Homomorphic Encryption,concept,cybok_concept,CyBOK: Fully Homomorphic Encryption (FHE)
-403,fuzzing attacks,attack,concept,
-279,gateway,system,application,
-1135,GCI,concept,cybok_concept,CyBOK: GCI = Global Cybersecurity Index
-1066,GDPR,standard,regulation,CyBOK: GDPR (mentioned 77 times)
-1581,Ghidra,concept,cybok_concept,CyBOK: Ghidra
-1134,Global Cybersecurity Index,concept,cybok_concept,CyBOK: Global Cybersecurity Index (GCI)
-1588,GnuPG,concept,cybok_concept,CyBOK: GnuPG
-1337,GPG,concept,cybok_concept,"CyBOK: GPG = Privacy
-Guard"
-717,graphical user interface,app,application,
-1409,HAC,concept,cybok_concept,"CyBOK: HAC = The idea of having a High Assurance
-Controller"
-448,hack,attack,concept,
-181,hacker,attacker,role,
-1565,Hardware Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Hardware Security
-1098,Hardware Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 10 times)
-1255,Hardware Security Module,concept,cybok_concept,CyBOK: Hardware Security Module (HSM)
-1057,hash function,concept,security_mechanism,CyBOK: hash function (mentioned 77 times)
-1585,Hashcat,concept,cybok_concept,CyBOK: Hashcat
-1014,hashing,concept,security_mechanism,CyBOK: hashing (mentioned 24 times)
-1367,HDLC,concept,cybok_concept,CyBOK: HDLC = Level Data Link Control
-1726,header anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
-1301,Hellman Integrated Encryption Scheme,concept,cybok_concept,CyBOK: Hellman Integrated Encryption Scheme (DHIES)
-1092,Hellman Key Exchange,concept,cybok_concept,CyBOK concept (mentioned 6 times)
-231,hidden RPC services,vulnerability,concept,
-1397,HIDS,concept,cybok_concept,"CyBOK: HIDS = Host
-Intrusion Detection System"
-1410,High Performance Controller,concept,cybok_concept,CyBOK: High Performance Controller (HPC)
-232,high UDP ports,feature,concept,
-1070,HIPAA,standard,regulation,CyBOK: HIPAA (mentioned 3 times)
-1086,HMAC,algorithm,cryptographic,CyBOK: HMAC (mentioned 15 times)
-85,Host,system,application,
-259,host-timeout,feature,concept,
-193,hosting,feature,concept,
-958,hostname,feature,concept,
-1664,hosts,concept,cybok_concept,Extracted from CyBOK knowledge base
-1411,HPC,concept,cybok_concept,CyBOK: HPC = High Performance Controller
-72,Hping3,tool,application,
-1706,hpings,concept,cybok_concept,Extracted from CyBOK knowledge base
-1061,HSM,concept,security_mechanism,CyBOK: HSM (mentioned 38 times)
-1260,HSTS,concept,cybok_concept,CyBOK: HSTS = Strict Transport Security
-6,Http,feature,concept,
-1638,HTTP anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
-1017,HTTPS,concept,protocol,CyBOK: HTTPS (mentioned 697 times)
-1548,Human Factors,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Human Factors
-1546,Human Organisational Regulatory,category,cybok_category,CyBOK Category: Human Organisational Regulatory
-1123,Hyper Text Transfer Protocol Secure,concept,cybok_concept,CyBOK: Hyper Text Transfer Protocol Secure (HTTPS)
-1091,Hypertext Transfer Protocol,concept,cybok_concept,CyBOK concept (mentioned 6 times)
-1237,IBAC,concept,cybok_concept,"CyBOK: IBAC = Based Access
-Control"
-1316,IBC,concept,cybok_concept,CyBOK: IBC = Based Cryptography
-1205,IBE,concept,cybok_concept,CyBOK: IBE = Identity Based Encryption
-1358,ICMP,concept,cybok_concept,"CyBOK: ICMP = Security
-
-Internet Control Message Protocol"
-569,ICMP destination unreachable error,data,concept,
-1642,ICMP error message,concept,cybok_concept,Extracted from CyBOK knowledge base
-249,ICMP port unreachable error,feature,concept,
-241,ICMP Port Unreachable message,data,concept,
-607,icmp-host-prohibited,feature,concept,
-1418,ICS,concept,cybok_concept,"CyBOK: ICS = Guide to Industrial
-Control System"
-545,identify,technique,concept,
-1204,Identity Based Encryption,concept,cybok_concept,CyBOK: Identity Based Encryption (IBE)
-346,IDLE scan,technique,concept,
-1173,IDMEF,concept,cybok_concept,"CyBOK: IDMEF = Intrusion Detection
-Message Exchange Format"
-1166,IDPS,concept,cybok_concept,CyBOK: IDPS = Intrusion Prevention Systems
-436,IDS,tool,application,
-480,IDS system,tool,application,
-1694,IDSs,concept,cybok_concept,Extracted from CyBOK knowledge base
-1174,IDXP,concept,cybok_concept,CyBOK: IDXP = Protocol
-740,ie_execcommand_ua,vulnerability,concept,
-796,ifconfig command,function,concept,
-1115,IISP,concept,cybok_concept,CyBOK: IISP = Institute of Information Security Professionals
-1331,IMAP,concept,cybok_concept,CyBOK: IMAP = Internet Message Access Protocol
-1023,incident response,concept,methodology,CyBOK: incident response (mentioned 33 times)
-285,incoming,feature,concept,
-1754,incoming traffic,concept,cybok_concept,Extracted from CyBOK knowledge base
-1096,Industrial Control Systems,concept,cybok_concept,CyBOK concept (mentioned 6 times)
-174,information,data,concept,
-1112,Information Systems Security Professional,concept,cybok_concept,CyBOK: Information Systems Security Professional (CISSP)
-1618,information-,concept,cybok_concept,Extracted from CyBOK knowledge base
-1561,Infrastructure Security,category,cybok_category,CyBOK Category: Infrastructure Security
-97,Ingress,feature,concept,
-626,inline,feature,concept,
-1000,insider threat,attack,technique,CyBOK: insider threat (mentioned 6 times)
-1675,installed,concept,cybok_concept,Extracted from CyBOK knowledge base
-926,instances,system,application,
-1114,Institute of Information Security Professionals,concept,cybok_concept,CyBOK: Institute of Information Security Professionals (IISP)
-1008,integrity,concept,security_property,CyBOK: integrity (mentioned 250 times)
-378,intel,system,application,
-1479,Intelligence and Security Informatics,concept,cybok_concept,CyBOK: Intelligence and Security Informatics (ISI)
-1644,interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
-1511,Internet Key Exchange,concept,cybok_concept,CyBOK: Internet Key Exchange (IKE)
-1330,Internet Message Access Protocol,concept,cybok_concept,CyBOK: Internet Message Access Protocol (IMAP)
-1318,Internet Protocol,concept,cybok_concept,CyBOK: Internet Protocol (IP)
-57,Intrusion,attack,concept,
-535,Intrusion Detection,technique,concept,
-1171,Intrusion Detection and Prevention Systems,concept,cybok_concept,CyBOK: Intrusion Detection and Prevention Systems (IDPS)
-118,Intrusion Detection System,tool,application,
-1164,Intrusion Detection Systems,concept,cybok_concept,CyBOK: Intrusion Detection Systems (IDS)
-1696,Intrusion Detection Systems IDS,concept,cybok_concept,Extracted from CyBOK knowledge base
-1047,intrusion prevention,concept,security_mechanism,CyBOK: intrusion prevention (mentioned 11 times)
-1398,Intrusion Prevention System,concept,cybok_concept,CyBOK: Intrusion Prevention System (IPS)
-427,Intrusion Prevention Systems,tool,application,
-1749,Intrusion Prevention Systems IPS,concept,cybok_concept,Extracted from CyBOK knowledge base
-293,intrusive,attack,concept,
-404,intrusive script,function,concept,
-1063,IoT,concept,infrastructure,CyBOK: IoT (mentioned 146 times)
-173,IoT security,technique,concept,
-202,IP address,feature,concept,
-1645,IP addresses,concept,cybok_concept,Extracted from CyBOK knowledge base
-637,IP fragments,feature,concept,
-354,IP ID,feature,concept,
-665,IP identification field,feature,concept,
-1729,IP packets,concept,cybok_concept,Extracted from CyBOK knowledge base
-426,IPS,tool,application,
-437,IPS security,technique,concept,
-593,IPS systems,tool,application,
-1018,IPsec,concept,protocol,CyBOK: IPsec (mentioned 36 times)
-485,iptables,app,application,
-1138,IRGC,concept,cybok_concept,CyBOK: IRGC = This model from the International Risk Governance Council
-1350,ISAKMP,concept,cybok_concept,CyBOK: ISAKMP = Internet Security Association and Key Management Protocol
-1141,ISF,concept,cybok_concept,CyBOK: ISF = The Information Security Forum
-1176,ISI,concept,cybok_concept,CyBOK: ISI = The Information Security Indicators
-1597,ISO 27001,concept,cybok_concept,CyBOK: ISO 27001
-847,issues,vulnerability,concept,
-1584,John the Ripper,concept,cybok_concept,CyBOK: John the Ripper
-1651,Kali Linux ,concept,cybok_concept,Extracted from CyBOK knowledge base
-799,Kali Linux machine,system,application,
-697,Kali Linux operating system,system,application,
-1253,KAS,concept,cybok_concept,CyBOK: KAS = Users share a password with a Kerberos Authentication Server
-1310,KDF,concept,cybok_concept,CyBOK: KDF = Key Derivation Function
-1314,KEK,concept,cybok_concept,CyBOK: KEK = Key Encryption Key
-1295,KEM,concept,cybok_concept,CyBOK: KEM = Key Encapsulation Mechanism
-1087,Kerberos,algorithm,protocol,CyBOK: Kerberos (mentioned 23 times)
-871,kern,app,application,
-894,kernel,app,application,
-1103,Key Derivation Function,concept,cybok_concept,CyBOK concept (mentioned 5 times)
-1294,Key Encapsulation Mechanism,concept,cybok_concept,CyBOK: Key Encapsulation Mechanism (KEM)
-1313,Key Encryption Key,concept,cybok_concept,CyBOK: Key Encryption Key (KEK)
-1197,Key Infrastructure,concept,cybok_concept,CyBOK: Key Infrastructure (PKI)
-1054,key management,concept,security_mechanism,CyBOK: key management (mentioned 32 times)
-1223,Key Value Store,concept,cybok_concept,CyBOK: Key Value Store (KVS)
-991,keylogger,attack,malware,CyBOK: keylogger (mentioned 2 times)
-1224,KVS,concept,cybok_concept,CyBOK: KVS = Key Value Store
-119,language,feature,concept,
-1593,lateral movement,concept,cybok_concept,CyBOK: lateral movement
-1547,Law and Regulation,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Law and Regulation
-1229,LEA,concept,cybok_concept,CyBOK: LEA = Variants of Eclipse attacks include Localised Eclipse Attacks
-1029,least privilege,concept,principle,CyBOK: least privilege (mentioned 11 times)
-820,legacy systems,system,application,
-176,legitimate,feature,concept,
-1366,Level Data Link Control,concept,cybok_concept,CyBOK: Level Data Link Control (HDLC)
-1284,Lightweight Application Security Process,concept,cybok_concept,CyBOK: Lightweight Application Security Process (CLASP)
-80,Linux,system,application,
-786,Linux machine,system,application,
-734,Linux terminal,system,application,
-225,listening,feature,concept,
-158,live hosts,system,application,
-1319,Local Area Network,concept,cybok_concept,CyBOK: Local Area Network (LAN)
-393,locally,feature,concept,
-918,location,system,application,
-77,Log Alert System,tool,application,
-1582,log analysis,concept,cybok_concept,CyBOK: log analysis
-908,log data,data,concept,
-892,log file,data,concept,
-1636,log files,concept,cybok_concept,Extracted from CyBOK knowledge base
-1670,log messages,concept,cybok_concept,Extracted from CyBOK knowledge base
-920,log server,system,application,
-963,log-level,feature,concept,
-222,logged,function,concept,
-879,logging,function,concept,
-858,logging system,tool,application,
-209,logs,data,concept,
-1038,MAC,concept,security_mechanism,CyBOK: MAC (mentioned 461 times)
-1609,machine,concept,cybok_concept,Extracted from CyBOK knowledge base
-233,machines,system,application,
-616,mail hosts,system,application,
-353,malicious attacks,attack,concept,
-1580,malware,concept,cybok_concept,CyBOK: malware
-1025,malware analysis,concept,methodology,CyBOK: malware analysis (mentioned 38 times)
-1550,Malware and Attack Technologies,knowledge_area,attacks_defences,CyBOK Knowledge Area: Malware and Attack Technologies
-977,man-in-the-middle,attack,technique,CyBOK: man-in-the-middle (mentioned 12 times)
-1206,Mandatory Access Control,concept,cybok_concept,CyBOK: Mandatory Access Control (MAC)
-155,map,function,concept,
-1082,MD5,algorithm,cryptographic,CyBOK: MD5 (mentioned 7 times)
-1578,memory forensics,concept,cybok_concept,CyBOK: memory forensics
-881,message,data,concept,
-1120,Message Authentication Code,concept,cybok_concept,CyBOK: Message Authentication Code (MAC)
-1151,Message Authentication Reporting and Conformance,concept,cybok_concept,CyBOK: Message Authentication Reporting and Conformance (DMARC)
-1692,messages,concept,cybok_concept,Extracted from CyBOK knowledge base
-685,Metasploit,tool,application,
-188,Metasploit framework,tool,application,
-1688,Metasploit Framework msf,concept,cybok_concept,Extracted from CyBOK knowledge base
-785,Metasploitable 2,system,application,
-1118,Microsoft Security Development Lifecycle,concept,cybok_concept,CyBOK: Microsoft Security Development Lifecycle (SDL)
-1184,MISP,concept,cybok_concept,"CyBOK: MISP = Malware Information Sharing
-Platform"
-978,MITM,attack,technique,CyBOK: MITM (mentioned 19 times)
-1105,Mobile Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 5 times)
-1276,Mobile Security Testing Guide,concept,cybok_concept,CyBOK: Mobile Security Testing Guide (MSTG)
-700,module,function,concept,
-1669,modules,concept,cybok_concept,Extracted from CyBOK knowledge base
-1622,monitor,concept,cybok_concept,Extracted from CyBOK knowledge base
-601,monitoring,technique,concept,
-1407,MPC,concept,cybok_concept,"CyBOK: MPC = One intuitive idea for this type of control algorithm is
-to use Model Predictive Control"
-1348,MPLS,concept,cybok_concept,CyBOK: MPLS = Multiprotocol Label Switching
-1655,MSF Metasploit framework,concept,cybok_concept,Extracted from CyBOK knowledge base
-797,msfadmin/msfadmin,feature,concept,
-520,msfconsole,tool,application,
-1277,MSTG,concept,cybok_concept,CyBOK: MSTG = Mobile Security Testing Guide
-1040,multi-factor authentication,concept,security_mechanism,CyBOK: multi-factor authentication (mentioned 9 times)
-1347,Multiprotocol Label Switching,concept,cybok_concept,CyBOK: Multiprotocol Label Switching (MPLS)
-341,name,feature,concept,
-1730,names,concept,cybok_concept,Extracted from CyBOK knowledge base
-1101,National Cyber Security Centre,concept,cybok_concept,CyBOK concept (mentioned 7 times)
-1305,National Security Agency,concept,cybok_concept,CyBOK: National Security Agency (NSA)
-1159,NCA,concept,cybok_concept,"CyBOK: NCA = Sextortion is becoming such a relevant threat that crime prevention agencies such as the
-National Crime Agency"
-1117,NCSC,concept,cybok_concept,"CyBOK: NCSC = An instantiation of the framework for the National
-Cyber Security Centre"
-1131,NDP,concept,cybok_concept,CyBOK: NDP = Neighbor Discovery Protocol
-1723,negatives,concept,cybok_concept,Extracted from CyBOK knowledge base
-1130,Neighbor Discovery Protocol,concept,cybok_concept,CyBOK: Neighbor Discovery Protocol (NDP)
-1573,Nessus,concept,cybok_concept,CyBOK: Nessus
-585,netblocks,technique,concept,
-798,netdiscover,tool,application,
-137,Network,system,application,
-1234,Network Address Translation,concept,cybok_concept,CyBOK: Network Address Translation (NAT)
-154,network administrators,securityTeam,role,
-1508,Network and Distributed System Security,concept,cybok_concept,CyBOK: Network and Distributed System Security (NDSS)
-56,Network Attacks,attack,concept,
-16,Network Behavior,feature,concept,
-144,network discovery,technique,concept,
-1601,network forensics,concept,cybok_concept,CyBOK: network forensics
-1400,Network Functions Virtualisation,concept,cybok_concept,CyBOK: Network Functions Virtualisation (NFV)
-1619,network mapper,concept,cybok_concept,Extracted from CyBOK knowledge base
-200,network monitoring,technique,concept,
-406,network noise,feature,concept,
-689,network operators,securityTeam,role,
-162,network scanning,technique,concept,
-438,network security,technique,concept,
-1100,Network Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 8 times)
-1046,network segmentation,concept,security_mechanism,CyBOK: network segmentation (mentioned 8 times)
-1124,Network Time Protocol,concept,cybok_concept,CyBOK: Network Time Protocol (NTP)
-576,network traffic,data,concept,
-191,network vulnerabilities,vulnerability,concept,
-490,networking,system,application,
-488,networking system setup,system,application,
-156,networks,system,application,
-1324,NFV,concept,cybok_concept,CyBOK: NFV = The concept of Network Functions Virtualisation
-1496,NICE,concept,cybok_concept,"CyBOK: NICE = National Initiative for Cybersecurity
-Education"
-1065,NIST,standard,framework,CyBOK: NIST (mentioned 333 times)
-1594,NIST CSF,concept,cybok_concept,CyBOK: NIST CSF
-68,Nmap,tool,application,
-359,Nmap Scripting Engine,tool,application,
-360,Nmap scripts,function,concept,
-1634,Nmap�s,concept,cybok_concept,Extracted from CyBOK knowledge base
-829,nmblookup,tool,application,
-499,node,system,application,
-498,nodes,system,application,
-1735,non payload options,concept,cybok_concept,Extracted from CyBOK knowledge base
-1012,non-repudiation,concept,security_property,CyBOK: non-repudiation (mentioned 16 times)
-328,non-Windows servers,system,application,
-771,NOP generators,function,concept,
-579,Nping,tool,application,
-1212,NSA,concept,cybok_concept,CyBOK: NSA = Linux patches for security originally developed by the National Security Agency
-358,NSE,tool,application,
-1443,NSS,concept,cybok_concept,"CyBOK: NSS = Network and
-System Security"
-1125,NTP,concept,cybok_concept,CyBOK: NTP = Network Time Protocol
-1271,NVD,concept,cybok_concept,"CyBOK: NVD = National Vulnerability
-Database"
-1042,OAuth,concept,protocol,CyBOK: OAuth (mentioned 31 times)
-1244,OCSP,concept,cybok_concept,CyBOK: OCSP = Status Protocol
-1076,OCTAVE,standard,framework,CyBOK: OCTAVE (mentioned 4 times)
-1231,OEA,concept,cybok_concept,CyBOK: OEA = Outgoing Eclipse Attacks
-243,open,feature,concept,
-1034,open design,concept,principle,CyBOK: open design (mentioned 8 times)
-228,open port,feature,concept,
-178,open ports,feature,concept,
-1660,open source,concept,cybok_concept,Extracted from CyBOK knowledge base
-1148,Open Web Application Security Project,concept,cybok_concept,CyBOK: Open Web Application Security Project (OWASP)
-1700,open-source ,concept,cybok_concept,Extracted from CyBOK knowledge base
-1740,opened,concept,cybok_concept,Extracted from CyBOK knowledge base
-802,OpenSSH,tool,application,
-967,OpenSSL,tool,application,CyBOK: OpenSSL (mentioned 15 times)
-1574,OpenVAS,concept,cybok_concept,CyBOK: OpenVAS
-1647,Operating System,concept,cybok_concept,Extracted from CyBOK knowledge base
-164,operating systems,system,application,
-1558,Operating Systems and Virtualisation Security,knowledge_area,systems_security,CyBOK Knowledge Area: Operating Systems and Virtualisation Security
-1393,Opportunistic Wireless Encryption,concept,cybok_concept,CyBOK: Opportunistic Wireless Encryption (OWE)
-1203,ORAM,concept,cybok_concept,CyBOK: ORAM = An Oblivious Random Access Memory
-754,OSVDB ID,feature,concept,
-1230,Outgoing Eclipse Attacks,concept,cybok_concept,CyBOK: Outgoing Eclipse Attacks (OEA)
-491,output,feature,concept,
-78,Output Module,tool,application,
-1728,outputs,concept,cybok_concept,Extracted from CyBOK knowledge base
-1143,OWASP,concept,cybok_concept,"CyBOK: OWASP = Open Web
-Application Security Project"
-1067,OWASP Top 10,standard,framework,CyBOK: OWASP Top 10 (mentioned 2 times)
-1583,OWASP ZAP,concept,cybok_concept,CyBOK: OWASP ZAP
-1218,PAC,concept,cybok_concept,CyBOK: PAC = Pointer Authentication Code
-17,Packet,data,concept,
-18,packet data,data,concept,
-114,Packet Decoder,tool,application,
-315,packet filtering,technique,concept,
-594,packet flow,feature,concept,
-600,Packet Forgery,attack,concept,
-138,Packet forwarding,feature,concept,
-115,packet logger,tool,application,
-1612,packets,concept,cybok_concept,Extracted from CyBOK knowledge base
-1710,packets ACK bit,concept,cybok_concept,Extracted from CyBOK knowledge base
-1312,PAKE,concept,cybok_concept,"CyBOK: PAKE = Password
-Authenticated Key Exchange"
-1369,PAP,concept,cybok_concept,CyBOK: PAP = Password Authentication Protocol
-543,parameters,feature,concept,
-635,paranoid option,feature,concept,
-1752,passively,concept,cybok_concept,Extracted from CyBOK knowledge base
-10,Password,feature,concept,
-1368,Password Authentication Protocol,concept,cybok_concept,CyBOK: Password Authentication Protocol (PAP)
-957,path,feature,concept,
-23,Payload,data,concept,
-1671,payload options,concept,cybok_concept,Extracted from CyBOK knowledge base
-1648,payloads,concept,cybok_concept,Extracted from CyBOK knowledge base
-1069,PCI DSS,standard,regulation,CyBOK: PCI DSS (mentioned 9 times)
-1363,PEAP,concept,cybok_concept,CyBOK: PEAP = Protected Extensible Authentication Protocol
-476,pen tester,securityTeam,role,
-1680,penetration tester,concept,cybok_concept,Extracted from CyBOK knowledge base
-433,Penetration Testing,technique,concept,
-451,pentest,technique,concept,
-469,Pentesting tools,tool,application,
-385,perform,function,concept,
-1268,Perform Dynamic Analysis Security Testing,concept,cybok_concept,CyBOK: Perform Dynamic Analysis Security Testing (DAST)
-1266,Perform Static Analysis Security Testing,concept,cybok_concept,CyBOK: Perform Static Analysis Security Testing (SAST)
-500,performance measurements,technique,concept,
-826,Perl,tool,application,
-1699,personal,concept,cybok_concept,Extracted from CyBOK knowledge base
-1329,PGP,concept,cybok_concept,CyBOK: PGP = Schemes like Pretty Good Privacy
-973,phishing,attack,technique,CyBOK: phishing (mentioned 67 times)
-1567,Physical Layer and Telecommunications Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Physical Layer and Telecommunications Security
-1095,Physical Systems Security,concept,cybok_concept,CyBOK concept (mentioned 38 times)
-518,ping,function,concept,
-1201,PKCS,concept,cybok_concept,CyBOK: PKCS = This forms the basic idea behind the Public Key Cryptography Standards
-1288,PKE,concept,cybok_concept,CyBOK: PKE = Public Key Encryption
-1015,PKI,concept,infrastructure,CyBOK: PKI (mentioned 49 times)
-737,platform,app,application,
-1633,platforms,concept,cybok_concept,Extracted from CyBOK knowledge base
-1405,PLC,concept,cybok_concept,CyBOK: PLC = Programmable Logic Controller
-1663,plugins,concept,cybok_concept,Extracted from CyBOK knowledge base
-1364,Point Protocol,concept,cybok_concept,CyBOK: Point Protocol (PPP)
-1217,Pointer Authentication Code,concept,cybok_concept,CyBOK: Pointer Authentication Code (PAC)
-1665,policies,concept,cybok_concept,Extracted from CyBOK knowledge base
-575,policy,feature,concept,
-1332,POP,concept,cybok_concept,CyBOK: POP = Protocol
-83,Port,feature,concept,
-619,port 113,feature,concept,
-352,port number,feature,concept,
-1732,port scan,concept,cybok_concept,Extracted from CyBOK knowledge base
-1701,port scanned,concept,cybok_concept,Extracted from CyBOK knowledge base
-267,port scanner,tool,application,
-159,port scanning,technique, concept,
-357,port state,feature,concept,
-459,portmapper,tool,application,
-1626,ports,concept,cybok_concept,Extracted from CyBOK knowledge base
-835,post scan scripts,function,concept,
-1196,PQC,concept,cybok_concept,"CyBOK: PQC = Quantum
-Cryptography"
-79,Preprocessor,tool,application,
-120,previous attack pattern,feature,concept,
-886,print,function,concept,
-866,priority,feature,concept,
-1052,privacy,concept,security_property,CyBOK: privacy (mentioned 747 times)
-1549,Privacy and Online Rights,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Privacy and Online Rights
-1109,Privacy Enhancing Technologies,concept,cybok_concept,CyBOK concept (mentioned 9 times)
-1,Private key,feature,concept,
-979,privilege escalation,attack,technique,CyBOK: privilege escalation (mentioned 2 times)
-1221,Privileged Access Never,concept,cybok_concept,CyBOK: Privileged Access Never (PAN)
-189,probe,technique,concept,
-139,process,technique,concept,
-184,processes,technique,concept,
-467,Product evaluation,technique,concept,
-157,program,function,concept,
-1404,Programmable Logic Controller,concept,cybok_concept,CyBOK: Programmable Logic Controller (PLC)
-1541,Programmable Logic Controllers,concept,cybok_concept,CyBOK: Programmable Logic Controllers (PLC)
-1616,programs,concept,cybok_concept,Extracted from CyBOK knowledge base
-526,protect,feature,concept,
-1362,Protected Extensible Authentication Protocol,concept,cybok_concept,CyBOK: Protected Extensible Authentication Protocol (PEAP)
-468,protection,feature,concept,
-4,Protocol,feature,concept,
-62,Protocol Analysis,technique,concept,
-1717,protocols,concept,cybok_concept,Extracted from CyBOK knowledge base
-1734,proxied,concept,cybok_concept,Extracted from CyBOK knowledge base
-1388,PSK,concept,cybok_concept,CyBOK: PSK = Shared Key
-1457,PST,concept,cybok_concept,"CyBOK: PST = Annual International
-Conference on Privacy Security and Trust"
-96,Public Domain,system,application,
-1107,Public Key Cryptography,concept,cybok_concept,CyBOK concept (mentioned 9 times)
-1089,Public Key Encryption,concept,cybok_concept,CyBOK concept (mentioned 7 times)
-1093,Public Key Infrastructure,concept,cybok_concept,CyBOK concept (mentioned 6 times)
-1309,QKD,concept,cybok_concept,"CyBOK: QKD = The most mature branch of quantum
-cryptography is Quantum Key Distribution"
-1003,race condition,attack,technique,CyBOK: race condition (mentioned 18 times)
-1088,RADIUS,algorithm,protocol,CyBOK: RADIUS (mentioned 4 times)
-987,ransomware,attack,malware,CyBOK: ransomware (mentioned 33 times)
-1376,RARP,concept,cybok_concept,"CyBOK: RARP = Similar attacks are possible for the Reverse
-Address Resolution Protocol"
-268,raw IP packets,data,concept,
-656,raw packet,data,concept,
-1036,RBAC,concept,security_mechanism,CyBOK: RBAC (mentioned 33 times)
-730,realvnc_client,vulnerability,concept,
-572,reboot,function,concept,
-294,receive,function,concept,
-1637,received,concept,cybok_concept,Extracted from CyBOK knowledge base
-1686,reliably,concept,cybok_concept,Extracted from CyBOK knowledge base
-394,remote,feature,concept,
-1160,Remote Access Trojan,concept,cybok_concept,CyBOK: Remote Access Trojan (RAT)
-339,remote commands,function, concept,
-365,remote host,system,application,
-338,Remote Procedure Call,function,concept,
-944,remote server,system,application,
-646,remote system,system,application,
-690,remote target machine,system,application,
-981,replay attack,attack,technique,CyBOK: replay attack (mentioned 11 times)
-1678,requirements,concept,cybok_concept,Extracted from CyBOK knowledge base
-299,RESET,feature,concept,
-217,RESET packet,data,concept,
-1614,RESET RST,concept,cybok_concept,Extracted from CyBOK knowledge base
-512,resolve,technique,concept,
-1355,Resource Public Key Infrastructure,concept,cybok_concept,CyBOK: Resource Public Key Infrastructure (RPKI)
-1624,respond,concept,cybok_concept,Extracted from CyBOK knowledge base
-1607,responds,concept,cybok_concept,Extracted from CyBOK knowledge base
-218,response,feature,concept,
-270,responses,feature,concept,
-1689,responsive,concept,cybok_concept,Extracted from CyBOK knowledge base
-903,Restart,function,concept,
-1004,return-oriented programming,attack,technique,CyBOK: return-oriented programming (mentioned 5 times)
-286,reveal,feature,concept,
-1026,reverse engineering,concept,methodology,CyBOK: reverse engineering (mentioned 22 times)
-672,reverse-DNS resolution,function,concept,
-556,RFC 793,feature,concept,
-678,risk,feature,concept,
-59,Risk Assessment,technique,concept,
-1545,Risk Management and Governance,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Risk Management and Governance
-719,rolling edition,feature,concept,
-986,rootkit,attack,malware,CyBOK: rootkit (mentioned 3 times)
-319,router,system,application,
-1725,RPC scanning,concept,cybok_concept,Extracted from CyBOK knowledge base
-340,RPC services,app,application,
-813,Rpcclient,tool,application,
-1356,RPKI,concept,cybok_concept,CyBOK: RPKI = Resource Public Key Infrastructure
-1079,RSA,algorithm,cryptographic,CyBOK: RSA (mentioned 594 times)
-560,RST packet,data,concept,
-1617,RST packets,concept,cybok_concept,Extracted from CyBOK knowledge base
-859,rsyslog,tool,application,
-948,rsyslog server,system,application,
-910,rsyslogd,data,concept,
-1227,RTP,concept,cybok_concept,"CyBOK: RTP = Another
-routing attack variant is Routing Table Poisoning"
-1673,Ruby ,concept,cybok_concept,Extracted from CyBOK knowledge base
-1659,rule,concept,cybok_concept,Extracted from CyBOK knowledge base
-623,rules,function,concept,
-1677,rulesets,concept,cybok_concept,Extracted from CyBOK knowledge base
-1392,SAE,concept,cybok_concept,"CyBOK: SAE = Simultaneous Authentication of
-Equals"
-410,Safe,feature,concept,
-409,safe script,function,concept,
-817,samba,system,application,
-1043,SAML,concept,protocol,CyBOK: SAML (mentioned 26 times)
-1044,sandboxing,concept,security_mechanism,CyBOK: sandboxing (mentioned 16 times)
-1267,SAST,concept,cybok_concept,CyBOK: SAST = Perform Static Analysis Security Testing
-1062,SCADA,concept,infrastructure,CyBOK: SCADA (mentioned 46 times)
-171,scan,technique,concept,
-185,scanned,technique,concept,
-263,scanner,tool,application,
-1724,scanners,concept,cybok_concept,Extracted from CyBOK knowledge base
-1654,scanning,concept,cybok_concept,Extracted from CyBOK knowledge base
-1668,scans,concept,cybok_concept,Extracted from CyBOK knowledge base
-1328,Schemes like Pretty Good Privacy,concept,cybok_concept,CyBOK: Schemes like Pretty Good Privacy (PGP)
-1414,SCN,concept,cybok_concept,"CyBOK: SCN = The communication between
-servers in a control room and these control equipment is done via a Supervisory Control
-Network"
-198,scripts,function,concept,
-1179,SDN,concept,cybok_concept,CyBOK: SDN = Networking
-571,secure,feature,concept,
-1059,secure boot,concept,security_mechanism,CyBOK: secure boot (mentioned 6 times)
-1027,secure coding,concept,methodology,CyBOK: secure coding (mentioned 19 times)
-1564,Secure Software Lifecycle,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Secure Software Lifecycle
-153,security,technique,concept,
-1481,Security and Privacy,concept,cybok_concept,CyBOK: Security and Privacy (SP)
-1452,Security and Privacy Workshops,concept,cybok_concept,CyBOK: Security and Privacy Workshops (SPW)
-1233,Security Assertion Markup Language,concept,cybok_concept,CyBOK: Security Assertion Markup Language (SAML)
-145,security auditing,technique,concept,
-1048,security awareness,concept,methodology,CyBOK: security awareness (mentioned 21 times)
-1598,security evaluation,concept,cybok_concept,CyBOK: security evaluation
-1333,Security Extensions,concept,cybok_concept,CyBOK: Security Extensions (DNSSEC)
-1049,security governance,concept,governance,CyBOK: security governance (mentioned 3 times)
-464,security holes,vulnerability,concept,
-1399,Security Information and Event Management,concept,cybok_concept,CyBOK: Security Information and Event Management (SIEM)
-1167,Security Operating Center,concept,cybok_concept,CyBOK: Security Operating Center (SOC)
-1553,Security Operations and Incident Management,knowledge_area,attacks_defences,CyBOK Knowledge Area: Security Operations and Incident Management
-477,security performance,technique,concept,
-12,Security Policy,technique,concept,
-1263,Security Quality Requirements Engineering,concept,cybok_concept,CyBOK: Security Quality Requirements Engineering (SQUARE)
-537,security services,app,application,
-195,security vulnerabilities,vulnerability,concept,
-862,selector field,feature,concept,
-1736,Selectors,concept,cybok_concept,Extracted from CyBOK knowledge base
-1748,send,concept,cybok_concept,Extracted from CyBOK knowledge base
-216,sender,system,application,
-1246,Sender Policy Framework,concept,cybok_concept,CyBOK: Sender Policy Framework (SPF)
-1653,sending,concept,cybok_concept,Extracted from CyBOK knowledge base
-1635,Sends,concept,cybok_concept,Extracted from CyBOK knowledge base
-1030,separation of duties,concept,principle,CyBOK: separation of duties (mentioned 5 times)
-94,Server,system,application,
-527,server node,system,application,
-961,server side,system,application,
-7,Service,app,application,
-389,service exploitation,technique,concept,
-163, services,app,application,
-1629,session,concept,cybok_concept,Extracted from CyBOK knowledge base
-984,session hijacking,attack,technique,CyBOK: session hijacking (mentioned 2 times)
-1731,sessions,concept,cybok_concept,Extracted from CyBOK knowledge base
-755,set command,function,concept,
-478,setup,system,application,
-914,setup configurations,feature,concept,
-851,severity,feature,concept,
-855,Severity Levels,feature,concept,
-1081,SHA-1,algorithm,cryptographic,CyBOK: SHA-1 (mentioned 18 times)
-1080,SHA-256,algorithm,cryptographic,CyBOK: SHA-256 (mentioned 5 times)
-1387,Shared Key,concept,cybok_concept,CyBOK: Shared Key (PSK)
-767,show advanced command,feature,concept,
-1621,show options command ,concept,cybok_concept,Extracted from CyBOK knowledge base
-763,show targets command,function,concept,
-982,side-channel attack,attack,technique,CyBOK: side-channel attack (mentioned 33 times)
-1020,SIEM,concept,security_mechanism,CyBOK: SIEM (mentioned 60 times)
-1697,signatures,concept,cybok_concept,Extracted from CyBOK knowledge base
-1326,Simple Mail Transfer Protocol,concept,cybok_concept,CyBOK: Simple Mail Transfer Protocol (SMTP)
-1041,single sign-on,concept,security_mechanism,CyBOK: single sign-on (mentioned 11 times)
-946,single-point failure,feature,concept,
-182,site,system,application,
-288,slow,feature,concept,
-631,slow down,feature,concept,
-234,slow down responses,feature,concept,
-260,slow hosts,system,application,
-236,slowdown feature,feature,concept,
-1220,SMAP,concept,cybok_concept,CyBOK: SMAP = Supervisor Mode Access Protection
-828,smbclient,system,application,
-1327,SMTP,concept,cybok_concept,CyBOK: SMTP = Simple Mail Transfer Protocol
-472,sneaking past,technique,concept,
-277,sniff,technique,concept,
-34,Sniff Mode,feature,concept,
-69,Snort,tool,application,
-538,Snort IDS,tool,application,
-1722,snort rule,concept,cybok_concept,Extracted from CyBOK knowledge base
-37,Snort Rules,function,concept,
-1021,SOC,concept,infrastructure,CyBOK: SOC (mentioned 525 times)
-995,social engineering,attack,technique,CyBOK: social engineering (mentioned 7 times)
-1562,Software Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Software Security
-1099,Software Security Knowledge Area,concept,cybok_concept,CyBOK concept (mentioned 12 times)
-1163,SOIM,concept,cybok_concept,CyBOK: SOIM = The roots of Security Operations and Incident Management
-1245,SOP,concept,cybok_concept,CyBOK: SOP = Policy
-1441,SOUPS,concept,cybok_concept,CyBOK: SOUPS = Proceedings of the Symposium On Usable Privacy and Security
-584,source,system,application,
-974,spear phishing,attack,technique,CyBOK: spear phishing (mentioned 2 times)
-1247,SPF,concept,cybok_concept,CyBOK: SPF = Sender Policy Framework
-965,Splunk,tool,application,CyBOK: Splunk (mentioned 2 times)
-65,Spoofed,vulnerability,concept,
-663,spoofing,vulnerability,concept,
-1453,SPW,concept,cybok_concept,CyBOK: SPW = Security and Privacy Workshops
-49,Spyware,attack,concept,
-43,Sql Injection,attack,concept,
-1264,SQUARE,concept,cybok_concept,CyBOK: SQUARE = Security Quality Requirements Engineering
-758,SRVHOST,feature,concept,
-801,SSH service,app,application,
-1016,SSL,concept,protocol,CyBOK: SSL (mentioned 76 times)
-1342,SSTP,concept,cybok_concept,"CyBOK: SSTP = Secure Socket Tunneling
-Protocol"
-900,standard C library,app,application,
-573,state,feature,concept,
-146,stateful,feature,concept,
-1711,statefully,concept,cybok_concept,Extracted from CyBOK knowledge base
-570,Stateless,feature,concept,
-1243,Status Protocol,concept,cybok_concept,CyBOK: Status Protocol (OCSP)
-1259,Strict Transport Security,concept,cybok_concept,CyBOK: Strict Transport Security (HSTS)
-1074,STRIDE,standard,framework,CyBOK: STRIDE (mentioned 12 times)
-880,subsystem,system,application,
-550,Subverting,technique,concept,
-1219,Supervisor Mode Access Protection,concept,cybok_concept,CyBOK: Supervisor Mode Access Protection (SMAP)
-1225,Supervisory Control and Data Acquisition,concept,cybok_concept,CyBOK: Supervisory Control and Data Acquisition (SCADA)
-997,supply chain attack,attack,technique,CyBOK: supply chain attack (mentioned 2 times)
-964,Suricata,tool,application,CyBOK: Suricata (mentioned 8 times)
-597,Suspicious,vulnerability,concept,
-595,suspicious activity,vulnerability,concept,
-1055,symmetric encryption,concept,security_mechanism,CyBOK: symmetric encryption (mentioned 23 times)
-1450,Symposium on Security and Privacy,concept,cybok_concept,CyBOK: Symposium on Security and Privacy (SP)
-212,SYN,feature,concept,
-306,SYN Flood,attack,concept,
-275,SYN packet,data,concept,
-1641,SYN packets,concept,cybok_concept,Extracted from CyBOK knowledge base
-290,SYN-ACK packet,data,concept,
-470,Syslog,tool,application,
-720,syslog.conf,data,concept,
-1716,syslogconf,concept,cybok_concept,Extracted from CyBOK knowledge base
-856,syslogd,data,concept,
-1611,system,concept,cybok_concept,Extracted from CyBOK knowledge base
-1705,system admin,concept,cybok_concept,Extracted from CyBOK knowledge base
-196,system admins,securityTeam,role,
-1684,system configuration,concept,cybok_concept,Extracted from CyBOK knowledge base
-493,System configurations,feature,concept,
-843,System Log,data,concept,
-857,system messages,data,concept,
-186,system monitoring,technique,concept,
-36,System Variables,data,concept,
-1747,system vulnerabilities,concept,cybok_concept,Extracted from CyBOK knowledge base
-479,systems,system,application,
-1556,Systems Security,category,cybok_category,CyBOK Category: Systems Security
-1623,target,concept,cybok_concept,Extracted from CyBOK knowledge base
-1733,target host,concept,cybok_concept,Extracted from CyBOK knowledge base
-766,target ID,feature,concept,
-147,target machine,system,application,
-215,target port,feature,concept,
-1751,target services,concept,cybok_concept,Extracted from CyBOK knowledge base
-240,target system,system,application,
-1672,targets,concept,cybok_concept,Extracted from CyBOK knowledge base
-555,TCP,feature,concept,
-311,TCP FIN packet,data,concept,
-568,TCP packets,data,concept,
-554,TCP protocol,feature,concept,
-1720,TCP RST reset packet,concept,cybok_concept,Extracted from CyBOK knowledge base
-332,TCP stack,feature,concept,
-344,TCP/UDP ports,feature,concept,
-27,Tcpdump,tool,application,
-129,tcpdump pcap,data,concept,
-803,telnet service,app,application,
-509,template,feature,concept,
-1643,templates,concept,cybok_concept,Extracted from CyBOK knowledge base
-1742,terminals,concept,cybok_concept,Extracted from CyBOK knowledge base
-140,testing,function,concept,
-633,testing environment,system,application,
-1168,Threat Intelligence,concept,cybok_concept,CyBOK: Threat Intelligence (CTI)
-1022,threat modeling,concept,methodology,CyBOK: threat modeling (mentioned 9 times)
-206,three-way handshake,technique,concept,
-248,time out,feature,concept,
-620,timeout,feature,concept,
-983,timing attack,attack,technique,CyBOK: timing attack (mentioned 14 times)
-634,timing modes,feature,concept,
-1469,TISSEC,concept,cybok_concept,"CyBOK: TISSEC = Transactions on
-Information and System Security"
-1386,TKIP,concept,cybok_concept,"CyBOK: TKIP = Temporal
-Key Integrity Protocol"
-932,TLS,technique,concept,
-1402,TNC,concept,cybok_concept,CyBOK: TNC = Trusted Network Connect
-167,tool,tool,application,
-1620,tools,concept,cybok_concept,Extracted from CyBOK knowledge base
-968,Tor,tool,application,CyBOK: Tor (mentioned 2447 times)
-1060,TPM,concept,security_mechanism,CyBOK: TPM (mentioned 49 times)
-519,traceroute,tool,application,
-1687,traceroutes,concept,cybok_concept,Extracted from CyBOK knowledge base
-14,Traffic,data,concept,
-1753,transmitted,concept,cybok_concept,Extracted from CyBOK knowledge base
-590,transmitted packets,data,concept,
-1094,Transport Layer Security,concept,cybok_concept,CyBOK concept (mentioned 12 times)
-591,triggered packet responses,feature,concept,
-50,Trojan,attack,concept,
-230,Trojan horses,attack,concept,
-1401,Trusted Network Connect,concept,cybok_concept,CyBOK: Trusted Network Connect (TNC)
-1656,Ubuntu ,concept,cybok_concept,Extracted from CyBOK knowledge base
-909,ubuntu distribution,system,application,
-699,Ubuntu Linux,system,application,
-912,Ubuntu system,system,application,
 1242,UCON,concept,cybok_concept,"CyBOK: UCON = Usage Control
 
 Usage Control"
-586,UDP,feature,concept,
-226,UDP packet,data,concept,
-292,unfiltered,feature,concept,
-130,unified2,tool,application,
-899,Unix/Linux,system,application,
-1693,unsolicited,concept,cybok_concept,Extracted from CyBOK knowledge base
-728,use command,function,concept,
-111,User,user,role,
-812,user accounts,feature,concept,
-704,user interface,app,application,
-1739,user interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
-794,username/password,feature,concept,
-1658,users,concept,cybok_concept,Extracted from CyBOK knowledge base
-919,vendors,user,role,
-342,version,feature,concept,
-148,version detection,technique,concept,
+1243,Status Protocol,concept,cybok_concept,CyBOK: Status Protocol (OCSP)
+1244,OCSP,concept,cybok_concept,CyBOK: OCSP = Status Protocol
+1245,SOP,concept,cybok_concept,CyBOK: SOP = Policy
+1246,Sender Policy Framework,concept,cybok_concept,CyBOK: Sender Policy Framework (SPF)
+1247,SPF,concept,cybok_concept,CyBOK: SPF = Sender Policy Framework
+1248,Content Security Policy,concept,cybok_concept,CyBOK: Content Security Policy (CSP)
+1249,CSP,concept,cybok_concept,CyBOK: CSP = Content Security Policy
+1251,ABE,concept,cybok_concept,CyBOK: ABE = Based Encryption
+1253,KAS,concept,cybok_concept,CyBOK: KAS = Users share a password with a Kerberos Authentication Server
+1255,Hardware Security Module,concept,cybok_concept,CyBOK: Hardware Security Module (HSM)
+1259,Strict Transport Security,concept,cybok_concept,CyBOK: Strict Transport Security (HSTS)
+1260,HSTS,concept,cybok_concept,CyBOK: HSTS = Strict Transport Security
+1263,Security Quality Requirements Engineering,concept,cybok_concept,CyBOK: Security Quality Requirements Engineering (SQUARE)
+1264,SQUARE,concept,cybok_concept,CyBOK: SQUARE = Security Quality Requirements Engineering
+1265,Data Encryption Standard,concept,cybok_concept,CyBOK: Data Encryption Standard (DES)
+1266,Perform Static Analysis Security Testing,concept,cybok_concept,CyBOK: Perform Static Analysis Security Testing (SAST)
+1267,SAST,concept,cybok_concept,CyBOK: SAST = Perform Static Analysis Security Testing
+1268,Perform Dynamic Analysis Security Testing,concept,cybok_concept,CyBOK: Perform Dynamic Analysis Security Testing (DAST)
+1269,DAST,concept,cybok_concept,CyBOK: DAST = Perform Dynamic Analysis Security Testing
+1271,NVD,concept,cybok_concept,"CyBOK: NVD = National Vulnerability
+Database"
+1273,ASC,concept,cybok_concept,"CyBOK: ASC = Application Security
+Controls"
+1276,Mobile Security Testing Guide,concept,cybok_concept,CyBOK: Mobile Security Testing Guide (MSTG)
+1277,MSTG,concept,cybok_concept,CyBOK: MSTG = Mobile Security Testing Guide
+1279,CSA,concept,cybok_concept,"CyBOK: CSA = In conjunction
+with the Cloud Security Alliance"
+1282,BSIMM,concept,cybok_concept,"CyBOK: BSIMM = Building Security In
+Maturity Model"
+1284,Lightweight Application Security Process,concept,cybok_concept,CyBOK: Lightweight Application Security Process (CLASP)
+1285,CLASP,concept,cybok_concept,CyBOK: CLASP = Lightweight Application Security Process
+1286,Fully Homomorphic Encryption,concept,cybok_concept,CyBOK: Fully Homomorphic Encryption (FHE)
+1287,FHE,concept,cybok_concept,CyBOK: FHE = Fully Homomorphic Encryption
+1288,PKE,concept,cybok_concept,CyBOK: PKE = Public Key Encryption
+1292,Authenticated Encryption with Associated Data,concept,cybok_concept,CyBOK: Authenticated Encryption with Associated Data (AEAD)
+1293,AEAD,concept,cybok_concept,CyBOK: AEAD = Authenticated Encryption with Associated Data
+1294,Key Encapsulation Mechanism,concept,cybok_concept,CyBOK: Key Encapsulation Mechanism (KEM)
+1295,KEM,concept,cybok_concept,CyBOK: KEM = Key Encapsulation Mechanism
+1297,ECC,concept,cybok_concept,"CyBOK: ECC = Elliptic
+Curve Cryptography"
+1298,DHKE,concept,cybok_concept,CyBOK: DHKE = Hellman Key Exchange
+1300,AKE,concept,cybok_concept,"CyBOK: AKE = This leads to the notion of
+Authenticated Key Exchange"
+1301,Hellman Integrated Encryption Scheme,concept,cybok_concept,CyBOK: Hellman Integrated Encryption Scheme (DHIES)
+1302,DHIES,concept,cybok_concept,CyBOK: DHIES = Hellman Integrated Encryption Scheme
+1304,DSKS,concept,cybok_concept,CyBOK: DSKS = This gap leads to Duplicate Signature Key Selection
+1305,National Security Agency,concept,cybok_concept,CyBOK: National Security Agency (NSA)
+1307,CFRG,concept,cybok_concept,"CyBOK: CFRG = Crypto Forum Research
+Group"
+1309,QKD,concept,cybok_concept,"CyBOK: QKD = The most mature branch of quantum
+cryptography is Quantum Key Distribution"
+1310,KDF,concept,cybok_concept,CyBOK: KDF = Key Derivation Function
+1312,PAKE,concept,cybok_concept,"CyBOK: PAKE = Password
+Authenticated Key Exchange"
+1313,Key Encryption Key,concept,cybok_concept,CyBOK: Key Encryption Key (KEK)
+1314,KEK,concept,cybok_concept,CyBOK: KEK = Key Encryption Key
+1316,IBC,concept,cybok_concept,CyBOK: IBC = Based Cryptography
+1318,Internet Protocol,concept,cybok_concept,CyBOK: Internet Protocol (IP)
+1319,Local Area Network,concept,cybok_concept,CyBOK: Local Area Network (LAN)
+1321,Controller Area Network,concept,cybok_concept,CyBOK: Controller Area Network (CAN)
+1324,NFV,concept,cybok_concept,CyBOK: NFV = The concept of Network Functions Virtualisation
+1326,Simple Mail Transfer Protocol,concept,cybok_concept,CyBOK: Simple Mail Transfer Protocol (SMTP)
+1327,SMTP,concept,cybok_concept,CyBOK: SMTP = Simple Mail Transfer Protocol
+1328,Schemes like Pretty Good Privacy,concept,cybok_concept,CyBOK: Schemes like Pretty Good Privacy (PGP)
+1329,PGP,concept,cybok_concept,CyBOK: PGP = Schemes like Pretty Good Privacy
+1330,Internet Message Access Protocol,concept,cybok_concept,CyBOK: Internet Message Access Protocol (IMAP)
+1331,IMAP,concept,cybok_concept,CyBOK: IMAP = Internet Message Access Protocol
+1332,POP,concept,cybok_concept,CyBOK: POP = Protocol
+1333,Security Extensions,concept,cybok_concept,CyBOK: Security Extensions (DNSSEC)
+1334,DNSSEC,concept,cybok_concept,CyBOK: DNSSEC = Security Extensions
+1337,GPG,concept,cybok_concept,"CyBOK: GPG = Privacy
+Guard"
 1338,Virtual Private Network,concept,cybok_concept,CyBOK: Virtual Private Network (VPN)
-1045,virtualization,concept,infrastructure,CyBOK: virtualization (mentioned 9 times)
-989,virus,attack,malware,CyBOK: virus (mentioned 43 times)
-1577,Volatility,concept,cybok_concept,CyBOK: Volatility
-1019,VPN,concept,infrastructure,CyBOK: VPN (mentioned 16 times)
-414,vuln,vulnerability,concept,
-180,Vulnerabilities,vulnerability,concept,
-1572,vulnerability,concept,cybok_concept,CyBOK: vulnerability
-1458,Vulnerability Assessment,concept,cybok_concept,CyBOK: Vulnerability Assessment (DIMVA)
-1603,vulnerability scanning,concept,cybok_concept,CyBOK: vulnerability scanning
-1632,vulnerable ,concept,cybok_concept,Extracted from CyBOK knowledge base
-1755,vulnerable issues,concept,cybok_concept,Extracted from CyBOK knowledge base
-1514,VXLAN,concept,cybok_concept,CyBOK: VXLAN = Local Area Network
-1178,WAF,concept,cybok_concept,"CyBOK: WAF = Web
-Application Firewalls"
-1741,warn ,concept,cybok_concept,Extracted from CyBOK knowledge base
-854,warning,data,concept,
-449,weakness,vulnerability,concept,
-1704,weaknesses,concept,cybok_concept,Extracted from CyBOK knowledge base
-1563,Web and Mobile Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Web and Mobile Security
-1576,web security,concept,cybok_concept,CyBOK: web security
-192,web server,system,application,
-194,website,app,application,
-1380,WEP,concept,cybok_concept,CyBOK: WEP = Wired Equivalent Privacy
-1628,window,concept,cybok_concept,Extracted from CyBOK knowledge base
-238,Windows,system,application,
-331,Windows machines,system,application,
-235,Windows OS,system,application,
-578,Windows XP,system,application,
+1342,SSTP,concept,cybok_concept,"CyBOK: SSTP = Secure Socket Tunneling
+Protocol"
+1343,Encapsulation Security Payload,concept,cybok_concept,CyBOK: Encapsulation Security Payload (ESP)
+1345,Authentication Header,concept,cybok_concept,CyBOK: Authentication Header (AH)
+1347,Multiprotocol Label Switching,concept,cybok_concept,CyBOK: Multiprotocol Label Switching (MPLS)
+1348,MPLS,concept,cybok_concept,CyBOK: MPLS = Multiprotocol Label Switching
+1350,ISAKMP,concept,cybok_concept,CyBOK: ISAKMP = Internet Security Association and Key Management Protocol
+1351,Enhanced Interior Gateway Routing Protocol,concept,cybok_concept,CyBOK: Enhanced Interior Gateway Routing Protocol (EIGRP)
+1352,EIGRP,concept,cybok_concept,CyBOK: EIGRP = Enhanced Interior Gateway Routing Protocol
+1353,Border Gateway Protocol,concept,cybok_concept,CyBOK: Border Gateway Protocol (BGP)
+1354,BGP,concept,cybok_concept,CyBOK: BGP = Border Gateway Protocol
+1355,Resource Public Key Infrastructure,concept,cybok_concept,CyBOK: Resource Public Key Infrastructure (RPKI)
+1356,RPKI,concept,cybok_concept,CyBOK: RPKI = Resource Public Key Infrastructure
+1358,ICMP,concept,cybok_concept,"CyBOK: ICMP = Security
+
+Internet Control Message Protocol"
+1360,EAP,concept,cybok_concept,"CyBOK: EAP = Extensible Authentication
+Protocol"
+1361,Extensible Authentication Protocol,concept,cybok_concept,CyBOK: Extensible Authentication Protocol (EAP)
+1362,Protected Extensible Authentication Protocol,concept,cybok_concept,CyBOK: Protected Extensible Authentication Protocol (PEAP)
+1363,PEAP,concept,cybok_concept,CyBOK: PEAP = Protected Extensible Authentication Protocol
+1364,Point Protocol,concept,cybok_concept,CyBOK: Point Protocol (PPP)
+1366,Level Data Link Control,concept,cybok_concept,CyBOK: Level Data Link Control (HDLC)
+1367,HDLC,concept,cybok_concept,CyBOK: HDLC = Level Data Link Control
+1368,Password Authentication Protocol,concept,cybok_concept,CyBOK: Password Authentication Protocol (PAP)
+1369,PAP,concept,cybok_concept,CyBOK: PAP = Password Authentication Protocol
+1370,Challenge Handshake Authentication Protocol,concept,cybok_concept,CyBOK: Challenge Handshake Authentication Protocol (CHAP)
+1371,CHAP,concept,cybok_concept,CyBOK: CHAP = Challenge Handshake Authentication Protocol
+1373,CAM,concept,cybok_concept,"CyBOK: CAM = Attacks On Ethernet Switches
+
+Ethernet switches maintain forwarding table entries in a Content Addressable Memory"
+1376,RARP,concept,cybok_concept,"CyBOK: RARP = Similar attacks are possible for the Reverse
+Address Resolution Protocol"
+1377,Cryptographically Generated Address,concept,cybok_concept,CyBOK: Cryptographically Generated Address (CGA)
+1378,CGA,concept,cybok_concept,CyBOK: CGA = Cryptographically Generated Address
 1379,Wired Equivalent Privacy,concept,cybok_concept,CyBOK: Wired Equivalent Privacy (WEP)
-1587,wireless security,concept,cybok_concept,CyBOK: wireless security
-67,Wireshark,tool,application,
-988,worm,attack,malware,CyBOK: worm (mentioned 27 times)
+1380,WEP,concept,cybok_concept,CyBOK: WEP = Wired Equivalent Privacy
+1381,Access Point,concept,cybok_concept,CyBOK: Access Point (AP)
+1383,Fi Protected Access,concept,cybok_concept,CyBOK: Fi Protected Access (WPA)
 1384,WPA,concept,cybok_concept,CyBOK: WPA = Fi Protected Access
-827,wrapper,function,application,
-970,XSS,attack,technique,CyBOK: XSS (mentioned 23 times)
-966,YARA,tool,application,CyBOK: YARA (mentioned 8 times)
-1031,zero trust,concept,principle,CyBOK: zero trust (mentioned 12 times)
-994,zero-day,attack,vulnerability,CyBOK: zero-day (mentioned 2 times)
-351,zombie,system,application,
-350,zombie host,system,application,
+1386,TKIP,concept,cybok_concept,"CyBOK: TKIP = Temporal
+Key Integrity Protocol"
+1387,Shared Key,concept,cybok_concept,CyBOK: Shared Key (PSK)
+1388,PSK,concept,cybok_concept,CyBOK: PSK = Shared Key
+1390,CCMP,concept,cybok_concept,CyBOK: CCMP = Counter Mode with the Cipher Block Chaining Message Authentication Code Protocol
+1392,SAE,concept,cybok_concept,"CyBOK: SAE = Simultaneous Authentication of
+Equals"
+1393,Opportunistic Wireless Encryption,concept,cybok_concept,CyBOK: Opportunistic Wireless Encryption (OWE)
+1397,HIDS,concept,cybok_concept,"CyBOK: HIDS = Host
+Intrusion Detection System"
+1398,Intrusion Prevention System,concept,cybok_concept,CyBOK: Intrusion Prevention System (IPS)
+1399,Security Information and Event Management,concept,cybok_concept,CyBOK: Security Information and Event Management (SIEM)
+1400,Network Functions Virtualisation,concept,cybok_concept,CyBOK: Network Functions Virtualisation (NFV)
+1401,Trusted Network Connect,concept,cybok_concept,CyBOK: Trusted Network Connect (TNC)
+1402,TNC,concept,cybok_concept,CyBOK: TNC = Trusted Network Connect
+1404,Programmable Logic Controller,concept,cybok_concept,CyBOK: Programmable Logic Controller (PLC)
+1405,PLC,concept,cybok_concept,CyBOK: PLC = Programmable Logic Controller
+1407,MPC,concept,cybok_concept,"CyBOK: MPC = One intuitive idea for this type of control algorithm is
+to use Model Predictive Control"
+1409,HAC,concept,cybok_concept,"CyBOK: HAC = The idea of having a High Assurance
+Controller"
+1410,High Performance Controller,concept,cybok_concept,CyBOK: High Performance Controller (HPC)
+1411,HPC,concept,cybok_concept,CyBOK: HPC = High Performance Controller
+1414,SCN,concept,cybok_concept,"CyBOK: SCN = The communication between
+servers in a control room and these control equipment is done via a Supervisory Control
+Network"
+1418,ICS,concept,cybok_concept,"CyBOK: ICS = Guide to Industrial
+Control System"
+1419,Digital Serial Interface,concept,cybok_concept,CyBOK: Digital Serial Interface (DVI)
+1420,DVI,concept,cybok_concept,CyBOK: DVI = Digital Serial Interface
+1421,Control,concept,cybok_concept,CyBOK: Control (ATC)
+1422,ATC,concept,cybok_concept,CyBOK: ATC = Control
+1423,Authentication and Key Agreement,concept,cybok_concept,CyBOK: Authentication and Key Agreement (AKA)
+1424,AKA,concept,cybok_concept,CyBOK: AKA = Authentication and Key Agreement
+1425,Automatic Gain Control,concept,cybok_concept,CyBOK: Automatic Gain Control (AGC)
+1426,AGC,concept,cybok_concept,CyBOK: AGC = Automatic Gain Control
+1427,Cybersecurity Coordination Group,concept,cybok_concept,CyBOK: Cybersecurity Coordination Group (CSCG)
+1428,CSCG,concept,cybok_concept,CyBOK: CSCG = Cybersecurity Coordination Group
+1430,CCS,concept,cybok_concept,CyBOK: CCS = Conference on Computer and Communications Security
+1441,SOUPS,concept,cybok_concept,CyBOK: SOUPS = Proceedings of the Symposium On Usable Privacy and Security
+1443,NSS,concept,cybok_concept,"CyBOK: NSS = Network and
+System Security"
+1450,Symposium on Security and Privacy,concept,cybok_concept,CyBOK: Symposium on Security and Privacy (SP)
+1452,Security and Privacy Workshops,concept,cybok_concept,CyBOK: Security and Privacy Workshops (SPW)
+1453,SPW,concept,cybok_concept,CyBOK: SPW = Security and Privacy Workshops
+1457,PST,concept,cybok_concept,"CyBOK: PST = Annual International
+Conference on Privacy Security and Trust"
+1458,Vulnerability Assessment,concept,cybok_concept,CyBOK: Vulnerability Assessment (DIMVA)
+1459,DIMVA,concept,cybok_concept,CyBOK: DIMVA = Vulnerability Assessment
+1461,ASONAM,concept,cybok_concept,CyBOK: ASONAM = International Conference on Advances in Social Networks Analysis and Mining
+1463,ACSAC,concept,cybok_concept,CyBOK: ACSAC = Annual Computer Security Applications Conference
+1469,TISSEC,concept,cybok_concept,"CyBOK: TISSEC = Transactions on
+Information and System Security"
+1479,Intelligence and Security Informatics,concept,cybok_concept,CyBOK: Intelligence and Security Informatics (ISI)
+1481,Security and Privacy,concept,cybok_concept,CyBOK: Security and Privacy (SP)
+1496,NICE,concept,cybok_concept,"CyBOK: NICE = National Initiative for Cybersecurity
+Education"
+1499,Advanced Encryption Standard,concept,cybok_concept,CyBOK: Advanced Encryption Standard (AES)
+1500,Digital Signature Standard,concept,cybok_concept,CyBOK: Digital Signature Standard (DSS)
+1501,DSS,concept,cybok_concept,CyBOK: DSS = Digital Signature Standard
+1505,ECDSA,concept,cybok_concept,"CyBOK: ECDSA = Elliptic
+Curve Digital Signature Algorithm"
+1508,Network and Distributed System Security,concept,cybok_concept,CyBOK: Network and Distributed System Security (NDSS)
+1510,CNS,concept,cybok_concept,"CyBOK: CNS = Conference on Communications and
+Network Security"
+1511,Internet Key Exchange,concept,cybok_concept,CyBOK: Internet Key Exchange (IKE)
+1514,VXLAN,concept,cybok_concept,CyBOK: VXLAN = Local Area Network
+1541,Programmable Logic Controllers,concept,cybok_concept,CyBOK: Programmable Logic Controllers (PLC)
+1544,DCS,concept,cybok_concept,"CyBOK: DCS = Distributed
+Control Systems"
+1545,Risk Management and Governance,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Risk Management and Governance
+1546,Human Organisational Regulatory,category,cybok_category,CyBOK Category: Human Organisational Regulatory
+1547,Law and Regulation,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Law and Regulation
+1548,Human Factors,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Human Factors
+1549,Privacy and Online Rights,knowledge_area,human_organisational_regulatory,CyBOK Knowledge Area: Privacy and Online Rights
+1550,Malware and Attack Technologies,knowledge_area,attacks_defences,CyBOK Knowledge Area: Malware and Attack Technologies
+1551,Attacks Defences,category,cybok_category,CyBOK Category: Attacks Defences
+1552,Adversarial Behaviours,knowledge_area,attacks_defences,CyBOK Knowledge Area: Adversarial Behaviours
+1553,Security Operations and Incident Management,knowledge_area,attacks_defences,CyBOK Knowledge Area: Security Operations and Incident Management
+1554,Forensics,knowledge_area,attacks_defences,CyBOK Knowledge Area: Forensics
+1555,Cryptography,knowledge_area,systems_security,CyBOK Knowledge Area: Cryptography
+1556,Systems Security,category,cybok_category,CyBOK Category: Systems Security
+1557,Applied Cryptography,knowledge_area,systems_security,CyBOK Knowledge Area: Applied Cryptography
+1558,Operating Systems and Virtualisation Security,knowledge_area,systems_security,CyBOK Knowledge Area: Operating Systems and Virtualisation Security
+1559,Formal Methods for Security,knowledge_area,systems_security,CyBOK Knowledge Area: Formal Methods for Security
+1560,"Authentication, Authorisation and Accountability",knowledge_area,infrastructure_security,"CyBOK Knowledge Area: Authentication, Authorisation and Accountability"
+1561,Infrastructure Security,category,cybok_category,CyBOK Category: Infrastructure Security
+1562,Software Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Software Security
+1563,Web and Mobile Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Web and Mobile Security
+1564,Secure Software Lifecycle,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Secure Software Lifecycle
+1565,Hardware Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Hardware Security
+1566,Cyber-Physical Systems Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Cyber-Physical Systems Security
+1567,Physical Layer and Telecommunications Security,knowledge_area,infrastructure_security,CyBOK Knowledge Area: Physical Layer and Telecommunications Security
+1568,defense in depth,concept,cybok_concept,CyBOK: defense in depth
+1569,CIA triad,concept,cybok_concept,CyBOK: CIA triad
+1570,Diffie-Hellman,concept,cybok_concept,CyBOK: Diffie-Hellman
+1571,certificate,concept,cybok_concept,CyBOK: certificate
+1572,vulnerability,concept,cybok_concept,CyBOK: vulnerability
+1573,Nessus,concept,cybok_concept,CyBOK: Nessus
+1574,OpenVAS,concept,cybok_concept,CyBOK: OpenVAS
+1575,Burp Suite,concept,cybok_concept,CyBOK: Burp Suite
+1576,web security,concept,cybok_concept,CyBOK: web security
+1577,Volatility,concept,cybok_concept,CyBOK: Volatility
+1578,memory forensics,concept,cybok_concept,CyBOK: memory forensics
+1579,Autopsy,concept,cybok_concept,CyBOK: Autopsy
+1580,malware,concept,cybok_concept,CyBOK: malware
+1581,Ghidra,concept,cybok_concept,CyBOK: Ghidra
+1582,log analysis,concept,cybok_concept,CyBOK: log analysis
+1583,OWASP ZAP,concept,cybok_concept,CyBOK: OWASP ZAP
+1584,John the Ripper,concept,cybok_concept,CyBOK: John the Ripper
+1585,Hashcat,concept,cybok_concept,CyBOK: Hashcat
+1586,Aircrack-ng,concept,cybok_concept,CyBOK: Aircrack-ng
+1587,wireless security,concept,cybok_concept,CyBOK: wireless security
+1588,GnuPG,concept,cybok_concept,CyBOK: GnuPG
+1589,buffer overflow,concept,cybok_concept,CyBOK: buffer overflow
+1590,ARP spoofing,concept,cybok_concept,CyBOK: ARP spoofing
+1591,DNS spoofing,concept,cybok_concept,CyBOK: DNS spoofing
+1592,eavesdropping,concept,cybok_concept,CyBOK: eavesdropping
+1593,lateral movement,concept,cybok_concept,CyBOK: lateral movement
+1594,NIST CSF,concept,cybok_concept,CyBOK: NIST CSF
+1596,adversarial behavior,concept,cybok_concept,CyBOK: adversarial behavior
+1597,ISO 27001,concept,cybok_concept,CyBOK: ISO 27001
+1598,security evaluation,concept,cybok_concept,CyBOK: security evaluation
+1599,attack lifecycle,concept,cybok_concept,CyBOK: attack lifecycle
+1600,evidence,concept,cybok_concept,CyBOK: evidence
+1601,network forensics,concept,cybok_concept,CyBOK: network forensics
+1602,disk forensics,concept,cybok_concept,CyBOK: disk forensics
+1603,vulnerability scanning,concept,cybok_concept,CyBOK: vulnerability scanning
+1604,Cuckoo Sandbox,concept,cybok_concept,CyBOK: Cuckoo Sandbox
+1605,DevSecOps,concept,cybok_concept,CyBOK: DevSecOps
+1606,firewalls,concept,cybok_concept,Extracted from CyBOK knowledge base
+1607,responds,concept,cybok_concept,Extracted from CyBOK knowledge base
+1608,Filtering,concept,cybok_concept,Extracted from CyBOK knowledge base
+1609,machine,concept,cybok_concept,Extracted from CyBOK knowledge base
+1611,system,concept,cybok_concept,Extracted from CyBOK knowledge base
+1612,packets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1613,configuration file,concept,cybok_concept,Extracted from CyBOK knowledge base
+1614,RESET RST,concept,cybok_concept,Extracted from CyBOK knowledge base
+1615,file,concept,cybok_concept,Extracted from CyBOK knowledge base
+1616,programs,concept,cybok_concept,Extracted from CyBOK knowledge base
+1617,RST packets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1618,information-,concept,cybok_concept,Extracted from CyBOK knowledge base
+1619,network mapper,concept,cybok_concept,Extracted from CyBOK knowledge base
+1620,tools,concept,cybok_concept,Extracted from CyBOK knowledge base
+1621,show options command ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1622,monitor,concept,cybok_concept,Extracted from CyBOK knowledge base
+1623,target,concept,cybok_concept,Extracted from CyBOK knowledge base
+1624,respond,concept,cybok_concept,Extracted from CyBOK knowledge base
+1625,ACK packets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1626,ports,concept,cybok_concept,Extracted from CyBOK knowledge base
+1628,window,concept,cybok_concept,Extracted from CyBOK knowledge base
+1629,session,concept,cybok_concept,Extracted from CyBOK knowledge base
+1630,detection technique,concept,cybok_concept,Extracted from CyBOK knowledge base
+1631,exploits,concept,cybok_concept,Extracted from CyBOK knowledge base
+1632,vulnerable ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1633,platforms,concept,cybok_concept,Extracted from CyBOK knowledge base
+1634,Nmap�s,concept,cybok_concept,Extracted from CyBOK knowledge base
+1635,Sends,concept,cybok_concept,Extracted from CyBOK knowledge base
+1636,log files,concept,cybok_concept,Extracted from CyBOK knowledge base
+1637,received,concept,cybok_concept,Extracted from CyBOK knowledge base
+1638,HTTP anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
+1639,Closed ports,concept,cybok_concept,Extracted from CyBOK knowledge base
+1640,command-line CLI,concept,cybok_concept,Extracted from CyBOK knowledge base
+1641,SYN packets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1642,ICMP error message,concept,cybok_concept,Extracted from CyBOK knowledge base
+1643,templates,concept,cybok_concept,Extracted from CyBOK knowledge base
+1644,interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
+1645,IP addresses,concept,cybok_concept,Extracted from CyBOK knowledge base
+1646,default ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1647,Operating System,concept,cybok_concept,Extracted from CyBOK knowledge base
+1648,payloads,concept,cybok_concept,Extracted from CyBOK knowledge base
+1649,firewall rule,concept,cybok_concept,Extracted from CyBOK knowledge base
+1650,configured,concept,cybok_concept,Extracted from CyBOK knowledge base
+1651,Kali Linux ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1652,command-line interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
+1653,sending,concept,cybok_concept,Extracted from CyBOK knowledge base
+1654,scanning,concept,cybok_concept,Extracted from CyBOK knowledge base
+1655,MSF Metasploit framework,concept,cybok_concept,Extracted from CyBOK knowledge base
+1656,Ubuntu ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1657,criticallog,concept,cybok_concept,Extracted from CyBOK knowledge base
+1658,users,concept,cybok_concept,Extracted from CyBOK knowledge base
+1659,rule,concept,cybok_concept,Extracted from CyBOK knowledge base
+1660,open source,concept,cybok_concept,Extracted from CyBOK knowledge base
+1661,features,concept,cybok_concept,Extracted from CyBOK knowledge base
+1662,applications,concept,cybok_concept,Extracted from CyBOK knowledge base
+1663,plugins,concept,cybok_concept,Extracted from CyBOK knowledge base
+1664,hosts,concept,cybok_concept,Extracted from CyBOK knowledge base
+1665,policies,concept,cybok_concept,Extracted from CyBOK knowledge base
+1666,errors,concept,cybok_concept,Extracted from CyBOK knowledge base
+1667,exposed,concept,cybok_concept,Extracted from CyBOK knowledge base
+1668,scans,concept,cybok_concept,Extracted from CyBOK knowledge base
+1669,modules,concept,cybok_concept,Extracted from CyBOK knowledge base
+1670,log messages,concept,cybok_concept,Extracted from CyBOK knowledge base
+1671,payload options,concept,cybok_concept,Extracted from CyBOK knowledge base
+1672,targets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1673,Ruby ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1674,classes,concept,cybok_concept,Extracted from CyBOK knowledge base
+1675,installed,concept,cybok_concept,Extracted from CyBOK knowledge base
+1676,established connection,concept,cybok_concept,Extracted from CyBOK knowledge base
+1677,rulesets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1678,requirements,concept,cybok_concept,Extracted from CyBOK knowledge base
+1679,alerts,concept,cybok_concept,Extracted from CyBOK knowledge base
+1680,penetration tester,concept,cybok_concept,Extracted from CyBOK knowledge base
+1681,device,concept,cybok_concept,Extracted from CyBOK knowledge base
+1682,configures,concept,cybok_concept,Extracted from CyBOK knowledge base
+1683,/etc/rsyslogd/,concept,cybok_concept,Extracted from CyBOK knowledge base
+1684,system configuration,concept,cybok_concept,Extracted from CyBOK knowledge base
+1685,configurations,concept,cybok_concept,Extracted from CyBOK knowledge base
+1686,reliably,concept,cybok_concept,Extracted from CyBOK knowledge base
+1687,traceroutes,concept,cybok_concept,Extracted from CyBOK knowledge base
+1688,Metasploit Framework msf,concept,cybok_concept,Extracted from CyBOK knowledge base
+1689,responsive,concept,cybok_concept,Extracted from CyBOK knowledge base
+1690,flagged ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1691,clients,concept,cybok_concept,Extracted from CyBOK knowledge base
+1692,messages,concept,cybok_concept,Extracted from CyBOK knowledge base
+1693,unsolicited,concept,cybok_concept,Extracted from CyBOK knowledge base
+1694,IDSs,concept,cybok_concept,Extracted from CyBOK knowledge base
+1695,dns servers,concept,cybok_concept,Extracted from CyBOK knowledge base
+1696,Intrusion Detection Systems IDS,concept,cybok_concept,Extracted from CyBOK knowledge base
+1697,signatures,concept,cybok_concept,Extracted from CyBOK knowledge base
+1698,command,concept,cybok_concept,Extracted from CyBOK knowledge base
+1699,personal,concept,cybok_concept,Extracted from CyBOK knowledge base
+1700,open-source ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1701,port scanned,concept,cybok_concept,Extracted from CyBOK knowledge base
+1702,addresses,concept,cybok_concept,Extracted from CyBOK knowledge base
+1704,weaknesses,concept,cybok_concept,Extracted from CyBOK knowledge base
+1705,system admin,concept,cybok_concept,Extracted from CyBOK knowledge base
+1706,hpings,concept,cybok_concept,Extracted from CyBOK knowledge base
+1707,broadcast ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1708,DNS proxying,concept,cybok_concept,Extracted from CyBOK knowledge base
+1709,automate ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1710,packets ACK bit,concept,cybok_concept,Extracted from CyBOK knowledge base
+1711,statefully,concept,cybok_concept,Extracted from CyBOK knowledge base
+1712,FTP anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
+1713,byte,concept,cybok_concept,Extracted from CyBOK knowledge base
+1714,authlog,concept,cybok_concept,Extracted from CyBOK knowledge base
+1715,apps,concept,cybok_concept,Extracted from CyBOK knowledge base
+1716,syslogconf,concept,cybok_concept,Extracted from CyBOK knowledge base
+1717,protocols,concept,cybok_concept,Extracted from CyBOK knowledge base
+1718,CVEs,concept,cybok_concept,Extracted from CyBOK knowledge base
+1719,connection requests,concept,cybok_concept,Extracted from CyBOK knowledge base
+1720,TCP RST reset packet,concept,cybok_concept,Extracted from CyBOK knowledge base
+1721,established,concept,cybok_concept,Extracted from CyBOK knowledge base
+1722,snort rule,concept,cybok_concept,Extracted from CyBOK knowledge base
+1723,negatives,concept,cybok_concept,Extracted from CyBOK knowledge base
+1724,scanners,concept,cybok_concept,Extracted from CyBOK knowledge base
+1725,RPC scanning,concept,cybok_concept,Extracted from CyBOK knowledge base
+1726,header anomalies,concept,cybok_concept,Extracted from CyBOK knowledge base
+1727,assess,concept,cybok_concept,Extracted from CyBOK knowledge base
+1728,outputs,concept,cybok_concept,Extracted from CyBOK knowledge base
+1729,IP packets,concept,cybok_concept,Extracted from CyBOK knowledge base
+1730,names,concept,cybok_concept,Extracted from CyBOK knowledge base
+1731,sessions,concept,cybok_concept,Extracted from CyBOK knowledge base
+1732,port scan,concept,cybok_concept,Extracted from CyBOK knowledge base
+1733,target host,concept,cybok_concept,Extracted from CyBOK knowledge base
+1734,proxied,concept,cybok_concept,Extracted from CyBOK knowledge base
+1735,non payload options,concept,cybok_concept,Extracted from CyBOK knowledge base
+1736,Selectors,concept,cybok_concept,Extracted from CyBOK knowledge base
+1737,flags,concept,cybok_concept,Extracted from CyBOK knowledge base
+1738,assessing,concept,cybok_concept,Extracted from CyBOK knowledge base
+1739,user interfaces,concept,cybok_concept,Extracted from CyBOK knowledge base
+1740,opened,concept,cybok_concept,Extracted from CyBOK knowledge base
+1741,warn ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1742,terminals,concept,cybok_concept,Extracted from CyBOK knowledge base
+1743,detected,concept,cybok_concept,Extracted from CyBOK knowledge base
+1744,/var/log/messages ,concept,cybok_concept,Extracted from CyBOK knowledge base
+1745,facilities,concept,cybok_concept,Extracted from CyBOK knowledge base
+1746,actions,concept,cybok_concept,Extracted from CyBOK knowledge base
+1747,system vulnerabilities,concept,cybok_concept,Extracted from CyBOK knowledge base
+1748,send,concept,cybok_concept,Extracted from CyBOK knowledge base
+1749,Intrusion Prevention Systems IPS,concept,cybok_concept,Extracted from CyBOK knowledge base
+1750,deployed,concept,cybok_concept,Extracted from CyBOK knowledge base
+1751,target services,concept,cybok_concept,Extracted from CyBOK knowledge base
+1752,passively,concept,cybok_concept,Extracted from CyBOK knowledge base
+1753,transmitted,concept,cybok_concept,Extracted from CyBOK knowledge base
+1754,incoming traffic,concept,cybok_concept,Extracted from CyBOK knowledge base
+1755,vulnerable issues,concept,cybok_concept,Extracted from CyBOK knowledge base
+1756,forged,concept,cybok_concept,Extracted from CyBOK knowledge base
+1757,drive-by download,attack,technique,CyBOK: drive-by download (mentioned 5 times)
+1758,The Cyber Security Body,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1759,Based Access Control,concept,cybok_concept,CyBOK concept (mentioned 9 times)
+1760,"Software
+Security Knowledge Area",concept,cybok_concept,CyBOK concept (mentioned 5 times)
+1761,Computer Security Foundations Workshop,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1762,Computer Security Foundations Symposium,concept,cybok_concept,CyBOK concept (mentioned 6 times)
+1763,"An instantiation of the framework for the National
+Cyber Security Centre",concept,cybok_concept,"CyBOK: An instantiation of the framework for the National
+Cyber Security Centre (NCSC)"
+1764,SDL,concept,cybok_concept,CyBOK: SDL = Microsoft Security Development Lifecycle
+1765,AE,concept,cybok_concept,CyBOK: AE = Authenticated Encryption
+1766,Resolution Protocol,concept,cybok_concept,CyBOK: Resolution Protocol (ARP)
+1767,Europe the Network and Information Systems,concept,cybok_concept,CyBOK: Europe the Network and Information Systems (NIS)
+1768,NIS,concept,cybok_concept,CyBOK: NIS = Europe the Network and Information Systems
+1769,"National Cyber Security
+Centre",concept,cybok_concept,"CyBOK: National Cyber Security
+Centre (NCSC)"
+1770,This model from the International Risk Governance Council,concept,cybok_concept,CyBOK: This model from the International Risk Governance Council (IRGC)
+1771,"The International Risk
+Governance Council",concept,cybok_concept,"CyBOK: The International Risk
+Governance Council (IRGC)"
+1772,The Information Security Forum,concept,cybok_concept,CyBOK: The Information Security Forum (ISF)
+1773,"Open Web
+Application Security Project",concept,cybok_concept,"CyBOK: Open Web
+Application Security Project (OWASP)"
+1774,Technology such as Supervisory Control and Data Acquisition,concept,cybok_concept,CyBOK: Technology such as Supervisory Control and Data Acquisition (SCADA)
+1775,In Europe the Network and Information Systems,concept,cybok_concept,CyBOK: In Europe the Network and Information Systems (NIS)
+1776,"Large public consortia such
+as Cyber Defence Alliance Limited",concept,cybok_concept,"CyBOK: Large public consortia such
+as Cyber Defence Alliance Limited (CDA)"
+1777,The risks arising from Bring Your Own Device,concept,cybok_concept,CyBOK: The risks arising from Bring Your Own Device (BYOD)
+1778,Security awareness games Capture The Flag,concept,cybok_concept,CyBOK: Security awareness games Capture The Flag (CTF)
+1779,"At this point it is important to highlight the difference between using Tor and using a Virtual
+Private Network",concept,cybok_concept,"CyBOK: At this point it is important to highlight the difference between using Tor and using a Virtual
+Private Network (VPN)"
+1780,"Sextortion is becoming such a relevant threat that crime prevention agencies such as the
+National Crime Agency",concept,cybok_concept,"CyBOK: Sextortion is becoming such a relevant threat that crime prevention agencies such as the
+National Crime Agency (NCA)"
+1781,RAT,concept,cybok_concept,CyBOK: RAT = Remote Access Trojan
+1782,The roots of Security Operations and Incident Management,concept,cybok_concept,CyBOK: The roots of Security Operations and Incident Management (SOIM)
+1783,"Security Information and
+Event Management",concept,cybok_concept,"CyBOK: Security Information and
+Event Management (SIEM)"
+1784,CTI,concept,cybok_concept,CyBOK: CTI = Threat Intelligence
+1785,"Hardware
+Security Module",concept,cybok_concept,"CyBOK: Hardware
+Security Module (HSM)"
+1786,Intrusion Detection and Prevention System s,concept,cybok_concept,CyBOK: Intrusion Detection and Prevention System s (IDPS)
+1787,"Intrusion Detection
+Message Exchange Format",concept,cybok_concept,"CyBOK: Intrusion Detection
+Message Exchange Format (IDMEF)"
+1788,The Information Security Indicators,concept,cybok_concept,CyBOK: The Information Security Indicators (ISI)
+1789,"Web
+Application Firewalls",concept,cybok_concept,"CyBOK: Web
+Application Firewalls (WAF)"
+1790,"The Network
+and Information Systems",concept,cybok_concept,"CyBOK: The Network
+and Information Systems (NIS)"
+1791,The Common Vulnerability Scoring System,concept,cybok_concept,CyBOK: The Common Vulnerability Scoring System (CVSS)
+1792,"Malware Information Sharing
+Platform",concept,cybok_concept,"CyBOK: Malware Information Sharing
+Platform (MISP)"
+1793,"Network
+and Information Systems",concept,cybok_concept,"CyBOK: Network
+and Information Systems (NIS)"
+1794,Forum of Incident Response and Security Teams,concept,cybok_concept,CyBOK: Forum of Incident Response and Security Teams (FIRST)
+1795,"European Union Agency
+for Cybersecurity",concept,cybok_concept,"CyBOK: European Union Agency
+for Cybersecurity (ENISA)"
+1796,"Quantum
+Cryptography",concept,cybok_concept,"CyBOK: Quantum
+Cryptography (PQC)"
+1797,"To cope with arbitrarily complex executions and composition
+of cryptographic protocols an extension to the simulation paradigm exists called the Universal
+Composability",concept,cybok_concept,"CyBOK: To cope with arbitrarily complex executions and composition
+of cryptographic protocols an extension to the simulation paradigm exists called the Universal
+Composability (UC)"
+1798,UC,concept,cybok_concept,"CyBOK: UC = To cope with arbitrarily complex executions and composition
+of cryptographic protocols an extension to the simulation paradigm exists called the Universal
+Composability"
+1799,This forms the basic idea behind the Public Key Cryptography Standards,concept,cybok_concept,CyBOK: This forms the basic idea behind the Public Key Cryptography Standards (PKCS)
+1800,An Oblivious Random Access Memory,concept,cybok_concept,CyBOK: An Oblivious Random Access Memory (ORAM)
+1801,"Discretionary
+Access Control",concept,cybok_concept,"CyBOK: Discretionary
+Access Control (DAC)"
+1802,Linux patches for security originally developed by the National Security Agency,concept,cybok_concept,CyBOK: Linux patches for security originally developed by the National Security Agency (NSA)
+1803,PAN,concept,cybok_concept,CyBOK: PAN = Privileged Access Never
+1804,"Another
+routing attack variant is Routing Table Poisoning",concept,cybok_concept,"CyBOK: Another
+routing attack variant is Routing Table Poisoning (RTP)"
+1805,Variants of Eclipse attacks include Localised Eclipse Attacks,concept,cybok_concept,CyBOK: Variants of Eclipse attacks include Localised Eclipse Attacks (LEA)
+1806,Another general model is Key Value Store,concept,cybok_concept,CyBOK: Another general model is Key Value Store (KVS)
+1807,NAT,concept,cybok_concept,CyBOK: NAT = Network Address Translation
+1808,"Based Access
+Control",concept,cybok_concept,"CyBOK: Based Access
+Control (IBAC)"
+1809,"Digital Rights Management
+Digital Rights Management",concept,cybok_concept,"CyBOK: Digital Rights Management
+Digital Rights Management (DRM)"
+1810,"Usage Control
+Usage Control",concept,cybok_concept,"CyBOK: Usage Control
+Usage Control (UCON)"
+1811,Based Encryption,concept,cybok_concept,CyBOK: Based Encryption (ABE)
+1812,Users share a password with a Kerberos Authentication Server,concept,cybok_concept,CyBOK: Users share a password with a Kerberos Authentication Server (KAS)
+1813,The Security Assertion Markup Language,concept,cybok_concept,CyBOK: The Security Assertion Markup Language (SAML)
+1814,"Resources
+The Open Web Application Security Project",concept,cybok_concept,"CyBOK: Resources
+The Open Web Application Security Project (OWASP)"
+1815,Communication is mostly based on the Hypertext Transfer Protocol,concept,cybok_concept,CyBOK: Communication is mostly based on the Hypertext Transfer Protocol (HTTP)
+1816,"Hypertext Transfer Protocol
+The Hypertext Transfer Protocol",concept,cybok_concept,"CyBOK: Hypertext Transfer Protocol
+The Hypertext Transfer Protocol (HTTP)"
+1817,"Wiki
+The Open Web Application Security Project",concept,cybok_concept,"CyBOK: Wiki
+The Open Web Application Security Project (OWASP)"
+1818,"Security
+Development Lifecycle",concept,cybok_concept,"CyBOK: Security
+Development Lifecycle (SDL)"
+1819,"National Vulnerability
+Database",concept,cybok_concept,"CyBOK: National Vulnerability
+Database (NVD)"
+1820,"Application Security
+Controls",concept,cybok_concept,"CyBOK: Application Security
+Controls (ASC)"
+1821,"Perform static analysis
+security testing",concept,cybok_concept,"CyBOK: Perform static analysis
+security testing (SAST)"
+1822,"Perform dynamic
+analysis security
+testing",concept,cybok_concept,"CyBOK: Perform dynamic
+analysis security
+testing (DAST)"
+1823,"In conjunction
+with the Cloud Security Alliance",concept,cybok_concept,"CyBOK: In conjunction
+with the Cloud Security Alliance (CSA)"
+1824,The European Union Agency for Cybersecurity,concept,cybok_concept,CyBOK: The European Union Agency for Cybersecurity (ENISA)
+1825,"Building Security In
+Maturity Model",concept,cybok_concept,"CyBOK: Building Security In
+Maturity Model (BSIMM)"
+1826,"The
+committee of industry participants are members of the Open Web Application Security Project",concept,cybok_concept,"CyBOK: The
+committee of industry participants are members of the Open Web Application Security Project (OWASP)"
+1827,The Data Encryption Standard,concept,cybok_concept,CyBOK: The Data Encryption Standard (DES)
+1828,The Advanced Encryption Standard,concept,cybok_concept,CyBOK: The Advanced Encryption Standard (AES)
+1829,An Authenticated Encryption,concept,cybok_concept,CyBOK: An Authenticated Encryption (AE)
+1830,"Elliptic
+Curve Cryptography",concept,cybok_concept,"CyBOK: Elliptic
+Curve Cryptography (ECC)"
+1831,"This leads to the notion of
+Authenticated Key Exchange",concept,cybok_concept,"CyBOK: This leads to the notion of
+Authenticated Key Exchange (AKE)"
+1832,This gap leads to Duplicate Signature Key Selection,concept,cybok_concept,CyBOK: This gap leads to Duplicate Signature Key Selection (DSKS)
+1833,"Crypto Forum Research
+Group",concept,cybok_concept,"CyBOK: Crypto Forum Research
+Group (CFRG)"
+1834,"The most mature branch of quantum
+cryptography is Quantum Key Distribution",concept,cybok_concept,"CyBOK: The most mature branch of quantum
+cryptography is Quantum Key Distribution (QKD)"
+1835,"Password
+Authenticated Key Exchange",concept,cybok_concept,"CyBOK: Password
+Authenticated Key Exchange (PAKE)"
+1836,Based Cryptography,concept,cybok_concept,CyBOK: Based Cryptography (IBC)
+1837,"Transport Layer Security
+The Transport Layer Security",concept,cybok_concept,"CyBOK: Transport Layer Security
+The Transport Layer Security (TLS)"
+1838,IP,concept,cybok_concept,CyBOK: IP = Internet Protocol
+1839,LAN,concept,cybok_concept,CyBOK: LAN = Local Area Network
+1840,"Virtual Private
+Network",concept,cybok_concept,"CyBOK: Virtual Private
+Network (VPN)"
+1841,CAN,concept,cybok_concept,CyBOK: CAN = Controller Area Network
+1842,The concept of Network Functions Virtualisation,concept,cybok_concept,CyBOK: The concept of Network Functions Virtualisation (NFV)
+1843,"It uses the Internet
+Protocol",concept,cybok_concept,"CyBOK: It uses the Internet
+Protocol (IP)"
+1844,"Security
+The Network Time Protocol",concept,cybok_concept,"CyBOK: Security
+The Network Time Protocol (NTP)"
+1845,"Privacy
+Guard",concept,cybok_concept,"CyBOK: Privacy
+Guard (GPG)"
+1846,"Point Tunneling
+Protocol",concept,cybok_concept,"CyBOK: Point Tunneling
+Protocol (PPTP)"
+1847,PPTP,concept,cybok_concept,"CyBOK: PPTP = Point Tunneling
+Protocol"
+1848,"Secure Socket Tunneling
+Protocol",concept,cybok_concept,"CyBOK: Secure Socket Tunneling
+Protocol (SSTP)"
+1849,ESP,concept,cybok_concept,CyBOK: ESP = Encapsulation Security Payload
+1850,AH,concept,cybok_concept,CyBOK: AH = Authentication Header
+1851,Internet Security Association and Key Management Protocol,concept,cybok_concept,CyBOK: Internet Security Association and Key Management Protocol (ISAKMP)
+1852,"Security
+Internet Control Message Protocol",concept,cybok_concept,"CyBOK: Security
+Internet Control Message Protocol (ICMP)"
+1853,"Extensible Authentication
+Protocol",concept,cybok_concept,"CyBOK: Extensible Authentication
+Protocol (EAP)"
+1854,Authentication Protocol,concept,cybok_concept,CyBOK: Authentication Protocol (PEAP)
+1855,PPP,concept,cybok_concept,CyBOK: PPP = Point Protocol
+1856,"Attacks On Ethernet Switches
+Ethernet switches maintain forwarding table entries in a Content Addressable Memory",concept,cybok_concept,"CyBOK: Attacks On Ethernet Switches
+Ethernet switches maintain forwarding table entries in a Content Addressable Memory (CAM)"
+1857,The Address Resolution Protocol,concept,cybok_concept,CyBOK: The Address Resolution Protocol (ARP)
+1858,"Similar attacks are possible for the Reverse
+Address Resolution Protocol",concept,cybok_concept,"CyBOK: Similar attacks are possible for the Reverse
+Address Resolution Protocol (RARP)"
+1859,AP,concept,cybok_concept,CyBOK: AP = Access Point
+1860,"Temporal
+Key Integrity Protocol",concept,cybok_concept,"CyBOK: Temporal
+Key Integrity Protocol (TKIP)"
+1861,Code Protocol,concept,cybok_concept,CyBOK: Code Protocol (CCMP)
+1862,"Simultaneous Authentication of
+Equals",concept,cybok_concept,"CyBOK: Simultaneous Authentication of
+Equals (SAE)"
+1863,OWE,concept,cybok_concept,CyBOK: OWE = Opportunistic Wireless Encryption
+1864,"Controller Area
+Network",concept,cybok_concept,"CyBOK: Controller Area
+Network (CAN)"
+1865,"Host
+Intrusion Detection System",concept,cybok_concept,"CyBOK: Host
+Intrusion Detection System (HIDS)"
+1866,"Three important platforms are the Hardware Security
+Module",concept,cybok_concept,"CyBOK: Three important platforms are the Hardware Security
+Module (HSM)"
+1867,"One intuitive idea for this type of control algorithm is
+to use Model Predictive Control",concept,cybok_concept,"CyBOK: One intuitive idea for this type of control algorithm is
+to use Model Predictive Control (MPC)"
+1868,"The idea of having a High Assurance
+Controller",concept,cybok_concept,"CyBOK: The idea of having a High Assurance
+Controller (HAC)"
+1869,The supervisory control layer is where the Supervisory Control and Data Acquisition,concept,cybok_concept,CyBOK: The supervisory control layer is where the Supervisory Control and Data Acquisition (SCADA)
+1870,"The communication between
+servers in a control room and these control equipment is done via a Supervisory Control
+Network",concept,cybok_concept,"CyBOK: The communication between
+servers in a control room and these control equipment is done via a Supervisory Control
+Network (SCN)"
+1871,"One of the most important security standards in this
+space started with the Instruction Set Architecture",concept,cybok_concept,"CyBOK: One of the most important security standards in this
+space started with the Instruction Set Architecture (ISA)"
+1872,ISA,concept,cybok_concept,"CyBOK: ISA = One of the most important security standards in this
+space started with the Instruction Set Architecture"
+1873,"Guide to Industrial
+Control System",concept,cybok_concept,"CyBOK: Guide to Industrial
+Control System (ICS)"
+1874,Conference on Computer and Communications Security,concept,cybok_concept,CyBOK: Conference on Computer and Communications Security (CCS)
+1875,An Introduction to Factor Analysis of Information Risk,concept,cybok_concept,CyBOK: An Introduction to Factor Analysis of Information Risk (FAIR)
+1876,"National
+Cyber Security Centre",concept,cybok_concept,"CyBOK: National
+Cyber Security Centre (UK)"
+1877,UK,concept,cybok_concept,"CyBOK: UK = National
+Cyber Security Centre"
+1878,US,concept,cybok_concept,CyBOK: US = National Security Agency
+1879,NL,concept,cybok_concept,CyBOK: NL = National Cyber Security Centre
+1880,Glushko Canadian Internet Policy and Public Interest Clinic,concept,cybok_concept,CyBOK: Glushko Canadian Internet Policy and Public Interest Clinic (CIPPIC)
+1881,CIPPIC,concept,cybok_concept,CyBOK: CIPPIC = Glushko Canadian Internet Policy and Public Interest Clinic
+1882,From Responsible Disclosure Policy,concept,cybok_concept,CyBOK: From Responsible Disclosure Policy (RDP)
+1883,RDP,concept,cybok_concept,CyBOK: RDP = From Responsible Disclosure Policy
+1884,Proceedings of the Symposium On Usable Privacy and Security,concept,cybok_concept,CyBOK: Proceedings of the Symposium On Usable Privacy and Security (SOUPS)
+1885,"Network and
+System Security",concept,cybok_concept,"CyBOK: Network and
+System Security (NSS)"
+1886,"Security
+and Privacy",concept,cybok_concept,"CyBOK: Security
+and Privacy (SP)"
+1887,SP,concept,cybok_concept,"CyBOK: SP = Security
+and Privacy"
+1888,Fifteenth Symposium on Usable Privacy and Security,concept,cybok_concept,CyBOK: Fifteenth Symposium on Usable Privacy and Security (SOUPS)
+1889,The Transport Layer Security,concept,cybok_concept,CyBOK: The Transport Layer Security (TLS)
+1890,The Network and Distributed System Security Symposium,concept,cybok_concept,CyBOK: The Network and Distributed System Security Symposium (NDSS)
+1891,NDSS,concept,cybok_concept,CyBOK: NDSS = The Network and Distributed System Security Symposium
+1892,Network and Distributed System Security Symposium,concept,cybok_concept,CyBOK: Network and Distributed System Security Symposium (NDSS)
+1893,"Workshop on the
+Economics of Information Security",concept,cybok_concept,"CyBOK: Workshop on the
+Economics of Information Security (WEIS)"
+1894,WEIS,concept,cybok_concept,"CyBOK: WEIS = Workshop on the
+Economics of Information Security"
+1895,"Annual International
+Conference on Privacy Security and Trust",concept,cybok_concept,"CyBOK: Annual International
+Conference on Privacy Security and Trust (PST)"
+1896,International Conference on Advances in Social Networks Analysis and Mining,concept,cybok_concept,CyBOK: International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+1897,Annual Computer Security Applications Conference,concept,cybok_concept,CyBOK: Annual Computer Security Applications Conference (ACSAC)
+1898,"Workshop on the Economics
+of Information Security and Privacy",concept,cybok_concept,"CyBOK: Workshop on the Economics
+of Information Security and Privacy (WEIS)"
+1899,"International Workshop on
+Information Forensics and Security",concept,cybok_concept,"CyBOK: International Workshop on
+Information Forensics and Security (WIFS)"
+1900,WIFS,concept,cybok_concept,"CyBOK: WIFS = International Workshop on
+Information Forensics and Security"
+1901,"Workshop on the economics of
+information security and privacy",concept,cybok_concept,"CyBOK: Workshop on the economics of
+information security and privacy (WEIS)"
+1902,"Transactions on
+Information and System Security",concept,cybok_concept,"CyBOK: Transactions on
+Information and System Security (TISSEC)"
+1903,"Advanced Information Networking and
+Applications Workshops",concept,cybok_concept,"CyBOK: Advanced Information Networking and
+Applications Workshops (WAINA)"
+1904,WAINA,concept,cybok_concept,"CyBOK: WAINA = Advanced Information Networking and
+Applications Workshops"
+1905,"The Intrusion Detection Message Exchange
+Format",concept,cybok_concept,"CyBOK: The Intrusion Detection Message Exchange
+Format (IDMEF)"
+1906,The Intrusion Detection Exchange Protocol,concept,cybok_concept,CyBOK: The Intrusion Detection Exchange Protocol (IDXP)
+1907,"Integrated Network
+Management",concept,cybok_concept,"CyBOK: Integrated Network
+Management (IM)"
+1908,IM,concept,cybok_concept,"CyBOK: IM = Integrated Network
+Management"
+1909,"Transactions on Information and
+System Security",concept,cybok_concept,"CyBOK: Transactions on Information and
+System Security (TISSEC)"
+1910,"Resilient
+Control Systems",concept,cybok_concept,"CyBOK: Resilient
+Control Systems (ISRCS)"
+1911,ISRCS,concept,cybok_concept,"CyBOK: ISRCS = Resilient
+Control Systems"
+1912,"The Proceedings of the Twelfth Annual Digital Forensic Researcg
+Conference",concept,cybok_concept,"CyBOK: The Proceedings of the Twelfth Annual Digital Forensic Researcg
+Conference (DFRWS)"
+1913,"Proceedings of the Network
+and Distributed Systems Security Symposium",concept,cybok_concept,"CyBOK: Proceedings of the Network
+and Distributed Systems Security Symposium (NDSS)"
+1914,Symposium on Access Control Models and Technologies,concept,cybok_concept,CyBOK: Symposium on Access Control Models and Technologies (SACMAT)
+1915,SACMAT,concept,cybok_concept,CyBOK: SACMAT = Symposium on Access Control Models and Technologies
+1916,CSF,concept,cybok_concept,CyBOK: CSF = Computer Security Foundations Symposium
+1917,"Computer Security Foundations
+Symposium",concept,cybok_concept,"CyBOK: Computer Security Foundations
+Symposium (CSF)"
+1918,"Computer Security
+Foundations Symposium",concept,cybok_concept,"CyBOK: Computer Security
+Foundations Symposium (CSF)"
+1919,Security enhanced,concept,cybok_concept,CyBOK: Security enhanced (SE)
+1920,SE,concept,cybok_concept,CyBOK: SE = Security enhanced
+1921,Guide to attribute based access control,concept,cybok_concept,CyBOK: Guide to attribute based access control (ABAC)
+1922,Transactions on Information and System Security,concept,cybok_concept,CyBOK: Transactions on Information and System Security (TISSEC)
+1923,Transactionsoin Information and System Security,concept,cybok_concept,CyBOK: Transactionsoin Information and System Security (TISSEC)
+1924,National Cyber Security Center,concept,cybok_concept,CyBOK: National Cyber Security Center (NCSC)
+1925,"Disposition Header Field in the Hypertext Transfer
+Protocol",concept,cybok_concept,"CyBOK: Disposition Header Field in the Hypertext Transfer
+Protocol (HTTP)"
+1926,"National Initiative for Cybersecurity
+Education",concept,cybok_concept,"CyBOK: National Initiative for Cybersecurity
+Education (NICE)"
+1927,Secure Hash Standard,concept,cybok_concept,CyBOK: Secure Hash Standard (SHS)
+1928,SHS,concept,cybok_concept,CyBOK: SHS = Secure Hash Standard
+1929,Deterministic Usage of the Digital Signature Algorithm,concept,cybok_concept,CyBOK: Deterministic Usage of the Digital Signature Algorithm (DSA)
+1930,DSA,concept,cybok_concept,CyBOK: DSA = Deterministic Usage of the Digital Signature Algorithm
+1931,"Elliptic
+Curve Digital Signature Algorithm",concept,cybok_concept,"CyBOK: Elliptic
+Curve Digital Signature Algorithm (ECDSA)"
+1932,Expand Key Derivation Function,concept,cybok_concept,CyBOK: Expand Key Derivation Function (HKDF)
+1933,HKDF,concept,cybok_concept,CyBOK: HKDF = Expand Key Derivation Function
+1934,"Conference on Communications and
+Network Security",concept,cybok_concept,"CyBOK: Conference on Communications and
+Network Security (CNS)"
+1935,IKE,concept,cybok_concept,CyBOK: IKE = Internet Key Exchange
+1936,"Internet Security
+Association and Key Management Protocol",concept,cybok_concept,"CyBOK: Internet Security
+Association and Key Management Protocol (ISAKMP)"
+1937,"Conference on Computer and Communications
+Security",concept,cybok_concept,"CyBOK: Conference on Computer and Communications
+Security (CCS)"
+1938,"Network and
+Distributed System Security",concept,cybok_concept,"CyBOK: Network and
+Distributed System Security (NDSS)"
+1939,International Conference on Information Networking,concept,cybok_concept,CyBOK: International Conference on Information Networking (ICOIN)
+1940,ICOIN,concept,cybok_concept,CyBOK: ICOIN = International Conference on Information Networking
+1941,"Networking and
+Communications",concept,cybok_concept,"CyBOK: Networking and
+Communications (ICNC)"
+1942,ICNC,concept,cybok_concept,"CyBOK: ICNC = Networking and
+Communications"
+1943,"Symposium on Security and
+Privacy",concept,cybok_concept,"CyBOK: Symposium on Security and
+Privacy (SP)"
+1944,"Proceedings of the conference on Computer and
+communications security",concept,cybok_concept,"CyBOK: Proceedings of the conference on Computer and
+communications security (CCS)"
+1945,Proceedings of the Annual Computer Security Applications Conference,concept,cybok_concept,CyBOK: Proceedings of the Annual Computer Security Applications Conference (ACSAC)
+1946,Cybersecurity Interdisciplinary Systems Laboratory,concept,cybok_concept,CyBOK: Cybersecurity Interdisciplinary Systems Laboratory (CISL)
+1947,CISL,concept,cybok_concept,CyBOK: CISL = Cybersecurity Interdisciplinary Systems Laboratory
+1948,European Control Conference,concept,cybok_concept,CyBOK: European Control Conference (ECC)
+1949,Communications and Network Security,concept,cybok_concept,CyBOK: Communications and Network Security (CNS)
+1950,"Annual American Control
+Conference",concept,cybok_concept,"CyBOK: Annual American Control
+Conference (ACC)"
+1951,ACC,concept,cybok_concept,"CyBOK: ACC = Annual American Control
+Conference"
+1952,American Control Conference,concept,cybok_concept,CyBOK: American Control Conference (ACC)
+1953,"Guide to industrial
+control systems",concept,cybok_concept,"CyBOK: Guide to industrial
+control systems (ICS)"
+1954,"Proceedings of Conference on Dependable Systems
+and Networks",concept,cybok_concept,"CyBOK: Proceedings of Conference on Dependable Systems
+and Networks (DSN)"
+1955,DSN,concept,cybok_concept,"CyBOK: DSN = Proceedings of Conference on Dependable Systems
+and Networks"
+1956,"Network and Distributed
+Systems Security Symposium",concept,cybok_concept,"CyBOK: Network and Distributed
+Systems Security Symposium (NDSS)"
+1957,"Proceedings of Conference
+on Decision and Control",concept,cybok_concept,"CyBOK: Proceedings of Conference
+on Decision and Control (CDC)"
+1958,CDC,concept,cybok_concept,"CyBOK: CDC = Proceedings of Conference
+on Decision and Control"
+1959,"Workshop on Security of Emerging Networking
+Technologies",concept,cybok_concept,"CyBOK: Workshop on Security of Emerging Networking
+Technologies (SENT)"
+1960,SENT,concept,cybok_concept,"CyBOK: SENT = Workshop on Security of Emerging Networking
+Technologies"
+1961,"European Union Agency For Network and
+Information Security",concept,cybok_concept,"CyBOK: European Union Agency For Network and
+Information Security (ENISA)"
+1962,"The Network and Distributed System
+Security Symposium",concept,cybok_concept,"CyBOK: The Network and Distributed System
+Security Symposium (NDSS)"
+1963,"Industrial Control
+Systems",concept,cybok_concept,"CyBOK: Industrial Control
+Systems (ICS)"
+1964,"Distributed
+Control Systems",concept,cybok_concept,"CyBOK: Distributed
+Control Systems (DCS)"
+1965,MITRE ATT&CK,concept,cybok_concept,CyBOK: MITRE ATT&CK
